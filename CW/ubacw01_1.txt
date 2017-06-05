@@ -1,0 +1,17 @@
+UBA CW LESSON 1 EXERCISE 1
+CHARACTER SPEED: 15 WPM
+CHARACTERS: K,M
+
+1234567890123456789012345678901234567890123456789012345678901234567890
+----------------------------------------------------------------------
+kmkm kmmm kmmkkk kkk mmkkkmk mmmm kkmm mmkmmmkm kkkkkmm kkmkmmk kkkmk 
+kmkmkk m kkmmm kkmm kkmkkmkm kkmkkm mkkkkk mm k mmmkkm mm kmkkmmk mkmk
+mmkm mmmmmkkk m mkkk mmm kmkkk k k mmkkkm kmkmm kkm mmmkmkm kkmkmkkk m
+mk m mmkmmkmm mmkmmkm kkkmm kmkmm mmkk mkmmkmk m kmmmm kmk kkmmkkkk k 
+kkmkmk kkkkkmmk mkkmmmmk kkmkmm mmkkkm
+----------------------------------------------------------------------
+
+CHARACTERS: 318
+IF YOU COPIED LESS THAN 32 ERRORS, GO TO LESSON 2 EXERCISE 1, ELSE 
+PROCEED WITH EXERCISE 2.
+
