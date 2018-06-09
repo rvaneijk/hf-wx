@@ -1,0 +1,258 @@
+        NATIONAL WEATHER SERVICE MARINE TEXT PRODUCTS
+                        HURRICANE PRODUCTS
+ 
+**** IMPORTANT NOTICES ****
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly. 
+
+The "help" file contains a more detailed description of the
+FTPMAIL system and available products. To obtain a copy of the 
+FTPMAIL "help" file.
+
+-In plain text format-
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+
+These instructions are subject to revision....download frequently.
+ 
+**********
+
+This file is intended to assist mariners using the FTPMAIL system
+which is used to obtain National Weather Service products via 
+e-mail.  The following is an example in the use of the FTPMAIL
+system. NOTE CAPITALIZATION!
+ 
+-In plain text format-
+Send an e-mail to:      NWS.FTPMail.OPS@noaa.gov
+Subject Line:           Put anything you like
+Body:                   open
+                        cd data
+                        cd hurricane_products
+                        cd atlantic
+                        cd weather
+                        get outlook.txt
+                        cd /data
+                        cd hurricane_products
+                        cd atlantic
+                        cd storm_2
+                        get technical_advisory.txt
+                        quit
+
+
+ATLANTIC HURRICANE PRODUCTS
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/hurricane_products/atlantic
+http://tgftp.nws.noaa.gov/data/hurricane_products/atlantic
+
+
+PRODUCT DESCRIPTION                             FILE NAME
+
+Tropical WX Outlook*                      /weather/outlook.txt
+Tropical WX Discussion                    /weather/discussion.txt
+Tropical WX Summary                       /weather/summary.txt
+Tropical WX Disturbance Stmt              /weather/advisory.txt
+Tropical Cyclone Update  (Storm #1)       /storm_1/update.txt
+Tropical Cyclone Update  (Storm #2)       /storm_2/update.txt
+Tropical Cyclone Update  (Storm #3)       /storm_3/update.txt
+Tropical Cyclone Update  (Storm #4)       /storm_4/update.txt
+Tropical Cyclone Update  (Storm #5)       /storm_5/update.txt
+Tropical Cyclone Discussion (Storm #1)    /storm_1/discussion.txt
+Tropical Cyclone Discussion (Storm #2)    /storm_2/discussion.txt
+Tropical Cyclone Discussion (Storm #3)    /storm_3/discussion.txt
+Tropical Cyclone Discussion (Storm #4)    /storm_4/discussion.txt
+Tropical Cyclone Discussion (Storm #5)    /storm_5/discussion.txt
+Public Advisory (Storm #1)                /storm_1/advisory.txt
+Public Advisory (Storm #2)                /storm_2/advisory.txt
+Public Advisory (Storm #3)                /storm_3/advisory.txt
+Public Advisory (Storm #4)                /storm_4/advisory.txt
+Public Advisory (Storm #5)                /storm_5/advisory.txt
+Tropical Depression Forecast (Storm #1)*  /storm_1/technical_advisory.txt
+Tropical Depression Forecast (Storm #2)*  /storm_2/technical_advisory.txt
+Tropical Depression Forecast (Storm #3)*  /storm_3/technical_advisory.txt
+Tropical Depression Forecast (Storm #4)*  /storm_4/technical_advisory.txt
+Tropical Depression Forecast (Storm #5)*  /storm_5/technical_advisory.txt
+
+*Recommended products for mariners
+
+Atlantic Tropical Weather Outlook normally issued 0300z, 0900z, 1500z 
+and 2100z during hurricane season, June 1 - November 30. Remaining 
+products issued when active systems exist. May be issued at 3-hourly
+intervals and other unscheduled times as system approaches landfall.
+
+EASTERN PACIFIC HURRICANE PRODUCTS
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/hurricane_products/eastern_pacific
+http://tgftp.nws.noaa.gov/data/hurricane_products/eastern_pacific
+
+
+PRODUCT DESCRIPTION                             FILE NAME
+
+Tropical WX Outlook*                      /weather/outlook.txt
+Tropical WX Discussion                    /weather/discussion.txt
+Tropical WX Summary                       /weather/summary.txt
+Tropical Cyclone Update  (Storm #1)       /storm_1/update.txt
+Tropical Cyclone Update  (Storm #2)       /storm_2/update.txt
+Tropical Cyclone Update  (Storm #3)       /storm_3/update.txt
+Tropical Cyclone Update  (Storm #4)       /storm_4/update.txt
+Tropical Cyclone Update  (Storm #5)       /storm_5/update.txt
+Tropical Cyclone Discussion (Storm #1)    /storm_1/discussion.txt
+Tropical Cyclone Discussion (Storm #2)    /storm_2/discussion.txt
+Tropical Cyclone Discussion (Storm #3)    /storm_3/discussion.txt
+Tropical Cyclone Discussion (Storm #4)    /storm_4/discussion.txt
+Tropical Cyclone Discussion (Storm #5)    /storm_5/discussion.txt
+Public Advisory (Storm #1)                /storm_1/advisory.txt
+Public Advisory (Storm #2)                /storm_2/advisory.txt
+Public Advisory (Storm #3)                /storm_3/advisory.txt
+Public Advisory (Storm #4)                /storm_4/advisory.txt
+Public Advisory (Storm #5)                /storm_5/advisory.txt
+Tropical Depression Forecast (Storm #1)*  /storm_1/technical_advisory.txt
+Tropical Depression Forecast (Storm #2)*  /storm_2/technical_advisory.txt
+Tropical Depression Forecast (Storm #3)*  /storm_3/technical_advisory.txt
+Tropical Depression Forecast (Storm #4)*  /storm_4/technical_advisory.txt
+Tropical Depression Forecast (Storm #5)*  /storm_5/technical_advisory.txt
+
+*Recommended products for mariners
+
+Eastern Pacific Tropical Weather Outlook normally issued 0300z, 0900z, 
+1500z and 2100z during hurricane season, May 15 - November 30. 
+Remaining products issued when active systems exist. May be issued 
+at 3-hourly intervals and other unscheduled times as system approaches
+landfall.
+
+
+CENTRAL PACIFIC HURRICANE PRODUCTS
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/hurricane_products/central_pacific
+http://tgftp.nws.noaa.gov/data/hurricane_products/central_pacific
+
+PRODUCT DESCRIPTION                             FILE NAME
+
+Tropical WX Outlook*                      /weather/outlook.txt
+Tropical WX Summary                       /weather/summary.txt
+Tropical Cyclone Discussion (Storm #1)    /storm_1/discussion.txt
+Tropical Cyclone Discussion (Storm #2)    /storm_2/discussion.txt
+Tropical Cyclone Discussion (Storm #3)    /storm_3/discussion.txt
+Tropical Cyclone Discussion (Storm #4)    /storm_4/discussion.txt
+Tropical Cyclone Discussion (Storm #5)    /storm_5/discussion.txt
+Public Advisory (Storm #1)                /storm_1/advisory.txt
+Public Advisory (Storm #2)                /storm_2/advisory.txt
+Public Advisory (Storm #3)                /storm_3/advisory.txt
+Public Advisory (Storm #4)                /storm_4/advisory.txt
+Public Advisory (Storm #5)                /storm_5/advisory.txt
+Tropical Depression Forecast (Storm #1)*  /storm_1/technical_advisory.txt
+Tropical Depression Forecast (Storm #2)*  /storm_2/technical_advisory.txt
+Tropical Depression Forecast (Storm #3)*  /storm_3/technical_advisory.txt
+Tropical Depression Forecast (Storm #4)*  /storm_4/technical_advisory.txt
+Tropical Depression Forecast (Storm #5)*  /storm_5/technical_advisory.txt
+
+*Recommended products for mariners
+
+Central Pacific Tropical Weather Outlook normally issued 0300z, 0900z, 
+1500z and 2100z during hurricane season, June 1 - November 30. 
+Remaining products issued when active systems exist. May be issued 
+at 3-hourly intervals and other unscheduled times as system approaches
+landfall.
+
+
+WESTERN PACIFIC HURRICANE PRODUCTS (NOAA)
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/raw/wt
+http://tgftp.nws.noaa.gov/data/raw/wt
+
+Example:
+
+-In plain text format-
+Send an e-mail to:      NWS.FTPMail.OPS@noaa.gov
+Subject Line:           Put anything you like
+Body:                   open
+                        cd data
+                        cd raw
+                        cd wt
+                        get  wtpq31.pgum.tcp.pq1.txt
+                        quit
+
+PRODUCT DESCRIPTION                             FILE NAME
+
+Public Advisory (Storm #1)          /wtpq31.pgum.tcp.pq1.txt
+Public Advisory (Storm #2)          /wtpq32.pgum.tcp.pq2.txt
+Public Advisory (Storm #3)          /wtpq33.pgum.tcp.pq3.txt
+Public Advisory (Storm #4)          /wtpq34.pgum.tcp.pq4.txt
+Public Advisory (Storm #5)          /wtpq35.pgum.tcp.pq5.txt
+
+
+These products may only contain information on cyclones with potential landfalls
+in U.S. areas.   See NAVY products below for additional information.
+
+
+
+
+WESTERN PACIFIC HURRICANE PRODUCTS (NAVY)
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/raw/wt
+http://tgftp.nws.noaa.gov/data/raw/wt
+
+Example:
+
+-In plain text format-
+Send an e-mail to:      NWS.FTPMail.OPS@noaa.gov
+Subject Line:           Put anything you like
+Body:                   open
+                        cd data
+                        cd raw
+                        cd wt
+                        get wtpn21.pgtw..txt
+                        quit
+
+PRODUCT DESCRIPTION                             	FILE NAME
+
+NW Pacific Tropical Cyclone Formation Alert Storm #1  /wtpn21.pgtw..txt
+NW Pacific Tropical Cyclone Formation Alert Storm #2  /wtpn22.pgtw..txt
+NW Pacific Tropical Cyclone Formation Alert Storm #2  /wtpn23.pgtw..txt
+NW Pacific Tropical Cyclone Formation Alert Storm #4  /wtpn24.pgtw..txt
+NW Pacific Tropical Cyclone Formation Alert Storm #5  /wtpn25.pgtw..txt
+SW Pacific Tropical Cyclone Formation Alert Storm #1  /wtps21.pgtw..txt
+SW Pacific Tropical Cyclone Formation Alert Storm #2  /wtps22.pgtw..txt
+SW Pacific Tropical Cyclone Formation Alert Storm #3  /wtps23.pgtw..txt
+SW Pacific Tropical Cyclone Formation Alert Storm #4  /wtps24.pgtw..txt
+SW Pacific Trocical Cyclone Formation Alert Storm #5  /wtps25.pgtw..txt
+NW Pacific Tropical Cyclone Warning Storm #1          /wtpn31.pgtw..txt
+NW Pacific Tropical Cyclone Warning Storm #2          /wtpn32.pgtw..txt
+NW Pacific Tropical Cyclone Warning Storm #3          /wtpn33.pgtw..txt
+NW Pacific Tropical Cyclone Warning Storm #4          /wtpn34.pgtw..txt
+NW Pacific Tropical Cyclone Warning Storm #5          /wtpn35.pgtw..txt
+SW Pacific Tropical Cyclone Warning Storm #1          /wtpS31.pgtw..txt
+SW Pacific Tropical Cyclone Warning Storm #2          /wtpS32.pgtw..txt
+SW Pacific Tropical Cyclone Warning Storm #3          /wtpS33.pgtw..txt
+SW Pacific Tropical Cyclone Warning Storm #4          /wtpS34.pgtw..txt
+SW Pacific Tropical Cyclone Warning Storm #5          /wtpS35.pgtw..txt
+
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                      NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm   NWS Marine Page
+cell.weather.gov                             Cellphone page
+mobile.weather.gov                           Mobile Page
+
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26 
+        National Weather Service
+        Feedback or questions: marine.weather@noaa.gov
+        Last Modified Dec 12, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/marine2.txt
+                      ftp://tgftp.nws.noaa.gov/fax/marine2.txt

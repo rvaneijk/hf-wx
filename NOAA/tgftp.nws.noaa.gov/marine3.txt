@@ -1,0 +1,126 @@
+        NATIONAL WEATHER SERVICE MARINE TEXT PRODUCTS
+            COASTAL and NEARSHORE MARINE FORECASTS
+            
+
+**** IMPORTANT NOTICES ****
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly. 
+
+The "help" file contains a more detailed description of the
+FTPMAIL system and available products. To obtain a copy of the 
+FTPMAIL "help" file.
+
+-In plain text format-
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+
+These instructions are subject to revision....download frequently.
+ 
+**********
+
+This file is intended to assist mariners using the FTPMAIL system
+which is used to obtain National Weather Service products via 
+e-mail.  The following is an example in the use of the FTPMAIL
+system. NOTE CAPITALIZATION!
+ 
+-In plain text format-
+Send an e-mail to:      NWS.FTPMail.OPS@noaa.gov
+Subject Line:           Put anything you like
+Body:                   open
+                        cd data
+                        cd raw
+                        cd fz
+                        get fzus56.kmtr.cwf.mtr.txt
+                        quit
+
+ 
+COASTAL and NEARSHORE MARINE FORECASTS
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/raw/fz
+http://tgftp.nws.noaa.gov/data/raw/fz
+
+PRODUCT DESCRIPTION                    FILE NAME
+
+Caribou, ME                         fzus51.kcar.cwf.car.txt	
+Gray, ME                            fzus51.kgyx.cwf.gyx.txt	
+Taunton, MA                         fzus51.kbox.cwf.box.txt	
+New York, NY                        fzus51.kokx.cwf.okx.txt	
+Philadelphia, PA                    fzus51.kphi.cwf.phi.txt	
+Washington, DC                      fzus51.klwx.cwf.lwx.txt	
+Wakefield, VA                       fzus51.kakq.cwf.akq.txt	
+Newport/Morehead City, NC           fzus52.kmhx.cwf.mhx.txt	
+Wilmington, NC                      fzus52.kilm.cwf.ilm.txt	
+Charleston, SC                      fzus52.kchs.cwf.chs.txt	
+Jacksonville, FL                    fzus52.kjax.cwf.jax.txt	
+Melbourne, FL                       fzus52.kmlb.cwf.mlb.txt	
+Miami, FL                           fzus52.kmfl.cwf.mfl.txt	
+Key West, FL                        fzus52.kkey.cwf.key.txt	
+San Juan, PR                        fzca52.tjsj.cwf.sju.txt	
+San Juan, PR (Spanish)              fzca52.tjsj.cwf.spn.txt	
+Tampa, FL                           fzus52.ktbw.cwf.tbw.txt	
+Tallahasee, FL                      fzus52.ktae.cwf.tae.txt	
+Mobile, AL                          fzus54.kmob.cwf.mob.txt	
+New Orleans, LA                     fzus54.klix.cwf.lix.txt	
+Lake Charles, LA                    fzus54.klch.cwf.lch.txt	
+Houston/Galveston, TX               fzus54.khgx.cwf.hgx.txt	
+Corpus Christi, TX                  fzus54.kcrp.cwf.crp.txt	
+Brownsville, TX                     fzus54.kbro.cwf.bro.txt	
+Seattle, WA                         fzus56.ksew.cwf.sew.txt
+Portland, OR                        fzus56.kpqr.cwf.pqr.txt
+Medford, OR                         fzus56.kmfr.cwf.mfr.txt
+Eureka, CA                          fzus56.keka.cwf.eka.txt
+San Francisco, CA                   fzus56.kmtr.cwf.mtr.txt
+Los Angeles, CA                     fzus56.klox.cwf.lox.txt
+San Diego, CA                       fzus56.ksgx.cwf.sgx.txt
+Hawaii                              fzhw50.phfo.cwf.hfo.txt	
+Hawaii (Generalized)                fzhw51.phfo.cwf.hi1.txt
+Marianas (Guam)                     fzmy50.pgum.cwf.my.txt	
+East Micronesia                     fzpq51.pgum.cwf.pq1.txt	
+West Micronesia                     fzpq52.pgum.cwf.pq2.txt
+Samoa                               fzzs50.nstu.cwf.ppg.txt	
+Buffalo,NY                          fzus51.kbuf.nsh.buf.txt	
+Cleveland,OH                        fzus51.kcle.nsh.cle.txt	
+Detroit/Pontiac,MI                  fzus53.kdtx.nsh.dtx.txt	
+Gaylord, MI                         fzus53.kapx.nsh.apx.txt	
+Grand Rapids,MI                     fzus53.kgrr.nsh.grr.txt	
+Northern Indiana, IN                fzus53.kiwx.nsh.ixw.txt
+Chicago,IL                          fzus53.klot.nsh.lot.txt	
+Milwaukee/Sullivan,WI               fzus53.kmkx.nsh.mkx.txt	
+Green Bay,WI                        fzus53.kgrb.nsh.grb.txt	
+Marquette,MI                        fzus53.kmqt.nsh.mqt.txt	
+Duluth,MN                           fzus53.kdlh.nsh.dlh.txt	
+AK, SE Inner Coastal Waters         fzak51.pajk.cwf.ajk.txt 
+AK, SE Outside Coastal Waters       fzak52.pajk.cwf.aeg.txt
+AK, Yakutat Bay                     fzak53.pajk.cwf.yak.txt
+AK, North Gulf Coast and Kodiak     fzak51.pafc.cwf.aer.txt
+Southwest AK and the Aleutians      fzak52.pafc.cwf.alu.txt
+Western AK                          fzak52.pafg.cwf.wcz.txt
+Arctic Coast                        fzak51.pafg.cwf.nsb.txt
+Sea Ice Outlook  West & Arctic AK   fzak30.pafc.ico.afc.txt
+Sea Ice Advisory West & Arctic AK   fzak80.pafc.ice.afc.txt
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                      NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm   NWS Marine Page
+cell.weather.gov                             Cellphone page
+mobile.weather.gov                           Mobile Page
+
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26 
+        National Weather Service
+        Feedback or questions: marine.weather@noaa.gov
+        Last Modified Dec 12, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/marine3.txt
+                      ftp://tgftp.nws.noaa.gov/fax/marine3.txt

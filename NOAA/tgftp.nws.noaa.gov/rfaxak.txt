@@ -1,0 +1,169 @@
+        
+          NATIONAL WEATHER SERVICE RADIOFAX PRODUCTS
+            for the Northeast and Eastern Pacific
+
+**** IMPORTANT NOTICES ****
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly.  
+ 
+The "help" file contains a more detailed description of the
+FTPMAIL system and available products. To obtain a copy of the 
+FTPMAIL "help" file.
+
+-In plain text format-
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+ 
+These instructions are subject to revision....download frequently.
+ 
+**********
+
+U.S. Coast Guard Communications Station NOJ - Kodiak, Alaska
+
+Assigned frequencies 2054, 4298, 8459, 12412.5 kHz
+
+Select a carrier frequency 1.9 kHz below those listed when using a
+single sideband radio in the USB mode to receive these broadcasts.
+
+The latest version of marine weather charts for broadcast by the U.S. Coast
+Guard are available from the National Weather Service Telecommunication
+Gateway on this server.  The listed charts are in the G4(T4) format and
+enveloped in TIFF for viewing.  Satellite images are in JPEG format. 
+These charts may be found in directory: ftp://tgftp.nws.noaa.gov/fax or
+http://tgftp.nws.noaa.gov/pub/fax
+
+For information of how these files and other text and graphic marine
+forecasts may be downloaded via e-mail (FTPMAIL) see:
+http://tgftp.nws.noaa.gov/fax/ftpmail.txt
+
+.TIF files now also available as .gif files
+
+This file is intended to assist mariners using the FTPMAIL system
+which is used to obtain National Weather Service products via 
+e-mail.  The following is an example in the use of the FTPMAIL
+system. NOTE CAPITALIZATION!
+
+
+Example using FTPMAIL:
+
+-In plain text format-
+Send an e-mail to:         NWS.FTPMail.OPS@noaa.gov
+Subject line:              Put anything you like
+Body:                      open
+                           cd fax
+                           get PJBI99.TIF
+                           get PYBE10.gif
+                           quit
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/fax or
+http://tgftp.nws.noaa.gov/pub/fax
+                                                                 FILE
+WIND/WAVE CHARTS                                                 NAME
+
+00Z  Sea State Analysis 20N-70N, 115W-135E                     PJBA99.TIF
+24HR Wind/Wave Forecast VT00Z 40N-70N, 115W-170E               PJBE88.TIF
+24HR Wind/Wave Forecast VT12Z 40N-70N, 115W-170E               PJBE89.TIF
+24HR Wind Wave Forecast (Most Current)                         PJBE10.TIF
+48HR Wind/Wave Forecast VT00Z 20N-70N, 115W-135E               PJBI98.TIF
+48HR Wind/Wave Forecast VT12Z 20N-70N, 115W-135E               PJBI99.TIF
+48HR Wind Wave Forecast (Most Current)                         PJBI10.TIF
+48HR Wave Period/Swell Direction VT00Z 20N-70N, 115W-135E      PJBI88.TIF
+48HR Wave Period/Swell Direction VT12Z 20N-70N, 115W-135E      PJBI89.TIF
+48HR Wave Period/Swell Direction (Most Current)                PJBI20.TIF
+72HR 12Z Arctic/Alaska 72 hour Wind/Wave Forecast              PJCK88.gif
+96HR Wind/Wave Forecast VT12Z  20N-70N, 115W-135E              PJBM98.TIF
+96HR Wave Period/Swell Direction VT12Z 20N-70N, 115W-135E      PJBM88.TIF
+
+
+SURFACE CHARTS
+
+00Z Surface Analysis 40N-70N, 125W-150E                        PYCA00.TIF
+06Z Surface Analysis 40N-70N, 125W-150E                        PYCA01.TIF
+12Z Surface Analysis 40N-70N, 125W-150E                        PYCA02.TIF
+18Z Surface Analysis 40N-70N, 125W-150E                        PYCA03.TIF
+    Surface Analysis (Most Current)                            PYCA10.TIF
+24HR Surface Chart Forecast VT00Z 40N-70N, 115W-170E           PYBE00.TIF
+24HR Surface Chart Forecast VT12Z 40N-70N, 115W-170E           PYBE01.TIF
+24HR Surface Chart Forecast (Most Current)                     PYBE10.TIF
+48HR Surface Chart Forecast VT00Z 20N-70N  115W-135E           PWBI98.TIF
+48HR Surface Chart Forecast VT12Z 20N-70N  115W-135E           PWBI99.TIF
+48HR Surface Chart Forecast (Most Current)                     PWBI10.TIF
+72HR 12Z Arctic/Alaska 72 hour Surface Forecast                PPCK98.gif
+96HR Surface Chart Forecast VT12Z                              PWBM99.TIF
+
+UPPER AIR CHARTS
+
+00Z 500 MB Analysis 20N-70N  115W-135E                         PPBA50.TIF
+12Z 500 MB Analysis 20N-70N, 115W-135E                         PBBA51.TIF
+    500 MB Analysis (Most Current)                             PPBA10.TIF
+24HR 500 MB Forecast VT00Z 20N-70N, 115W-135E                  PPBE50.TIF
+24HR 500 MB Forecast VT12Z 20N-70N, 115W-135E                  PPBE51.TIF
+24HR 500 MB Forecast (Most Current)                            PPBE11.TIF
+48HR 500 MB Forecast VT00Z 20N-70N, 115W-135E                  PPBI50.TIF
+48HR 500 MB Forecast VT12Z 20N-70N, 115W-135E                  PPBI51.TIF
+48HR 500 MB Forecast (Most Current)                            PPBI10.TIF
+96HR 500 MB VT12Z 20N-70N, 115W-135E                           PPBM50.TIF
+
+
+SEA SURFACE TEMPERATURES
+
+Sea Surface Temperature Analysis   40N-60N,125W - 160E         PTCA88.TIF
+
+
+SATELLITE IMAGERY
+
+00Z GOES IR Satellite Image, Pacific                           evpn01.jpg 
+06Z GOES IR Satellite Image, Pacific                           evpn06.jpg 
+12Z GOES IR Satellite Image, Pacific                           evpn12.jpg 
+18Z GOES IR Satellite Image, Pacific                           evpn18.jpg 
+    GOES IR Satellite Image, Pacific (MOST CURRENT)            evpn99.jpg
+
+
+ICE CHARTS
+
+Sea Ice Analysis                                               PTCA89.TIF
+5 Day Sea Ice Forecast                                         PTCO89.TIF
+Cook Inlet Sea Ice Analysis                                    PTCA87.TIF
+
+
+SCHEDULE INFORMATION and MISCELLANEOUS
+
+Radiofax Schedule Kodiak, AK;                                  PLBZ05.TIF
+Radiofax Schedule (DOS Text Version)                             hfak.txt
+Request for Comments                                      NOJCOMMENTS.TIF
+Product Notice Bulletin                                     NOJNOTICE.TIF
+Test Pattern;                                                 NOJTEST.TIF
+Radiofacsimile Symbols and Contractions                        PLBZ06.TIF
+Internet File Names; (This file)                               rfaxak.txt
+
+
+xxxxxx.xxx = Currently unavailable
+
+
+Many of these charts also broadcast from Pt. Reyes, CA and Honolulu, HI
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                   	NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm	NWS Marine Page
+cell.weather.gov                                Cellphone page
+mobile.weather.gov                              Mobile Page
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26 
+        National Weather Service
+        Feedback or questions: marine.weather@noaa.gov
+        Last Modified Dec 12, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/rfaxak.txt
+                      ftp://tgftp.nws.noaa.gov/fax/rfaxak.txt
+  

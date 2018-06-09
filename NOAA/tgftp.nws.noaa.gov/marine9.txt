@@ -1,0 +1,147 @@
+        NATIONAL WEATHER SERVICE MARINE TEXT PRODUCTS
+             COASTAL FORECASTS by ZONE for ALASKA 
+            
+
+**** IMPORTANT NOTICES ****
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Please note, as a further option, these zone forecasts and the associated 
+synopsis are available as part of the complete Coastal Waters Forecast 
+for those zones.  See the FTPMAIL "help" file for information on downloading 
+directory file marine3.txt 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly. 
+
+The "help" file contains a more detailed description of the
+FTPMAIL system and available products. To obtain a copy of the 
+FTPMAIL "help" file.
+
+-In plain text format-
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+ 
+These instructions are subject to revision....download frequently.
+ 
+**********
+
+This file is intended to assist mariners using the FTPMAIL system
+which is used to obtain National Weather Service products via 
+e-mail.  The following is an example in the use of the FTPMAIL
+system. NOTE CAPITALIZATION!
+
+ 
+-In plain text format-
+Send an e-mail to:      NWS.FTPMail.OPS@noaa.gov
+Subject Line:           Put anything you like
+Body:                   open
+                        cd data
+                        cd forecasts
+                        cd marine
+                        cd coastal
+                        cd pk
+                        get pkz098.txt
+                        get pkz036.txt
+                        get pkz099.txt
+                        get pkz052.txt
+                        quit
+ 
+COASTAL FORECASTS by ZONE for ALASKA
+
+Please note that many zones will contain identical forecast information at times. 
+
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/forecasts/marine/coastal/pk
+http://tgftp.nws.noaa.gov/data/forecasts/marine/coastal/pk
+
+PKZ098 Synopsis for Southeast Alaska Inner Channels Coastal Waters
+   PKZ011 Glacier Bay
+   PKZ012 Northern Lynn Canal
+   PKZ013 Southern Lynn Canal
+   PKZ021 Icy Strait
+   PKZ022 Cross Sound
+   PKZ031 Stephens Passage
+   PKZ032 Northern Chatham Strait
+   PKZ033 Southern Chatham Strait
+   PKZ034 Frederick Sound
+   PKZ035 Sumner Strait
+   PKZ036 Clarence Strait
+PKZ099 Synopsis for Outside Waters
+   PKZ041 Dixon Entrance to Cape Decision
+   PKZ042 Cape Decision to Cape Edgecumbe
+   PKZ043 Cape Edgecumbe to Cape Fairweather
+   PKZ051 Cape Fairweather to Icy Cape
+   PKZ052 Icy Cape to Cape Suckling
+   PKZ053 Yakutat Bay
+PKZ197 Synopsis for the North Gulf Coast-Kodiak Island Waters-and Cook Inlet
+   PKZ119  Cape Suckling to Cape Cleare
+   PKZ120 Cape Cleare to Gore Point
+   PKZ121 Resurrection Bay
+   PKZ125 Prince William Sound
+   PKZ126 Port Valdez
+   PKZ127 Valdez Narrows
+   PKZ128 Valdez Arm
+   PKZ129 Passage Canal
+   PKZ130 West of Barren Islands including Kamishak Bay
+   PKZ131 Barren Islands East
+   PKZ132 Marmot Island to Sitkinak
+   PKZ136 Chiniak Bay
+   PKZ137 Marmot Bay
+   PKZ138 Shelikof Strait
+   PKZ139 Cook Inlet Kalgin Island to Pt. Bede
+   PKZ140 Cook Inlet North of Kalgin Island
+   PKZ141 Kachemak Bay
+PKZ199 Synopsis for Southwest Alaska-Bristol Bay-
+the Alaska Peninsula Waters-and the Aleutian Islands
+   PKZ150 South of the AK Peninsula Sitkinak to Castle Cape
+   PKZ155 South of the AK Peninsula Castle Cape to Cape Sarichef
+   PKZ160 Bristol Bay
+   PKZ165 Port Heiden to Cape Sarichef
+   PKZ170 Cape Sarichef to Nikolski Bering Side
+   PKZ171 Unalaska Bay
+   PKZ172 Cape Sarichef to Nikolski Pacific Side
+   PKZ173 Nikolski to Seguam Island Bering Side
+   PKZ174 Nikolski to Seguam Island Pacific Side
+   PKZ175 Seguam Island to Adak Bering Side
+   PKZ176 Seguam Island to Adak Pacific Side
+   PKZ177 Adak to Kiska
+   PKZ178 Kiska to Attu
+   PKZ179 Pribilof Islands Near Shore Waters
+   PKZ180 Kuskokwim Delta and Etolin Strait
+   PKZ181 North and West of Nunivak Island
+   PKZ185 Saint Matthew Island Waters
+PKZ298 Synopsis for Arctic Coast
+   PKZ225 Cape Thompson to Cape Beaufort
+   PKZ230 Cape Beaufort to Point Franklin
+   PKZ235 Point Franklin to Cape Halkett
+   PKZ240 Cape Halkett to Flaxman Island
+   PKZ245 Flaxman Island to Demarcation Point
+PKZ299 Synopsis for Northwest Coast
+   PKZ200 Norton Sound
+   PKZ210 Dall Point to Wales
+   PKZ215 Kotzebue Sound
+   PKZ220 Wales to Cape Thompson
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                      NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm   NWS Marine Page
+cell.weather.gov                             Cellphone page
+mobile.weather.gov                           Mobile Page
+
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26 
+        National Weather Service
+        Feedback or questions: marine.weather@noaa.gov
+        Last Modified Dec 12, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/marine9.txt
+                      ftp://tgftp.nws.noaa.gov/fax/marine9.txt

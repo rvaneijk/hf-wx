@@ -1,0 +1,339 @@
+        NATIONAL WEATHER SERVICE MARINE TEXT PRODUCTS
+          OFFSHORE and OPEN LAKE FORECASTS by ZONE            
+
+
+**** IMPORTANT NOTICES ****
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Please note, as a further option, these zone forecasts and the associated 
+synopsis are available as part of the complete Offshore Waters Forecasts 
+and Open Lakes forecasts for those zones.  See the FTPMAIL "help" file 
+for information on downloading directory file marine1.txt 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly. 
+
+The "help" file contains a more detailed description of the
+FTPMAIL system and available products. To obtain a copy of the 
+FTPMAIL "help" file.
+
+-In plain text format-
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+ 
+These instructions are subject to revision....download frequently.
+ 
+**********
+
+This file is intended to assist mariners using the FTPMAIL system
+which is used to obtain National Weather Service products via 
+e-mail.  The following is an example in the use of the FTPMAIL
+system. NOTE CAPITALIZATION!
+
+ 
+-In plain text format-
+Send an e-mail to: NWS.FTPMail.OPS@noaa.gov
+Subject Line:      Put anything you like
+Body:              open
+                   cd data
+                   cd forecasts
+                   cd marine
+                   cd offshore
+                   cd an
+                   get anz800.txt
+                   get anz805.txt
+                   get anz810.txt
+                   get anz815.txt
+                   quit
+
+
+As a means of providing further assistance, maps showing the locations of
+offshore zones may be downloaded following instructions near the bottom of this
+document. These are also found at: www.nws.noaa.gov/om/marine/zone/wrdoffmz.htm
+
+
+ 
+OFFSHORE and OPEN LAKE FORECASTS by ZONE
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/forecasts/marine/offshore/an  (an, am, gm, etc.)
+http://tgftp.nws.noaa.gov/data/forecasts/marine/offshore/an
+
+These zones may be viewed graphically at: 
+http://www.nws.noaa.gov/om/marine/zone/wrdoffmz.htm
+
+Please note that many zones will contain identical forecast information at times. 
+
+Synopsis for New England waters (ANZ898)
+      Gulf of Maine to the Hague Line (ANZ800)
+      Georges Bank between Cape Cod and 68W north of 
+         1000 fathoms (ANZ805)
+      South of New England between the Great South Channel
+         and Montauk Point to 1000 fathoms (ANZ810)
+      South of Long Island between Montauk Point and Sandy
+         Hook to 1000 fathoms (ANZ815)
+      Hudson Canyon to Baltimore Canyon to 1000 fathoms (ANZ820)
+      Georges Bank between 68W and the Hague Line (ANZ900)
+      East of 69W to the Hague Line between 1000 fathoms and
+         39N (ANZ905)
+      East of 69W and south of 39N to 250 NM offshore (ANZ910)
+      Between 1000 fathoms and 38.5N west of 69W (ANZ915)
+      Point St. George to Point Arena between 150 NM and
+         250 NM offshore (ANZ920)
+
+Synopsis for Mid Atlantic waters (ANZ899)
+      Baltimore Canyon to Hatteras Canyon to 100 NM offshore
+          (ANZ825)
+      Cape Charles Light to Currituck Beach Light to 100 NM offshore
+          (ANZ828)
+      Currituck Beach Light to Cape Hatteras to 100 NM offshore (ANZ830)
+      Cape Hatteras to Cape Fear to 100 NM offshore (ANZ833)
+      Cape Fear to 31N to 1000 FM (ANZ835)
+      Baltimore Canyon to Hatteras Canyon between 100 NM and 250
+          NM offshore (ANZ925)
+      Hatteras Canyon to Cape Fear 100 NM and 250 NM offshore (ANZ930)
+      Cape Fear to 31N east of 1000 fathoms to 250 NM offshore (ANZ935)
+
+Synopsis for Caribbean Sea and Tropical             AMZ001
+N Atlantic from 07N to 22N between 55W and 65W
+      Caribbean N of 18N W of 85W including         AMZ011
+      Yucatan Basin
+      Caribbean N of 18N between 76W and 85W        AMZ013
+      including Cayman Basin
+      Caribbean approaches to the Windward Passage  AMZ015
+      Gulf of Honduras                              AMZ017
+      Caribbean from 15N to 18N between 80W and 85W AMZ019
+      Caribbean from 15N to 18N between 72W         AMZ021
+      and 80W
+      Caribbean N of 15N between 64W and 72W        AMZ023
+      Offshore Waters Leeward Islands               AMZ025
+      Tropical N Atlantic from 15N to 19N between   AMZ027
+      55W and 60W
+      W Central Caribbean from 11N to 15N W of 80W  AMZ029 
+      Caribbean from 11N to 15N between 72W         AMZ031
+      and 80W including Colombia Basin
+      Caribbean S of 15N between 64W and 72W        AMZ033  
+      including Venezuela Basin
+      Offshore Waters Windward Islands including    AMZ035  
+      Trinidad and Tobago
+      Tropical N Atlantic from 07N to 15N between   AMZ037 
+      55W and 60W
+      Southwest Caribbean S of 11N including        AMZ039
+      Approaches to the Panama Canal
+
+Synopsis for the SW N Atlantic including            AMZ101
+the Bahamas
+      Atlantic from 27N to 31N W of 77W             AMZ111
+      Atlantic from 27N to 31N between 70W and 77W  AMZ113
+      Atlantic from 27N to 31N between 65W and 70W  AMZ115
+      Bahamas including Cay Sal Bank                AMZ117
+      Atlantic from 22N to 27N E of Bahamas to 70W  AMZ119
+      Atlantic from 22N to 27N between 65W and 70W  AMZ121
+      Atlantic S of 22N W of 70W including          AMZ123 
+      Approaches to the Windward Passage
+      Atlantic S of 22N between 65W and 70W         AMZ125
+      including Puerto Rico Trench
+      Atlantic from 19N to 22N between 55W and 65W  AMZ127
+
+Synopsis for the Gulf of Mexico                     GMZ001  
+      NW Gulf including Stetson Bank                GMZ011
+      N Central Gulf including Flower Garden Banks  GMZ013
+      Marine Sanctuary
+      NE Gulf N of 25N E of 87W                     GMZ015
+      W Central Gulf from 22N to 26N W of 94W       GMZ017
+      Central Gulf from 22N to 26N between 87W      GMZ019
+      and 94W 
+      Gulf from 22N to 25N E of 87W including       GMZ021
+      Straits of Florida
+      SW Gulf S of 22N W of 94W                     GMZ023
+      E Bay of Campeche including Campeche Bank     GMZ025
+
+Synopsis for Washington and Oregon waters                               PZZ898
+    Cape Flattery to Cape Shoalwater between 60 NM and 150 NM offshore  PZZ800
+    Cape Shoalwater to Cape Lookout between 60 NM and 150 NM offshore   PZZ805
+    Cape Lookout to Florence, OR between 60 NM and 150 NM offshore      PZZ810
+    Florence, OR to Point St George between 60 NM and 150 NM offshore   PZZ815
+    Cape Flattery to Cape Shoalwater between 150 NM and 250 NM offshore PZZ900
+    Cape Shoalwater to Cape Lookout between 150 NM and 250 NM offshore  PZZ905
+    Cape Lookout to Florence, OR between 150 NM and 250 NM offshore     PZZ910
+    Florence, OR to Point St George between 150 NM and 250 NM offshore  PZZ915
+
+Synopsis for California waters                                          PZZ899
+    Point St George to Point Arena between 60 NM and 150 NM offshore    PZZ820
+    Point Arena to Pigeon Point between 60 NM and 150 NM offshore       PZZ825
+    Pigeon Point to Point Piedras Blancas between 60 NM and 150 NM      PZZ830
+    offshore                                                            
+    Point Piedras Blancas to Santa Cruz Island, CA between 60 NM        PZZ835
+    and 150 NM offshore                                                 
+    Santa Cruz Island, CA to San Clemente Island, CA between 60 NM      PZZ840 
+    and 150 NM offshore
+    Point St George to Point Arena between 150 NM and 250 NM offshore   PZZ920
+    Point Arena to Pigeon Point between 150 NM and 250 NM offshore      PZZ925
+    Pigeon Point to Point Piedras Blancas between 150 NM and 250 NM     PZZ930
+    offshore
+    Point Piedras Blancas to Santa Cruz Island, CA between 150 NM       PZZ935
+    and 250 NM offshore
+    Santa Cruz Island, CA to 120W between 150 NM and 250 NM offshore    PZZ940
+    San Clemente Island, CA to Guadalupe Island from 60 NM Offshore     PZZ945
+    west to 120W
+
+
+Synopsis for Hawaii Offshore Waters (PHZ105) 
+      Hawaii Waters within 240 nm of Honolulu  (PHZ180) 
+Synopsis for Eastern Gulf of Alaska (PKZ398) 
+      Eastern Gulf of Alaska (PKZ310)
+Synopsis for Western Gulf of Alaska (PKZ399) 
+      Gulf of Alaska Offshore North of		
+      57N and West of 144W (PKZ351)	
+      Gulf of Alaska Offshore South of		
+      57N North of 55N and West of 144W (PKZ352)
+Synopsis for Bering Sea (PKZ499) 
+      Bering Sea Offshore West of 180 and		
+      East of The International Dateline(PKZ411)
+      Bering Sea Offshore 171W to 180			
+      and North of 56N (PKZ412)
+      Bering Sea Offshore 171W to 180
+      and South of 56N (PKZ413)	
+      Bering Sea Offshore East of 171W (PKZ414)
+Synopsis for US Arctic Offshore  (PKZ599)
+      Western US Arctic Offshore (PKZ500)	
+      Central US Arctic Offshore (PKZ505)				
+      Eastern US Arctic Offshore (PKZ510)
+
+
+
+
+For the following Great Lakes products, use directories: 
+ftp://tgftp.nws.noaa.gov/data/forecasts/marine/great_lakes/ls  (lm,lh,..)
+http://tgftp.nws.noaa.gov/data/forecasts/marine/great_lakes/ls
+
+These zones may be viewed graphically at: 
+http://www.nws.noaa.gov/om/marine/zone/gtlakes/glcstmz.htm
+
+-In plain text format-
+Send an e-mail to: NWS.FTPMail.OPS@noaa.gov
+Subject Line:      Put anything you like
+Body:              open
+                   cd data
+                   cd forecasts
+                   cd marine
+                   cd great_lakes
+                   cd ls
+                   get lsz162.txt
+                   get lsz263.txt
+                   get lsz261.txt
+                   quit
+
+
+LAKE SUPERIOR Open Lake Zones
+LSZ162 Lake Superior west of a line from Saxon Harbor WI to Grand Portage MN beyond 5 NM
+LSZ263 Lake Superior from Saxon Harbor WI to Upper Entrance to Portage Canal MI 5 NM offshore
+to the U.S./Canadian border including Isle Royal National Park
+LSZ264 Lake Superior from Upper Entrance to Portage Canal to Manitou Island MI 5 NM offshore to the U.S./Canadian border
+LSZ265 Lake Superior west of a line from Manitou Island to Marquette MI beyond 5 NM from shore
+LSZ266 Lake Superior east of a line from Manitou Island to Marquette MI and west of a line from
+Grand Marais MI to the U.S./Canadian border beyond 5 NM from shore
+LSZ267 Lake Superior from Grand Marais MI to Whitefish Point MI 5 NM offshore to the U.S./Canadian border
+LSZ261 Lake Superior MAFOR
+
+LAKE MICHIGAN Open Lake Zones
+LMZ261 Lake Michigan from Seul Choix Point to Rock Island Passage 5 NM offshore to mid lake
+LMZ362 Lake Michigan south of a line from Seul Choix Point to the Mackinac Bridge and north
+of a line from Charlevoix MI to South Fox Island 5 NM offshore
+LMZ364 Lake Michigan from Charlevoix to Point Betsie MI 5 NM offshore to mid lake
+LMZ366 Lake Michigan from Point Betsie to Manistee MI 5 NM offshore to mid lake
+LMZ563 Lake Michigan from Rock Island Passage to Sturgeon Bay WI 5 NM offshore to mid lake
+LMZ565 Lake Michigan from Sturgeon Bay to Two Rivers WI 5 NM offshore to mid lake
+LMZ567 Lake Michigan from Two Rivers to Sheboygan WI 5 NM offshore to mid lake
+LMZ669 Lake Michigan from Sheboygan to Port Washington WI 5 NM offshore to mid lake
+LMZ671 Lake Michigan from Port Washington to North Point Light WI 5 NM offshore to mid
+lake
+LMZ673 Lake Michigan from North Point Light to Wind Point WI 5 NM offshore to mid lake
+LMZ675 Lake Michigan from Wind Point WI to Winthrop Harbor IL 5 NM offshore to mid lake
+LMZ777 Lake Michigan from Winthrop Harbor to Wilmette Harbor IL 5 NM offshore to mid lake
+LMZ779 Lake Michigan from Wilmette Harbor IL to Michigan City IN 5 NM offshore to mid lake
+LMZ080 Lake Michigan from Michigan City IN to St. Joseph MI 5 NM offshore to mid lake
+LMZ878 Lake Michigan from St. Joseph to South Haven MI 5 NM offshore to mid lake
+LMZ876 Lake Michigan from South Haven to Holland MI 5 NM offshore to mid lake
+LMZ874 Lake Michigan from Holland to Grand Haven MI 5 NM offshore to mid lake
+LMZ872 Lake Michigan from Grand Haven to Whitehall MI 5 NM offshore to mid lake
+LMZ870 Lake Michigan from Whitehall to Pentwater MI 5 NM offshore to mid lake
+LMZ868 Lake Michigan from Pentwater to Manistee MI 5 NM offshore to mid lake
+LMZ761 Lake Michigan MAFOR
+
+LAKE HURON
+LHZ361 Lake Huron from 5 NM east of Mackinac Bridge to Presque Isle Light MI to the U.S./Canadian border 5 NM offshore
+LHZ362 Lake Huron from Presque Isle Light to Sturgeon Point MI 5 NM offshore to the U.S./Canadian border
+LHZ363 Lake Huron from Sturgeon Point to Alabaster MI 5 NM offshore to the U.S./Canadian border
+LHZ462 Lake Huron Port Austin to Harbor Beach MI 5 NM offshore to U.S./Canadian border
+LHZ463 Lake Huron Harbor Beach to Port Sanilac MI 5 NM offshore to U.S./Canadian border
+LHZ464 Lake Huron Port Sanilac to Port Huron 5 NM offshore to U.S./Canadian border
+LHZ461 Lake Huron MAFOR
+
+LCZ460 Lake St. Clair Open Lake (U.S. Portion)
+
+LAKE ERIE Open Lake Zones
+LEZ162 Detroit River Light to Maumee Bay OH to Reno Beach OH beyond 5 NM offshore
+to U.S./Canadian border
+LEZ163 Reno Beach to The Islands OH beyond 5 NM offshore to U.S./Canadian border
+LEZ164 The Islands to Vermilion OH beyond 5 NM offshore to U.S./Canadian border
+LEZ165 Vermilion to Avon Point OH beyond 5 NM offshore to U.S./Canadian border
+LEZ166 Avon Point to Willowick OH beyond 5 NM offshore to U.S./Canadian border
+LEZ167 Willowick to Geneva-on-the Lake OH beyond 5 NM offshore to
+U.S./Canadian border
+LEZ168 Geneva-on-the-Lake to Conneaut OH beyond 5 NM offshore to U.S./Canadian border
+LEZ169 Conneaut OH to Ripley NY beyond 5 NM offshore to U.S./Canadian border
+LEZ061 Ripley to Buffalo NY extending from 5 NM offshore to U.S./Canadian border
+LEZ161 Lake Erie MAFOR
+
+LAKE ONTARIO Open Lake Zones
+LOZ062 Niagara River to Hamlin Beach NY beyond 5 NM offshore to U.S./Canadian border
+LOZ063 Hamlin Beach to Sodus Bay NY beyond 5 NM offshore to U.S./Canadian border
+LOZ064 Sodus Bay to Mexico Bay NY beyond 5 NM offshore to U.S./Canadian border
+LOZ065 Mexico Bay NY to the St. Lawrence River beyond 5 NM offshore to
+U.S./Canadian border
+LOZ061 Lake Ontario MAFOR
+
+
+Maps showing the locations of offshore zones may be downloaded as follows:
+Maps are ~80kBytes in size.
+
+-In plain text format-
+Send an e-mail to: NWS.FTPMail.OPS@noaa.gov
+Subject Line:   Put anything you like
+Body:           open
+                cd fax
+                get offnt1mz.jpg  (New England)  
+                get offnt2mz.jpg  (Mid-Atlantic)   
+                get offnt3amz.jpg (Tropical Atlantic)    
+                get offnt4mz.jpg  (Gulf) 
+                get offnt3cmz.jpg (Caribbean)  
+                get offakmz.jpg   (Alaska)  
+                get offpz5mz.jpg  (Wasington-Oregon) 
+                get offpz6mz.jpg  (California)   
+                get offhfomz.jpg  (Hawaii) 
+                quit    
+
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                      NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm   NWS Marine Page
+cell.weather.gov                             Cellphone page
+mobile.weather.gov                           Mobile Page
+
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26 
+        National Weather Service
+        Feedback or questions: marine.weather@noaa.gov
+        Last Modified Feb 23, 2015
+        Document URL: http://tgftp.nws.noaa.gov/fax/marine4.txt
+                      ftp://tgftp.nws.noaa.gov/fax/marine4.txt

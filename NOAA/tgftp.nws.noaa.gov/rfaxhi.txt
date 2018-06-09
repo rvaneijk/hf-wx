@@ -1,0 +1,278 @@
+        
+	   NATIONAL WEATHER SERVICE RADIOFAX PRODUCTS
+        for the Central, Southeast and North Pacific
+
+**** IMPORTANT NOTICES ****
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly.  
+ 
+The "help" file contains a more detailed description of the
+FTPMAIL system and available products. To obtain a copy of the 
+FTPMAIL "help" file.
+
+-In plain text format-
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+ 
+These instructions are subject to revision....download frequently.
+ 
+**********
+ 
+
+NAVY Communications Station KVM-70 - Honolulu, Hawaii
+
+Assigned frequencies 9982.5, 11090 and 16135 kHz
+
+Select a carrier frequency 1.9 kHz below those listed when using a
+single sideband radio in the USB mode to receive these broadcasts.
+
+The latest version of NWS marine weather charts for broadcast by the NAVY 
+are available from the National Weather Service Telecommunication
+Gateway on this server.  The listed charts are in the G4(T4) format and
+enveloped in TIFF for viewing.  These charts may be found in directory:
+ftp://tgftp.nws.noaa.gov/fax or http://tgftp.nws.noaa.gov/pub/fax
+
+For information of how these files and other text and graphic marine
+forecasts may be downloaded via e-mail (FTPMAIL) see:
+http://tgftp.nws.noaa.gov/fax/ftpmail.txt
+
+xxxxxx  (Not yet available from these directories) 
+
+.TIF files now also available as .gif files
+
+This file is intended to assist mariners using the FTPMAIL system
+which is used to obtain National Weather Service products via 
+e-mail.  The following is an example in the use of the FTPMAIL
+system. NOTE CAPITALIZATION!
+
+
+Example using FTPMAIL:
+
+-In plain text format-
+Send an e-mail to:         NWS.FTPMail.OPS@noaa.gov
+Subject line:              Put anything you like
+Body:                      open
+                           cd fax
+                           get PJFD89.TIF
+                           get PBFA11.gif
+                           quit
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/fax or
+http://tgftp.nws.noaa.gov/pub/fax
+                                                                FILE
+WIND/WAVE CHARTS - CENTRAL PACIFIC                              NAME
+
+00Z Pacific Wind/Wave Analysis 30S-30N, 110W-130E             PJFB89.TIF
+12Z Pacific Wind/Wave Analysis 30S-30N, 110W-130E             PJFD89.TIF
+    Pacific Wind/Wave Analysis (Most Current)                 PJFB10.TIF
+24HR Pacific Wind/Wave Forecast VT00Z 30S-30N, 110W-130E      PWFE82.TIF
+24HR Pacific Wind/Wave Forecast VT12Z 30S-30N, 110W-130E      PWFE84.TIF
+24HR Pacific Wind/Wave Forecast (Most Current)                PWFE11.TIF
+48HR Pacific Wind/Wave Forecast VT00Z 30S-30N, 110W-130E      PJFI89.TIF
+48HR Pacific Wind/Wave Forecast VT12Z 30S-30N, 110W-130E      PJFI91.TIF
+48HR Pacific Wind/Wave Forecast (Most Current)                PJFI10.TIF
+72HR Pacific Sea State Forecast VT00Z 30S-30N, 110W-130E      PJFK89.TIF
+72HR Pacific Sea State Forecast VT12Z 30S-30N, 110W-130E      PJFK91.TIF
+72HR Pacific Sea State Forecast (Most Current)                PJFK10.TIF
+
+
+WIND/WAVE CHARTS - SE PACIFIC 
+
+Tropical Sea State Analysis VT00Z 20S-30N, E of 145W          PKFA88.TIF 
+Tropical Sea State Analysis VT12Z 20S-30N, E of 145W          PKFA89.TIF 
+Tropical Sea State Analysis (Most Current)                    PKFA10.TIF 
+24HR Wind/Wave Forecast VT00Z 20S-30N, E of 145W              PWFE01.TIF 
+24HR Wind/Wave Forecast VT12Z 20S-30N, E of 145W              PWFE03.TIF 
+24HR Wind/Wave Forecast  (Most Current)                       PWFE10.TIF 
+48HR Wind/Wave Forecast VT00Z 20S-30N, E of 145W              PWFI88.TIF 
+48HR Wind/Wave Forecast VT12Z 20S-30N, E of 145W              PWFI90.TIF 
+48HR Wind/Wave Forecast (Most Current)                        PWFI10.TIF 
+@48HR Wave Period/Swell Direction VT00Z 20S-30N, E of 145W    PJFI87.TIF 
+48HR Wave Period/Swell Direction VT12Z 20S-30N, E of 145W     PJFI88.TIF 
+48HR Wave Period/Swell Direction (Most Current)               PJFI11.TIF 
+72HR Wind/Wave Forecast VT00Z 20S-30N, E of 145W              PWFK92.TIF 
+72HR Wind/Wave Forecast VT12Z 20S-30N, E of 145W              PWFK93.TIF 
+72HR Wind/Wave Forecast (Most Current)                        PWFK10.TIF 
+72HR Wave Period/Swell Direction VT00Z 20S-30N, E of 145W     PJFK93.TIF
+
+
+WIND/WAVE CHARTS - NORTH PACIFIC                                                 
+
+00Z  Sea State Analysis 20N-70N, 115W-135E                    PJBA99.TIF
+@00Z Wind/Wave Analysis 18N-62N, E OF 157W                    PWBA88.TIF
+@06Z Wind/Wave Analysis 18N-62N, E OF 157W                    PWBB88.TIF
+@12Z Wind/Wave Analysis 18N-62N, E OF 157W                    PWBA89.TIF
+@18Z Wind/Wave Analysis 18N-62N, E OF 157W                    PWBD89.TIF
+@    Wind/Wave Analysis 18N-62N, E OF 157W (Most Current)     PWBA90.TIF
+24HR Wind/Wave Forecast VT00Z 18N-62N, E OF 157W              PWBE98.TIF
+24HR Wind/Wave Forecast VT12Z 18N-62N, E OF 157W              PWBE99.TIF
+24HR Wind/Wave Forecast (Most Current)                        PWBE10.TIF
+48HR Wind/Wave Forecast VT00Z 20N-70N, 115W-135E              PJBI98.TIF
+48HR Wind/Wave Forecast VT12Z 20N-70N, 115W-135E              PJBI99.TIF
+48HR Wind Wave Forecast (Most Current)                        PJBI10.TIF
+48HR Wave Period/Swell Direction VT00Z 20N-70N, 115W-135E     PJBI88.TIF
+@48HR Wave Period/Swell Direction VT12Z 20N-70N, 115W-135E    PJBI89.TIF
+48HR Wave Period/Swell Direction (Most Current)               PJBI20.TIF
+96HR Wind/Wave Forecast VT12Z  20N-70N, 115W-135E             PJBM98.TIF
+96HR Wave Period/Swell Direction VT12Z 20N-70N, 115W-135E     PJBM88.TIF
+
+
+SURFACE CHARTS - CENTRAL PACIFIC
+
+@00Z North Pacific Preliminary Analysis 20N-80N, 110W-110E    xxxxxx.TIF
+@06Z North Pacific Preliminary Analysis 20N-80N, 110W-110E    xxxxxx.TIF
+@12Z North Pacific Preliminary Analysis 20N-80N, 110W-110E    xxxxxx.TIF
+@18Z North Pacific Preliminary Analysis 20N-80N, 110W-110E    xxxxxx.TIF
+@    North Pacific Preliminary Analysis  (Most Current)       PYPA00.TIF
+00Z Pacific Surface Analysis EQ-50N,  110W-130E               PPBA88.TIF
+06Z Pacific Surface Analysis EQ-50N,  110W-130E               PPBA89.TIF
+12Z Pacific Surface Analysis EQ-50N,  110W-130E               PPBA90.TIF
+18Z Pacific Surface Analysis EQ-50N,  110W-130E               PPBA91.TIF
+    Pacific Surface Analysis (Most Current)                   PPBA11.TIF
+00Z Pacific Streamline Analysis 30S-30N, 110W-130E            PWFA90.TIF
+06Z Pacific Streamline Analysis 30S-30N, 110W-130E            PWFA91.TIF
+12Z Pacific Streamline Analysis 30S-30N, 110W-130E            PWFA92.TIF
+18Z Pacific Streamline Analysis 30S-30N, 110W-130E            PWFA93.TIF
+    Pacific Streamline Analysis (Most Current)                PWFA11.TIF
+@$00Z Tropical Surface Analysis  40S-40N, 100W-120E           xxxxxx.TIF
+@$06Z Tropical Surface Analysis  40S-40N, 100W-120E           xxxxxx.TIF
+@$12Z Tropical Surface Analysis  40S-40N, 100W-120E           xxxxxx.TIF
+@$18Z Tropical Surface Analysis  40S-40N, 100W-120E           xxxxxx.TIF
+@$    Tropical Surface Analysis  (Most Current)               QYFA99.TIF
+03Z Significant Cloud Features 30S-50N, 110W-160E             PBFA99.TIF
+15Z Significant Cloud Features 30S-50N, 110W-160E             PBFC99.TIF
+    Significant Cloud Features (Most Current)                 PBFA11.TIF
+24HR Pacific Surface Forecast VT00Z 30S-50N 110W-130E         PYFE87.TIF
+24HR Pacific Surface Forecast VT12Z 30S-50N 110W-130E         PYFE88.TIF 
+24HR Pacific Surface Forecast (Most Current)                  PYFE11.TIF
+@$24HR Wind/Stream Forecast VT00Z 30S-50N, 100W-120E          QWFI99.TIF
+@$48HR Wind/Stream Forecast VT00Z 30S-50N, 100W-120E          QWFQ99.TIF
+48HR Pacific Surface Forecast VT00Z 30S-50N 110W-130E         PYFI87.TIF
+48HR Pacific Surface Forecast VT12Z 30S-50N 110W-130E         PYFI88.TIF 
+48HR Pacific Surface Forecast (Most Current)                  PYFI11.TIF
+72HR Pacific Surface Forecast VT00Z 30S-50N 110W-130E         PYFK87.TIF
+72HR Pacific Surface Forecast VT12Z 30S-50N 110W-130E         PYFK88.TIF 
+72HR Pacific Surface Forecast (Most Current)                  PYFK11.TIF
+
+$ These charts will no longer be available sometime after June 20, 2006
+
+
+SURFACE CHARTS - SE PACIFIC                               
+ 
+00Z East Pacific Surface Analysis 20S-30N, E of 145W          PYFA96.TIF
+06Z East Pacific Surface Analysis 20S-30N, E of 145W          PYFA97.TIF
+12Z East Pacific Surface Analysis 20S-30N, E of 145W          PYFA98.TIF
+18Z East Pacific Surface Analysis 20S-30N, E of 145W          PYFA99.TIF
+    East Pacific Surface Analysis Most Current                PYFA90.TIF
+@00Z U.S./Tropical Surface Analysis 5S-50N,55W-125W           PYEB86.TIF
+@06Z U.S./Tropical Surface Analysis 5S-50N,55W-125W           PYEB87.TIF
+@12Z U.S./Tropical Surface Analysis 5S-50N,55W-125W           PYEB85.TIF
+@18Z U.S./Tropical Surface Analysis 5S-50N,55W-125W           PYEB88.TIF
+@    U.S./Tropical Surface Analysis 5S-50N,55W-125W           PYEB11.TIF
+24HR Tropical Surface Forecast VT00 20S-30N, E of 145W        PYFE79.TIF
+24HR Tropical Surface Forecast VT12 20S-30N, E of 145W        PYFE80.TIF
+24HR Tropical Surface Forecast(Most Current)                  PYFE10.TIF
+48HR Tropical Surface Forecast VT00 20S-30N, E of 145W        PYFI81.TIF
+48HR Tropical Surface Forecast VT12 20S-30N, E of 145W        PYFI82.TIF
+48HR Tropical Surface Forecast(Most Current)                  PYFI10.TIF
+72HR Tropical Surface Forecast VT00 20S-30N, E of 145W        PYFK83.TIF
+72HR Tropical Surface Forecast VT12 20S-30N, E of 145W        PYFK84.TIF
+72HR Tropical Surface Forecast (Most Current)                 PYFK10.TIF
+
+
+SURFACE CHARTS - NORTH PACIFIC                               
+
+00Z Surface Analysis NE Pacific (Part 1) 20N-70W, 115W-175W   PYBA01.TIF
+00Z Surface Analysis NW Pacific (Part 2) 20N-70W, 175W-135E   PYBA02.TIF
+06Z Surface Analysis NE Pacific (Part 1) 20N-70W, 115W-175W   PYBA03.TIF
+06Z Surface Analysis NW Pacific (Part 2) 20N-70W, 175W-135E   PYBA04.TIF
+12Z Surface Analysis NE Pacific (Part 1) 20N-70W, 115W-175W   PYBA05.TIF
+12Z Surface Analysis NW Pacific (Part 2) 20N-70W, 175W-135E   PYBA06.TIF
+18Z Surface Analysis NE Pacific (Part 1) 20N-70W, 115W-175W   PYBA07.TIF
+18Z Surface Analysis NW Pacific (Part 2) 20N-70W, 175W-135E   PYBA08.TIF
+    Surface Analysis, Part 1 (Most Current)                   PYBA90.TIF
+    Surface Analysis, Part 2 (Most Current)                   PYBA91.TIF
+@24HR Surface Forecast VT00Z 18N-62W, E of 157W               PPBE00.TIF
+@24HR Surface Forecast VT12Z 18N-62W, E of 157W               PPBE01.TIF
+@24HR Surface Forecast (Most Current)                         PPBE10.TIF
+48HR Surface Forecast VT00Z 20N-70W, 115W-135E                PWBI98.TIF
+48HR Surface Forecast VT12Z 20N-70W, 115W-135E                PWBI99.TIF
+48HR Surface Forecast (Most Current)                          PWBI10.TIF
+96HR Surface Forecast VT12Z 20N-70W, 115W-135E                PWBM99.TIF
+
+
+TROPICAL CYCLONE CHARTS - PACIFIC 
+
+72 HR Tropical Cyclone Danger Area VT 03Z 0N-40N, 80W-170E    PWFK03.TIF
+72 HR Tropical Cyclone Danger Area VT 09Z 0N-40N, 80W-170E    PWFK09.TIF
+72 HR Tropical Cyclone Danger Area VT 15Z 0N-40N, 80W-170E    PWFK15.TIF
+72 HR Tropical Cyclone Danger Area VT 21Z 0N-40N, 80W-170E    PWFK21.TIF
+72 HR Tropical Cyclone Danger Area (Most Current)             PWFK12.TIF
+
+
+SEA SURFACE TEMPERATURE CHARTS
+
+Pacific SST Chart  55N-EQ, 110W-160E                          PTFA88.TIF
+
+
+SATELLITE IMAGERY (IR)
+
+00Z Eastern Pacific Satellite Image  05S-55N, 110W-155E       evpz00.jpg 
+06Z Eastern Pacific Satellite Image  05S-55N, 110W-155E       evpz06.jpg 
+12Z Eastern Pacific Satellite Image  05S-55N, 110W-155E       evpz12.jpg 
+18Z Eastern Pacific Satellite Image  05S-55N, 110W-155E       evpz18.jpg 
+    Eastern Pacific Satellite Image  (Most Current)           evpz11.jpg
+00Z Southwest Pacific Satellite Image  40S-05N, 130W-165E     evps00.jpg 
+06Z Southwest Pacific Satellite Image  40S-05N, 130W-165E     evps06.jpg 
+12Z Southwest Pacific Satellite Image  40S-05N, 130W-165E     evps12.jpg 
+18Z Southwest Pacific Satellite Image  40S-05N, 130W-165E     evps18.jpg 
+    Southwest Pacific Satellite Image  (Most Current)         evps11.jpg
+@00Z Tropical East Pacific Satellite Image 20S-40N,E of 145W  evpn02.jpg
+06Z Tropical East Pacific Satellite Image 20S-40N,E of 145W   evpn07.jpg
+@12Z Tropical East Pacific Satellite Image 20S-40N,E of 145W  evpn04.jpg
+18Z Tropical East Pacific Satellite Image 20S-40N,E of 145W   evpn08.jpg
+    Tropical East Pacific Satellite Image (MOST CURRENT)      evpn10.jpg
+@00Z Pacific Satellite Image  05N-55N, E of 180W              evpn01.jpg 
+06Z Pacific Satellite Image  05N-55N, E of 180W               evpn06.jpg 
+@12Z Pacific Satellite Image  05N-55N, E of 180W              evpn12.jpg 
+18Z Pacific Satellite Image  05N-55N, E of 180W               evpn18.jpg 
+    Pacific Satellite Image  (MOST CURRENT)                   evpn99.jpg
+
+SCHEDULE INFORMATION
+ 
+Radiofax Schedule (Honolulu, HI) Part I                       PLBZ07.TIF
+Radiofax Schedule (Honolulu, HI) Part II                      PLBZ09.TIF
+Radiofax Schedule (DOS Text Version)                          hfhi.txt
+Test/Map Symbols/General Notice                               PLBZ08.TIF
+Internet File Names  (This file)                              rfaxhi.txt
+
+@ Not transmitted via Honolulu radiofax but listed here for convenience
+
+Many of these charts also broadcast from Pt. Reyes, CA and Kodiak, AK
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                   	NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm	NWS Marine Page
+cell.weather.gov                                Cellphone page
+mobile.weather.gov                              Mobile Page
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26 
+        National Weather Service
+        Feedback or questions: marine.weather@noaa.gov
+        Last Modified Dec 12, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/rfaxhi.txt
+                      ftp://tgftp.nws.noaa.gov/fax/rfaxhi.txt
+  
+

@@ -1,0 +1,16 @@
+
+
+Caution help file
+----------------------------------------------------------------------
+Caution - Your Browser may not load the lastest version of a chart
+in certain circumstances.  For faster retrievals, Browsers may recall 
+data from memory rather than downloading a new file.
+
+In Netscape, you may prevent this situation by setting:
+ 
+  [O]ptions...[N]etwork Preferences...Cache...Verify Documents: to [E]verytime
+ 
+-----------------------------------------------------------------------
+Author: Timothy Rulon, Office of Meteorology, National Weather Service
+	Last Modified Tuesday, 11-FEB-97,  13:05:45
+	Document URL: http://tgsv5.nws.noaa.gov/caution.txt

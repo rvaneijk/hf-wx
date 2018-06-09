@@ -1,0 +1,278 @@
+        
+	                    INTERNATIONAL CHARTS
+		   
+**** IMPORTANT NOTICES ****
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly. 
+
+The "help" file contains a more detailed description of the
+FTPMAIL system and available products. To obtain a copy of the 
+FTPMAIL "help" file.
+
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+
+These instructions are subject to revision....download frequently.
+ 
+**********
+
+A webpage describing several different e-mail "robots" similar in concept 
+to FTPMAIL, including some with advanced features such as allowing retrieval 
+of NWS marine GRIB files, simple webpages, and allowing products to be 
+retrieved on a scheduled, recurring basis may be found at:
+http://tgftp.nws.noaa.gov/fax/robots.txt.  
+This webpage may be retrieved via FTPMAIL as follows:
+
+Send an e-mail to: NWS.FTPMail.OPS@noaa.gov
+Subject line: 	 Put anything you like
+Body:              open
+                   cd fax
+                   get robots.txt
+                   quit
+
+**********
+
+
+UK Weather Charts Available via FTPMAIL
+
+
+This file is intended to assist mariners using the FTPMAIL system
+which is used to obtain National Weather Service products via 
+e-mail.  These International products are provided as a public service.
+
+The latest version of marine weather charts received from foreign 
+meteorological centers may be found in this directory:  
+
+ftp://tgftp.nws.noaa.gov/fax 
+
+For information of how these files and other text and graphic marine
+forecasts may be downloaded via e-mail (FTPMAIL) see:
+http://tgftp.nws.noaa.gov/fax/ftpmail.txt
+
+
+These charts only available as .TIF files
+
+
+PAY ATTENTION TO CAPITALIZATION:
+
+Example using FTPMAIL:
+
+
+Send an e-mail to:         NWS.FTPMail.OPS@noaa.gov
+Subject line:              Put anything you like
+Body:                      open
+                           cd fax
+                           get PJGA93.TIF
+                           get PPVA89.TIF
+                           quit
+
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/fax or
+http://tgftp.nws.noaa.gov/pub/fax
+
+                                                        
+CHART DESCRIPTION                                         
+
+World Area Forecast Center - London
+Further information see :http://www.weather.org.uk/ and 
+http://www.met-office.gov.uk/
+
+PRODUCT DESCRIPTION                                             FILE NAME
+
+      Sea Swell/Wind Direction Analysis (North Atlantic)        PJGA93.TIF
+ 24HR Sea Swell/Wind Direction Forecast (North Atlantic)        PJGE93.TIF
+ 36HR Sea Swell/Wind Direction Forecast (North Atlantic &Carib) PJLG98.TIF
+ 48HR Sea Swell/Wind Direction Forecast (North Atlantic)        PJGI93.TIF
+      Surface Analysis (North Atlantic)                         PPVA89.TIF
+ 24HR Surface Forecast (North Atlantic)                         PPVE89.TIF
+ 36HR Surface Forecast (North Atlantic)                         PPVG89.TIF
+ 48HR Surface Forecast (North Atlantic)                         PPVI89.TIF
+ 60HR Surface Forecast (North Atlantic)                         PPVJ89.TIF
+ 72HR Surface Forecast (North Atlantic)                         PPVK89.TIF
+ 96HR Surface Forecast (North Atlantic)                         PPVM89.TIF
+120HR Surface Forecast (North Atlantic)                         PPVO89.TIF
+132HR Surface Forecast (North Atlantic)                         PPVP89.TIF
+Mean Sea Isotherm Chart 5 Day Analysis, NE Atlantic & North Sea PTUK21.TIF
+
+
+
+
+
+
+
+
+Australian Weather Charts
+
+The following charts are not available via FTPMAIL but the information
+is presented here as a service to mariners.
+(see robots.txt file for options to download http files via e-mail) 
+
+Derived from Schedule Updated 14 November 2007
+http://www.bom.gov.au/marine/radio-sat/radio-fax-schedule.shtml
+
+These charts are available in the following form:
+http://www.bom.gov.au/difacs/IDX0854.gif      etc.
+
+
+ 
+Time (UTC)	Description of Item and Current Chart                       IDcode	   
+0015-0030	VMC/VMW Schedule Page 1 of 2                                IDX0468	   
+0030-0045	VMC/VMW Schedule Page 2 of 2                                IDX0469	   
+0045-0100	VMC/VMW Information Notice                                  IDX0467	   
+0100-0130	IPS Recommended Frequencies for VMC (Charleville            IDX0470	   
+0130-0200	IPS Recommended Frequencies for VMW (Wiluna)	            IDX0473	   
+0200-0215	Australian MSLP Prog (H+36) Valid 0000                      IDX0104	   
+0245-0300	Australian MSLP Anal (Manual) Valid 0000                    IDX0102	   
+0300-0315	Australian 500 hPa Anal Valid 0000                          IDX0099	   
+0315-0330	Voice Broadcast Information for VMC and VMW                 IDX0461	   
+0400-0415	Australian 500 hPa (H+24) Prog Valid 0000                   IDX0090	   
+0430-0445	Australian MSLP 4-day forecast, Days 1 and 2                IDX0041	   
+0445-0500	Australian MSLP 4-day forecast, Days 3 and 4                IDX0042	   
+0600-0622	Asian (Part A) Gradient Level Wind Anal (Manual) Valid 0000 IDX0965	   
+0623-0645	Asian (Part B) Gradient Level Wind Anal (Manual) Valid 0000 IDX0966	   
+0645-0700	Asian MSLP Anal (Manual) Valid 0000                         IDX0016	   
+0730-0745	Indian Ocean MSLP Anal (Manual) Valid 0000                  IDX0033	   
+0745-0800	Australian Wind Waves Ht(m) Prog Valid 0000 (H+24)          IDX0049	   
+0800-0815	Australian Swell Waves Ht(m) Prog (H+24) Valid 0000         IDX0050	   
+0830-0845	South Pacific Ocean MSLP Anal Valid 0000                    IDX0032	   
+0845-0900	Australian MSLP Anal (Manual) Valid 0600                    IDX0354	   
+0900-0915	Australian MSLP Prog (H+36) Valid 0000                      IDX0104	   
+0915-0930	Australian MSLP 4-day forecast, Days 1 and 2                IDX0041	   
+0930-0945	Australian MSLP 4-day forecast, Days 3 and 4                IDX0042	   
+1015-1030	Casey Eastern and Western High Seas (H+24) valid 0000       IDX1087	   
+1030-1045	S.H. 500 hPa Prog (H+48) Valid 0000                         IDX0004	   
+1045-1100	S.H. MSLP Prog (H+48) Valid 0000                            IDX0003	   
+1100-1115	Casey Eastern and Western High Seas (H+36) valid 0000       IDX1088	   
+1115-1130	S.H. 500 hPa Anal Valid 0000                                IDX0008	   
+1130-1145	Asian Sea Surface Temp Anal (Weekly)                        IDX0084	   
+1145-1200	VMC/VMW Information Notice                                  IDX0467	   
+1200-1215	Australian MSLP Prog (H+36) Valid 1200                      IDX0011	   
+1215-1230	VMC/VMW Schedule Page 1 of 2                                IDX0468	   
+1230-1245	VMC/VMW Schedule Page 2 of 2                                IDX0469	   
+1245-1300	Indian Ocean MSLP Prog (H+36) Valid 1200                    IDX0002	   
+1315-1330	South Pacific Ocean Total Waves (H+48) Valid 0000           IDX0949	   
+1330-1345	Indian Ocean Total Waves (H+48) Valid 0000                  IDX0948	   
+1345-1400	Pacific Ocean Sea Surface Temps (Weekly)                    IDX0942	   
+1400-1415	Indian Ocean Sea Surface Temps (Weekly)                     IDX0946	   
+1415-1430	Casey Eastern and Western High Seas (H+48) valid 0000       IDX1089	   
+1430-1445	Australian MSLP Anal (Manual) Valid 1200                    IDX0602	   
+1500-1515	Australian 500 hPa Anal Valid 1200                          IDX0099	   
+1515-1530	Australian MSLP Prog (H+36) Valid 1200                      IDX0604	   
+1600-1615	Australian 500 hPa Prog (H+24) Valid 1200                   IDX0090	   
+1630-1700	IPS Recommended Frequencies for VMC (Charleville)           IDX0470	   
+1700-1730	IPS Recommended Frequencies for VMW (Wiluna)                IDX0473	   
+1800-1822	Asian (Part A) Gradient Level Wind Anal (Manual) Valid 1200 IDX0967	   
+1823-1845	Asian (Part B) Gradient Level Wind Anal (Manual) Valid 1200 IDX0968	   
+1915-1930	Indian Ocean MSLP Anal (Manual) Valid 1200                  IDX0533	   
+1930-1945	Australian Wind Waves Ht(m) Prog (H+24) Valid 1200          IDX0049	   
+1945-2000	Australian Swell Waves Ht(m) Prog (H+24) Valid 1200         IDX0050	   
+2000-2015	South Pacific Ocean MSLP Anal (Manual) Valid 1200           IDX0532	   
+2015-2030	Casey Eastern and Western High Seas (H+24) valid 1200       IDX1087	   
+2030-2045	Australian MSLP Anal (Manual) Valid 1800                    IDX0854	   
+2215-2230	Casey Eastern and Western High Seas (H+36) valid 1200       IDX1088	   
+2230-2245	S.H. 500 hPa Prog (H+48) Valid 1200                         IDX0004	   
+2245-2300	S.H. MSLP Prog (H+48) Valid 1200                            IDX0003	   
+2300-2315	S.H. 500 hPa Anal Valid 1200                                IDX0008	   
+2315-2330	Casey Eastern and Western High Seas (H+48) valid 1200       IDX1089	   
+2330-2345	Australian MSLP Prog (H+36) Valid 0000                      IDX0011	   
+2345-0000	Indian Ocean MSLP Prog (H+48) Valid 1200                    IDX0006	   
+ 
+The following charts are repeat broadcasts on 11030 kHz only 
+via a directional aerial pointing from Charleville (VMC) towards Tasmania.
+ 	   
+0345-0400	Australian MSLP Anal (Manual) Valid 0000                    IDX0102	   
+0500-0515	Australian MSLP 4-day Forecast, Days 1 and 2                IDX0041	   
+0515-0530	Australian MSLP 4-day Forecast, Days 3 and 4                IDX0042	   
+0000-0015	Indian Ocean MSLP Anal (Manual) Valid 1200                  IDX0533	   
+ 	 	 	   
+ 	 	 	 
+ 
+
+Bermuda Weather Charts
+
+The following charts are not available via FTPMAIL but the information
+is presented here as a service to mariners.
+(see robots.txt file for options to download http files via e-mail) 
+
+from the Bermuda marine webpage
+http://www.weather.bm/Charts.asp
+http://www.weather.bm/maps/chart1.jpg  2 day wind/seas forecast 
+http://www.weather.bm/maps/chart2.jpg  3 day wind/seas forecast
+http://www.weather.bm/maps/chart3.jpg  4 day wind/seas forecast
+http://www.weather.bm/maps/chart4.jpg  5 day wind/seas forecast 
+
+
+
+Brazilian Synoptic Charts
+
+The following charts are not available via FTPMAIL but the information
+is presented here as a service to mariners.
+(see robots.txt file for options to download http files via e-mail) 
+
+from the Brazil marine webpage
+http://www.mar.mil.br/dhn/chm/meteo/prev/cartas/cartasing.htm
+the following synoptic charts appear to be available 
+http://www.mar.mil.br/dhn/chm/meteo/prev/cartas/C9031900.jpg
+http://www.mar.mil.br/dhn/chm/meteo/prev/cartas/C9031912.jpg
+ (you'll need to adjust the year/date/time each day,
+ year/date/time is in the form Cymmddtt) 
+
+
+
+Japanese Radiofax Charts
+
+The following charts are not available via FTPMAIL but the information
+is presented here as a service to mariners.
+(see robots.txt file for options to download http files via e-mail) 
+
+from the JMA marine webpage 
+(http://www.jma.go.jp/en/seawarn/index.html)
+
+http://www.jma.go.jp/jp/g3/images/asia/07030203.png
+http://www.jma.go.jp/jp/g3/images/asia/07030209.png
+http://www.jma.go.jp/jp/g3/images/asia/07030215.png
+http://www.jma.go.jp/jp/g3/images/asia/07030221.png
+http://www.jma.go.jp/jp/g3/images/24h/07030209.png
+http://www.jma.go.jp/jp/g3/images/24h/07030221.png
+http://www.jma.go.jp/jp/g3/images/48h/07030209.png
+http://www.jma.go.jp/jp/g3/images/48h/07030221.png
+(you'll need to adjust the year/date/time each day,
+year/date/time is in the form yymmddtt) 
+
+
+
+South Africa Charts
+
+
+Sea level Pressure Analysis
+http://old.weathersa.co.za/ship/ship.gif
+
+
+
+--------------------------------------------------------------------
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                      NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm   NWS Marine Page
+cell.weather.gov                             Cellphone page
+mobile.weather.gov                           Mobile Page
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26  
+        National Weather Service
+        Last Modified Dec 12, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/otherfax.txt
+                      ftp://tgftp.nws.noaa.gov/fax/otherfax.txt
+
+

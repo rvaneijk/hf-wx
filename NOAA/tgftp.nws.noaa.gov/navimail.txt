@@ -1,0 +1,200 @@
+NAVIMAIL
+
+
+Météo-France's NAVIMAIL system enables you to receive gridded binary
+(GRIB  files) for wind, pressure, waves, sea surface temperature, as
+well as text  bulletins and satellite images.  There is a service
+charge for GRIB data,  however, text bulletins and satellite images are
+available at no charge. For  further information see:
+
+http://www.meteo.fr/meteonet/services/navimail/navimail.html
+
+The following information was obtained from the NAVIMAIL webpage and by
+running  the Météo-France's 's NAVIMAIL program.  Errors are likely.
+For questions or comments on NAVIMAIL, contact Météo-France,
+navihelp@meteo.fr, using the  word "Help" in the subject line.
+
+For GMDSS information, all the messages of the same METARERA are
+generally  included in the same package. The complete list is available below: 
+
+Example:
+
+Send an e-mail to:   navimail@meteo.fr 
+Subject line:        Put anything you like
+Body:                @mto@reqt@bull@
+                     GMDSS_METAREA4_INMARSAT
+                     SAT_AMERIQUE_NORD
+                     @mto@reqt@fin@
+
+
+
+****COMMANDS****
+
+@mto@reqt@bull@     (Required Header) 
+@mto@reqt@fin@      (Required Trailer) 
+noattach            (Place requested bulletin in body of e-mail 
+                     rather than as attached file)
+
+
+****WORLD****
+
+Bulletins in English:
+GMDSS_METAREA1_INMARSAT            (North Part of North Atlantic Ocean
+                                   (High Seas)) 
+GMDSS_METAREA1_OFFSHORE            (Northeast Part of North Atlantic
+                                    Ocean (Offshore)) 
+GMDSS_METAREA2_INMARSAT            (East Part of North Atlantic Ocean) 
+GMDSS_METAREA3-W_INMARSAT          (East Mediterranean Sea) 
+GMDSS_METAREA3-E_INMARSAT          (West Mediterranean Sea) 
+GMDSS_METAREA4_INMARSAT            (West Part of North Atlantic Ocean) 
+GMDSS_METAREA5_INMARSAT            (North Part of South Atlantic Ocean) 
+GMDSS_METAREA6_N-60_INMARSAT       (South Atlantic Ocean North of 60S) 
+GMDSS_METAREA6_S-60_INMARSAT       (South Atlantic Ocean South of 60S) 
+GMDSS_METAREA7_INMARSAT            (Southeast Atlantic Ocean + extreme
+                                    Southwest of Indian Ocean) 
+GMDSS_METAREA8-N_INMARSAT          (North Indian Ocean) 
+GMDSS_METAREA8-S_INMARSAT          (Southwest of Indian Ocean) 
+GMDSS_METAREA9_INMARSAT            (Red Sea, Gulf of Aden, Arabian Sea,
+                                    Persian Gulf) 
+GMDSS_METAREA10-Ne_INMARSAT        (Northeast of Australia (Pacific
+                                    ocean)) 
+GMDSS_METAREA10-N_INMARSAT         (North of Australia) 
+GMDSS_METAREA10-W_INMARSAT         (Southeast of Indian Ocean) 
+GMDSS_METAREA10-SE_INMARSAT        (Southeast of Australia (Pacific
+                                    ocean)) 
+GMDSS_METAREA11-IOR_INMARSAT       (West part of the North Pacific 
+                                    Ocean (China)) 
+GMDSS_METAREA11-POR_INMARSAT       (West part of the North Pacific
+                                    Ocean (Japan)) 
+GMDSS_METAREA11-S-equator_INMARSAT (West part of the Pacific Ocean, 
+                                    south equator) 
+GMDSS_METAREA12_INMARSAT           (East part of the North Pacific
+                                    Ocean) 
+GMDSS_METAREA13_INMARSAT           (Northwest of Pacific and part of
+                                    Arctic waters) 
+GMDSS_ARTIC_OCEAN                  (from SW corner 67N, 44E to NE
+                                    corner 80N, 165W) 
+GMDSS_METAREA14-South_INMARSAT     (South Pacific south of 25S) 
+GMDSS_METAREA14-TROPICS_INMARSAT   (South Pacific north of 25S) 
+GMDSS_METAREA15_INMARSAT           (Southeast Pacific) 
+GMDSS_METAREA16_INMARSAT           (Southeast Pacific between 18S and 3S) 
+INMARSAT_METAREA2_Anglais           (Atlantic Center-East)
+BMS_INMARSAT_METAREA2_Anglais       (Atlantic Center-East warning)
+INMARSAT_METAREA3-OUEST_Anglais     (GMDSS METAREA III)
+BMS_INMARSAT_METAREA3-OUEST_Anglais (GMDSS METAREA III warning)
+MARTINIQUE_LARGE_Anglais            (Martinique                    
+BMS_MARTINIQUE_LARGE_Anglais        (Martinique warning)
+BMS_NOUVELLE_CALEDONIE_Anglais      (New Caledonia
+AMSTERDAM_CROZET_KERGUELEN_anglais  (Area AMSTERDAM, CROZET and KERGUELEN
+BMS_REUNION_Anglais                 (Reunion and Indian Ocean)
+
+Bulletins in French:
+MEDIT-OCCIDENTALE                   (COMPLETE WEST MEDITERRANEE SEA)
+BMS_MEDIT-OCCIDENTALE               (COMPLETE MEDITERRANEE SEA -
+                                     WARNING)
+RFI                                 (Bulletin for Radio-France-
+                                     International)
+GUADELOUPE_ILES_DU_NORD             (Guadeloupe and Northern Islands)
+GUADELOUPE_COTES                    (Guadeloupe coast)
+BMS_GUADELOUPE_COTES                (Guadeloupe coast warning)
+MARTINIQUE_LARGE                    (Martinique)
+BMS_MARTINIQUE_LARGE                (Martinique warning)
+MARTINIQUE_COTES                    (Martinique coast)
+BMS_MARTINIQUE_COTES                (Martinique coast warning)
+GUYANE_COTES                        (Guyane)
+BMS_GUYANE_COTES                    (Guyane warning)
+NOUVELLE_CALEDONIE                  (New Caledonia)
+BMS_NOUVELLE_CALEDONIE              (New Caledonia)
+AMSTERDAM_CROZET_KERGUELEN          (Area AMSTERDAM, CROZET and
+                                     KERGUELEN)
+REUNION_INDIEN                      (Reunion and Indian Ocean)
+BMS_REUNION                         (Reunion and Indian Indian Ocean
+                                     warning)
+TAHITI                              (Tahiti)
+BMS_TAHITI                          (Tahiti warning)
+BMS_CYCLONE_TAHITI                  (Tahiti cyclone warning)
+
+
+****EUROPE**** 
+
+Bulletins in English :
+NORD-MEDIT-OCCIDENTALE_Anglais           (NORTHWEST MEDITERRANEAN SEA:
+                                          GMDSS NAVTEX Cross La Garde)
+BMS_NORD-MEDIT-OCCIDENTALE_Anglais       (NORTHWEST MEDITERRANEAN SEA:
+                                          GMDSS NAVTEX Cross La Garde
+                                          - WARNING)
+GOLFE_DE_GASCOGNE_NAVTEX_Anglais         (NORTHAT NTIC:GMDSS NAVTEX
+                                          Cross Corsen
+BMS_GOLFE_DE_GASCOGNE_NAVTEX_Anglais     (NORTHAT NTIC:GMDSS NAVTEX
+                                          Cross Corsen-WARNING)
+
+Bulletins in French :
+MANCHE_ET_SUD_DE_MER_DU_NORD           (CHANNEL - NORTH SEA: BLU Cross
+                                        Gris-nez)
+BMS_MANCHE-EST_ET_SUD_DE_MER_DU_NOR    (CHANNEL - NORTH SEA: BLU Cross
+                                        Gris-nez - WARNING)
+PROCHE_ATLANTIQUE_ET_MANCHE-OUEST      (NORTHAT NTIC:   BLU Cross
+                                        Corsen)
+BMS_PROCHE_ATLANTIQUE_ET_MANCHE-OUEST  (NORTHAT NTIC:BLU Cross Corsen-
+                                        WARNING)
+NORD-MEDIT-OCCIDENTALE                 (NORTHWEST MEDITERRANEAN SEA:
+                                        BLU Cross La Garde) 
+BMS_NORD-MEDIT-OCCIDENTALE             (NORTHWEST MEDITERRANEAN SEA:
+                                        BLU CrossLa Garde - WARNING)
+INTER_SERVICE_MER                    (ALL ZONES: France-Inter Bulletin)
+
+
+
+****FRANCE****
+
+COTE_MANCHE_BEL-SOM       (CHANNEL - NORTH SEA: From the Belgian
+                           boarder to baie de Somme)                
+BMS_COTE_MANCHE_BEL-SOM   (CHANNEL - NORTH SEA From the Belgian border
+                           to baie de Somme  - WARNING)         
+COTE_MANCHE_SOM-HAG       (CHANNEL - NORTH SEA From baie de Somme to
+                           cap de la Hague)
+BMS_COTE_MANCHE_SOM-HAG   (CHANNEL - NORTH SEA From baie de Somme to
+                           cap de la Hague - WARNING)
+COTE_MANCHE_HAG-PEN       (CHANNEL - NORTH SEA: From cap de la Hague to
+                           ponte de Penmaich)
+BMS_COTE_GASCOGNE_HAG-AIG (CHANNEL/BISCAY From pointe de Penmarch to
+                           anse de I'Aiguillon - WARNING)
+COTE_GASCOGNE_PEN-AIG     (BISCAY: From anse de I'Aiguilon to the
+                           Spanish border)
+COTE_GASCOGNE_AIG-ESP     (BISCAY From anse de I'Aiguilon to the
+                           Spanish boarder-WARNING)
+BMS_COTE_GASCOGNE_AIG-ESP (BISCAY From anse de I'Aiguilon to the 
+                           Spanish border - WARNING)
+COTE_MEDIT_CER-POR        (WEST MEDITERRANEAN SEA: Languedoc-Roussilon 
+                          (Cerbere to Port Carnaigue)
+COTE_MEDIT_POR-SAI        (WEST MEDITERRANEAN SEA: Provence (Port
+                            Camargue to Saint-Raphael)   
+COTE_MEDIT_SAI-MEN        (WEST MEDITERRANEAN SEA: Corte D'Azur (from
+                           Saint- Raphael to Menton)
+COTE_MEDIT_CORSE          (WEST MEDITERRANEAN SEA: Corsica)
+BMS_COTE_MEDIT_CORSE      (WEST MEDITERRANEAN SEA - WARNING) 
+
+
+****SATELLITE IMAGES****
+
+SAT_MONDE                 (Satellite Image - World)
+SAT_EUROPE                (Satellite Image - Europe)
+SAT_AFRIQUE               (Satellite Image - Africa)
+SAT_OCEANIE               (Satellite Image - Australia)
+SAT_ASIE                  (Satellite Image - Asia)
+SAT_AMERIQUE_NORD         (Satellite Image - North America)
+SAT_AMERIQUE_SUD          (Satellite Image - South America)
+SAT_CALEDONIE             (Satellite Image - Caledonia)
+SAT_CARAIBES              (Satellite Image - Caribbean)
+SAT_POLYNESIE             (Satellite Image - Polynesia)
+SAT_REUNION               (Satellite Image - Indian Ocean)
+
+
+
+Author: 
+
+Marine, Tropical, and Tsunami Services Branch, W/AFS26
+        National Weather Service
+	  Last Modified March 31, 2004
+	  Document URL: http://weather.noaa.gov/pub/fax/navimail.txt
+                      ftp://tgftp.nws.noaa.gov/fax/navimail.txt

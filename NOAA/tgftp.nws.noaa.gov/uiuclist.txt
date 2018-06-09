@@ -1,0 +1,193 @@
+University of Illinois Listserver for Marine Applications
+
+Note:  The following provided information does not imply any  
+endorsement by the National Weather Service as to function or 
+suitability for your purpose or environment.  
+
+These Lists provide an automated means to receive NWS hurricane 
+forecast products via e-mail.  However, performance may vary and 
+receipt cannot be guaranteed by either UIUC or the National Weather 
+Service  
+
+The University of Illinois at Urbana-Champaign (UIUC) operates an 
+e-mail Listserver of which two Lists, WX-ATLAN, and WX-TROPL are of 
+special interest to mariners who do not have direct access to the 
+World Wide Web but who are equipped with an e-mail system.  These 
+Lists provide an automated means to receive hurricane information 
+via e-mail.  Information on this system may be found at: 
+https://lists.illinois.edu/lists/help/introduction
+
+Users should be aware of the costs for operating their particular 
+e-mail system before attempting to use this List server, especially 
+when using satellite communication systems.  Although the service is 
+free, the user is responsible for any charges associated with the 
+communication system(s) used by their e-mail system.  As this 
+List server will send requested data on a continuous basis until 
+service is successfully terminated, potential charges might be 
+significant. 
+
+As a general guide, National Weather Service hurricane products 
+average 1 Kbyte each in length.  The tropical weather OUTLOOK is 
+transmitted on a 6 hour cycle during the hurricane season. Other 
+products are transmitted when active systems exist, on a 6 hour cycle 
+(one series of products for each storm).  Products may be transmitted 
+more often as the systems approach landfall, to make corrections, etc. 
+The Lists may contain products in addition to those produced by the 
+National Weather Service. 
+
+This List server is not operated or maintained by the National Weather 
+Service, please direct all questions to Chris Novy cnovy@cox.net
+
+National Weather Service hurricane products may also be found on 
+the World Wide Web at links including:
+
+http://www.nhc.noaa.gov
+http://www.nws.noaa.gov/om/marine/forecast.htm  
+
+
+Below are an abbreviated set of instructions for the WX-ATLAN and 
+WX-TROPL Lists on the UIUC List server.
+
+
+****WX-ATLAN INFORMATION****
+
+This list contains topical weather outlooks, hurricane position 
+reports, etc. It is most active from June through December. 
+Portions of the products on this list may be in abbreviated (coded) 
+format. 
+
+To subscribe to the new WX-ATLAN list processor and set your sub-topics visit this URL and do the following steps:
+
+https://listserv.illinois.edu
+
+1) Click on the "First login? (non-netID users)" link.
+
+2) Enter your email address and click on "Request first password".
+
+You will receive an email shortly with a link to complete the subscription process.
+
+3) Click on the link to generate your initial password or ignore the email if you decide you do not want to complete the subscription process.
+
+Once you create a password you will automatically be logged into the listprocessor system.
+
+We would appreciate you taking time to complete the next section by enteringyour full name.  This makes it easier for us to help you should you have problems with your subscription(s).
+
+4) Click on "List of Lists".  You will see all the lists the University of Illinois offers,  At the top of the screen click on the "W" to take you to the lists which begin with the letter "W".
+
+5) Click on the name of a list which wish to join (WX-ATLAN) and then click on
+
+"Subscribe".
+
+6) Once you are subscribed, which is almost immediately, click on
+"Subscriber Options" to go to the sub-topics page.
+
+7) Select only those sub-topics you wish to receive and then click "Update".
+
+8) When you are done click "Logout" at the top of the screen to log out ofthe system.
+
+In the future just visit https://listserv.illinois.edu and login to manage your subscriptions.
+
+If you have any questions please email Chris Novy cnovy@cox.net
+The available sub-topics are: 
+
+OUTLOOK:  Outlooks concerning development trends [ABNT20]
+TROPDISC: Detailed discussions concerning development trends [AXNT20]
+STRMDISC: Discussion reports concerning a specific storm [WTNT4x]
+FORECAST: Storm forecasts (wind and sea height estimates) [WTNT2x]
+ADVISORY: Storm status reports (movement, wind speeds, etc) [WTNT3x]
+SPEED:    Speed Forecasts
+VORTEX:   VORTEX Messages
+MARINE:   Marine Forecasts
+ESPANOL:  Spanish Language Bulletins
+SUMMARY:  Storm Summaries
+SEAFCST:  NHC High Seas Forecasts
+RECON:    Reconnaissance data products [URNT1x]
+POSITION: Position reports [WTNT5x]
+STRIKE:   Strike probabilities (landfall probabilities) [WTNT7x]
+UPDATE:   Storm updates (they often cites recon reports) [WTNT6x]
+STATUS:   Storm status reports (movement, wind speeds, etc) [WTNT3x]
+Other:    (messages not tagged) 
+
+
+
+****WX-TROPL TROPICAL INFORMATION****
+
+This list contains topical weather outlooks, hurricane position 
+reports, etc. Portions of the products on this list may be in 
+abbreviated (coded) format. This list includes some NAVY as well as
+NWS products
+
+NOTE: For Atlantic and Gulf of Mexico information see the WX-ATLAN list. 
+
+To subscribe to WX-TROPL the instructions are similar to WX-ATLAN above, with the exception it implements the following sub-topics:
+
+Pacific Ocean Eastern Northern region (90W to 140W)
+Pacific Ocean North Central region (140W to 180W)
+Pacific Ocean Northwest region (100E to 180E)
+Indian Ocean (North) (100E to 40E north of Equator)
+Indian Ocean (South) (120E to 40E south of Equator)
+Pacific Ocean Southwest (120E to 180E south of Equator)
+Summary
+Pacific Ocean Southeast (east of 180E south of Equator)
+Australia
+Fiji
+New Zealand
+Other (messages not tagged) 
+
+
+********************************************************************
+If you wish to receive National Weather Service hurricane products 
+via e-mail only upon individual request , the NWS FTPMAIL server 
+may be more appropriate for your needs. 
+
+**** IMPORTANT NOTICES ****
+
+
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly.  
+ 
+These instructions are subject to revision....download frequently.
+ 
+
+NWS FTPMAIL SERVER
+National Weather Service radiofax charts broadcast by U.S. Coast Guard 
+from Boston, New Orleans and Pt. Reyes, California are available via 
+e-mail. Marine text products are also available. The FTPMAIL server is
+intended to allow Internet access for mariners and other users who do not 
+have direct access to the World Wide Web but who are equipped with an 
+e-mail system. Turnaround is generally in under three hours, however, 
+performance may vary widely and receipt cannot be guaranteed. To get 
+started in using the NWS FTPMAIL service, follow these simple directions 
+to obtain the FTPMAIL  "help" file (11 Kbytes). 
+  
+-In plain text format-
+Send an e-mail to: NWS.FTPMail.OPS@noaa.gov
+Subject line:      Put anything you like
+Body:              help
+
+or available at:  http://tgftp.nws.noaa.gov/fax/ftpmail.txt
+
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                      NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm   NWS Marine Page
+cell.weather.gov                             Cellphone page
+mobile.weather.gov                           Mobile Page
+
+
+*****
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26 
+        National Weather Service
+        Feedback or questions: marine.weather@noaa.gov
+        Last Modified Sep 12, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/uiuclist.txt
+                      ftp://tgftp.nws.noaa.gov/fax/uiuclist.txt

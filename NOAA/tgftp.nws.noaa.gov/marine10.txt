@@ -1,0 +1,126 @@
+        NATIONAL WEATHER SERVICE MARINE TEXT PRODUCTS
+     COASTAL FORECASTS by ZONE for HAWAII and MICRONESIA
+            
+
+**** IMPORTANT NOTICES ****
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Please note, as a further option, these zone forecasts and the associated 
+synopsis are available as part of the complete Coastal Waters Forecast 
+for those zones.  See the FTPMAIL "help" file for information on downloading 
+directory file marine3.txt 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly. 
+
+The "help" file contains a more detailed description of the
+FTPMAIL system and available products. To obtain a copy of the 
+FTPMAIL "help" file.
+
+-In plain text format-
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+ 
+These instructions are subject to revision....download frequently.
+ 
+**********
+
+This file is intended to assist mariners using the FTPMAIL system
+which is used to obtain National Weather Service products via 
+e-mail.  The following is an example in the use of the FTPMAIL
+system. NOTE CAPITALIZATION!
+
+ 
+-In plain text format-
+Send an e-mail to:      NWS.FTPMail.OPS@noaa.gov
+Subject Line:           Put anything you like
+Body:                   open
+                        cd data
+                        cd forecasts
+                        cd marine
+                        cd coastal
+                        cd ph
+                        get phz100.txt
+                        get phz110.txt
+                        get phz111.txt
+                        get phz112.txt
+                        quit
+
+
+COASTAL FORECASTS by ZONE for HAWAII and TRUST TERRITORIES
+
+Please note that many zones will contain identical forecast information at times. 
+
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/forecasts/marine/coastal/ph   (ph, pm, ps, etc.)
+http://tgftp.nws.noaa.gov/data/forecasts/marine/coastal/ph
+
+
+Hawaii
+PHZ100 Synopsis for Hawaiian Coastal Waters
+   PHZ110 Kauai Northwest Waters
+   PHZ111 Kauai Windward Waters
+   PHZ112 Kauai Leeward Waters
+   PHZ113 Kauai Channel
+   PHZ114 Oahu Windward Waters
+   PHZ115 Oahu Leeward Waters
+   PHZ116 Kaiwi Channel
+   PHZ117 Maui County Windward Waters
+   PHZ118 Maui County Leeward Waters
+   PHZ119 Maalaea Bay
+   PHZ120 Pailolo Channel
+   PHZ121 Alenuihaha Channel
+   PHZ122 Big Island Windward Waters
+   PHZ123 Big Island Leeward Waters
+   PHZ124 Big Island Southeast Waters
+
+Guam
+PMZ150 Synopsis for Marianas waters
+   PMZ151 Guam coastal waters
+
+Commonwealth of the Northern Marianas Islands
+   PMZ152 Rota coastal waters
+   PMZ153 Tinian coastal waters
+   PMZ154 Saipan coastal waters
+
+The Republic of Palau
+   PMZ161 Koror Palau coastal waters
+
+The Federated States of Micronesia
+   PMZ171 Yap coastal waters
+   PMZ172 Chuuk coastal waters
+   PMZ173 Pohnpei coastal waters
+   PMZ174 Kosrae coastal waters
+
+The Republic of the Marshall Islands
+  PMZ181 Majuro coastal waters
+
+American Samoa
+PSZ100 Synopsis for American Samoa coastal waters
+   PSZ150 Tututila and Aunuu coastal waters
+   PSZ151 Manua coastal waters
+   PSZ152 Swains Island coastal waters
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                      NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm   NWS Marine Page
+cell.weather.gov                             Cellphone page
+mobile.weather.gov                           Mobile Page
+
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26 
+        National Weather Service
+        Feedback or questions: marine.weather@noaa.gov
+        Last Modified Dec 12, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/marine10.txt
+                      ftp://tgftp.nws.noaa.gov/fax/marine10.txt

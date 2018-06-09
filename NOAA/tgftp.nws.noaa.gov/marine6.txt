@@ -1,0 +1,140 @@
+﻿        NATIONAL WEATHER SERVICE MARINE TEXT PRODUCTS
+          COASTAL FORECASTS by ZONE for the PACIFIC
+            
+
+**** IMPORTANT NOTICES ****
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Please note, as a further option, these zone forecasts and the associated 
+synopsis are available as part of the complete Coastal Waters Forecast 
+for those zones.  See the FTPMAIL "help" file for information on downloading 
+directory file marine3.txt 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly. 
+
+The "help" file contains a more detailed description of the
+FTPMAIL system and available products. To obtain a copy of the 
+FTPMAIL "help" file.
+
+-In plain text format-
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+ 
+These instructions are subject to revision....download frequently.
+ 
+**********
+
+This file is intended to assist mariners using the FTPMAIL system
+which is used to obtain National Weather Service products via 
+e-mail.  The following is an example in the use of the FTPMAIL
+system. NOTE CAPITALIZATION!
+ 
+-In plain text format-
+Send an e-mail to:      NWS.FTPMail.OPS@noaa.gov
+Subject Line:           Put anything you like
+Body:                   open
+                        cd data
+                        cd forecasts
+                        cd marine
+                        cd coastal
+                        cd pz
+                        get pzz100.txt
+                        get pzz156.txt
+                        get pzz176.txt
+                        quit
+
+ 
+COASTAL FORECASTS by ZONE for the PACIFIC
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/forecasts/marine/coastal/pz
+http://tgftp.nws.noaa.gov/data/forecasts/marine/coastal/pz
+
+Please note that many zones will contain identical forecast information at times. 
+
+
+PZZ100 Synopsis for Northern and Central Washington Coastal and Inland Waters
+   PZZ133 Northern inland waters including the San Juan Islands
+   PZZ135 Puget Sound and Hood Canal
+   PZZ134 Admiralty Inlet
+   PZZ132 East Entrance U.S. waters Strait of Juan de Fuca
+   PZZ131 Central U.S. waters Strait of Juan de Fuca
+   PZZ130 West Entrance U.S. waters Strait of Juan de Fuca
+   PZZ150 Coastal waters from Cape Flattery to James Island out 10 NM
+   PZZ170 Waters from Cape Flattery to James Island 10 to 60 NM
+   PZZ153 Coastal waters from James Island to Point Grenville out 10 NM
+   PZZ173 Waters from James Island to Point Grenville 10 to 60 NM
+   PZZ156 Coastal waters from Point Grenville to Cape Shoalwater out 10 NM
+   PZZ176 Waters from Point Grenville to Cape Shoalwater 10 to 60 NM
+   PZZ110 Grays Harbor Bar - Two period wave/current forecast only
+PZZ200 Synopsis for Southern Washington and Northern Oregon Coast
+   PZZ250 Coastal waters from Cape Shoalwater WA to Cascade Head OR out 10 NM
+   PZZ270 Waters from Cape Shoalwater WA to Cascade Head OR from 10 to 60 NM
+   PZZ210 Columbia River Bar - Two period wave/current forecast only
+   PZZ255 Coastal waters from Cascade Head to Florence OR out 10 NM
+   PZZ275 Waters from Cascade Head to Florence OR from 10 to 60 NM
+PZZ300 Synopsis for the Southern Oregon Coastal Waters
+   PZZ350 Coastal waters from Florence to Cape Blanco OR out 10 NM
+   PZZ370 Waters from Florence to Cape Blanco OR from 10 to 60 NM
+   PZZ356 Coastal waters from Cape Blanco OR to Pt. St. George CA out 10 NM
+   PZZ376 Waters from Cape Blanco OR to Pt. St. George CA from 10 to 60 NM
+PZZ400 Synopsis for Northern California Waters
+   PZZ450 Point St. George to Cape Mendocino out to 10 NM
+   PZZ470 Point St. George to Cape Mendocino 10 to 60 NM
+   PZZ455 Cape Mendocino to Point Arena out to 10 NM
+   PZZ475 Cape Mendocino to Point Arena 10 to 60 NM
+   PZZ410 Humboldt Bay Bar - Three period wave/current forecast only ? 
+          The forecast will be provided for the first three days of the 
+          corresponding Coastal Waters Forecast. - Future product
+PZZ500 Synopsis for Central California Coast and Bays including Monterey Bay-Gulf of the Farallones-and Cordell Bank National Marine Sanctuaries
+   PZZ540 Coastal Waters from Point Arena to Point Reyes 0-10 NM
+   PZZ570 Waters from Point Arena to Point Reyes 10-60 NM
+   PZZ545 Coastal Waters from Point Reyes to Pigeon Point 0-10 NM)
+   PZZ571 Waters from Point Reyes to Pigeon Point 10-60 NM
+   PZZ560 Coastal Waters from Pigeon Point to Point Pinos 0-10 NM
+   PZZ575 Waters from Pigeon Point to Point Pinos 10-60 NM
+   PZZ565 Coastal Waters from Point Pinos to Point Piedras Blancas 0-10 NM
+   PZZ576 Waters from Point Pinos to Point Piedras Blancas 10-60 NM
+   PZZ535 Monterey Bay
+   PZZ531 San Francisco Bay South of the Bay Bridge
+   PZZ530 San Pablo Bay, Suisun Bay, the West Delta and the San Francisco Bay
+          north of the Bay Bridge
+PZZ600 Synopsis for Southern California Coast and Santa Barbara Channel including the Channel Islands National Marine Sanctuary
+   PZZ655 Inner waters from Point Mugu to San Mateo Point CA including Santa
+          Catalina and Anacapa Islands
+   PZZ676 Outer waters from Santa Cruz Island to San Clemente Island to 60 NM
+          offshore including San Nicolas and Santa Barbara Islands  
+   PZZ650 East Santa Barbara Channel from Point Conception to Point Mugu CA
+          including Santa Cruz Island
+   PZZ673 Waters from Point Sal to Santa Cruz Island and Westward 60 NM  
+   PZZ670 Waters from Point Piedras Blancas to Point Sal and westward from 
+          10 NM to 60 NM   
+   PZZ645 Waters from Point Piedras Blancas to Point Sal and westward 10 NM 
+PZZ700 Synopsis for Far Southern California Coast
+   PZZ750 Coastal Waters from San Mateo Point to the Mexican border out 30 NM
+   PZZ775 Waters from San Mateo Point to the Mexican Border extending 30 to 60
+          NM out including San Clemente Island
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                      NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm   NWS Marine Page
+cell.weather.gov                             Cellphone page
+mobile.weather.gov                           Mobile Page
+
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26 
+        National Weather Service
+        Feedback or questions: marine.weather@noaa.gov
+        Last Modified Dec 12, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/marine6.txt
+                      ftp://tgftp.nws.noaa.gov/fax/marine6.txt

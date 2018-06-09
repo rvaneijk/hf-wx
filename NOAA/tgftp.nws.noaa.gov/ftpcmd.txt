@@ -1,0 +1,138 @@
+
+
+
+***FTPMAIL commands for NWS.FTPMail.OPS@noaa.gov FTPMAIL server***
+
+**** IMPORTANT NOTICES ****
+
+
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from NWS.FTPMail.OPS@noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly.  
+ 
+These instructions are subject to revision....download frequently.
+ 
+ 
+  
+ 
+
+
+
+FTP's  files and sends them back via electronic mail
+
+NOTE: *.noaa.gov are the only valid FTP sites for this FTPMAIL server.
+
+NOTE: Capitalization is critical for this server. Commands are  
+      un-capitalized, while some directory and file names are 
+      CAPITALIZED, while others are un-capitalized.
+
+To use FTPMAIL:
+o  Send an E-mail via the Internet to NWS.FTPMail.OPS@noaa.gov
+o  Put anything you like on the subject line
+o  Enter a command script in the body of the message
+
+Example scripts are:
+
+reply-to lmjm@server.big.ac.uk
+open
+dir
+quit
+     Connect to default_site (tgftp.nws.noaa.gov) and send back the
+     contents of the top level directory to lmjm@server.big.ac.uk
+
+
+open
+cd fax
+get PWAG01.TIF
+quit
+     Connect to default_site (tgftp.nws.noaa.gov) and send back the 
+     chart file PWAG01.TIF to e-mail address of requestor
+
+
+     
+
+
+>>Valid commands to the ftpmail gateway are:
+
+
+reply-to email-address   Who to send the response to.  This is optional 
+                         and defaults to the users email address
+
+>>Followed by one of:
+
+help                     Just send back help
+
+delete jobid             Delete the given job
+			 (jobid is received from server)
+
+open [site [user [pass]]]     
+                         Site to ftp to.  Default is: 
+
+                         default_site anonymous reply-to-address.
+
+			 
+>>If there was an open then it can be followed by up to 100 of the
+>>following commands
+
+cd pathname              Change directory.
+cd ..                    Move up 1 directory.
+cd /                     Move to the root directory.
+
+ls [pathname]            Short listing of pathname. 
+                               Default pathname is current directory.
+
+dir [pathname]           Long listing of pathname.
+                               Default pathname is current directory.
+
+get pathname            Get a file and email it back.
+
+compress                  Compress files/dir-listings before emailing back
+
+gzip                         Gzip files/dir-listings before emailing back
+
+uuencode                 These are mutually exclusive options for
+btoa                        converting a binary file before emailing.
+                              (Default is uuencode.)
+
+force uuencode         Force all files or directory listings to
+force btoa               be encoded before sending back.
+                             There is no default.
+
+mime                   Send the message as a Mime Version 1.0 message.
+                         Text will be sent as text/plain charset=US-ASCII
+                         Non-text as application/octet-stream.
+                         If the file is splitup then it will be sent
+                         as a message/partial.
+
+force mime             As mime but force text files to be sent as            
+                         application/octet-stream
+
+no [compress|gzip|uuencode|btoa|mime]
+                         Turn the option off.
+
+size num[K|M]          Set the max size a file can be before it
+                         is split up and emailed back in parts to
+                         the given number of Kilo or Mega bytes.
+                         This is limited to 275KB. Default is 275KB.
+
+mode binary            Change the mode selected for the get
+mode ascii               command.  Defaults to binary.
+
+quit                     End of input - ignore any following lines.
+
+
+
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26  
+        National Weather Service
+	  Last Modified Sep 12, 2008
+	  Document URL: http://tgftp.nws.noaa.gov/fax/ftpcmd.txt
+                      ftp://tgftp.nws.noaa.gov/fax/ftpcmd.txt
+
+

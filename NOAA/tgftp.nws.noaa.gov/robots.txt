@@ -1,0 +1,392 @@
+     Marine Forecasts and Related Information Available via E-mail 
+
+
+National Weather Service (and other) marine forecasts are available via 
+a variety of Government, University, Commercial and Public/Freeware 
+systems intended to make information accessible to users such as mariners 
+who may have an e-mail capability but do not have direct Internet access.  
+The following is a listing of several known automated systems.
+
+Note:  Any reference to any product or service does not imply any 
+endorsement by the National Weather Service as to function or suitability 
+for your purpose or environment.  
+
+
+This document (http://tgftp.nws.noaa.gov/fax/robots.txt) may be 
+retrieved via e-mail as follows:
+
+-In plain text format-
+Send an e-mail to:   NWS.FTPMail.OPS@noaa.gov
+Subject line:        Put anything you like
+Body:                open
+                     cd fax
+                     get robots.txt
+                     quit
+
+
+
+>>>>FTPMAIL<<<<
+
+**** IMPORTANT NOTICES ****
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly.  
+ 
+These instructions are subject to revision....download frequently.
+ 
+ 
+National Weather Service marine text forecasts and radiofax charts are 
+available via e-mail via an FTPMAIL server.  Further, FTPMAIL may be used 
+to acquire any file on the tgftp.nws.noaa.gov FTP server. The FTPMAIL server 
+is intended to allow Internet access for mariners and other users who do not 
+have direct access to the World Wide Web but who are equipped with an e-mail 
+system.  Turnaround is generally less than one hour, however, performance 
+may vary widely and receipt cannot be guaranteed. To get started in using the 
+NWS FTPMAIL service, follow these simple directions to obtain the FTPMAIL 
+"help" file (11 KBytes), or see   http://tgftp.nws.noaa.gov/fax/ftpmail.txt 
+                     
+-In plain text format-
+Send an e-mail to:   NWS.FTPMail.OPS@noaa.gov
+Subject line:        Put anything you like
+Body:                help
+
+
+>>>>NOAA/NWS Products Not Available via FTPMAIL<<<<
+Not all NWS forecast products are available via FTP and therefore 
+accessible via FTPMAIL such as worldwide computer generated model 
+forecasts which include areas beyond the area of U.S. forecasting 
+responsibility such as the Indian Ocean and South Atlantic. 
+
+
+(1)To retrieve Wave Watch III
+(http://polar.ncep.noaa.gov/waves/product_table.shtml?-multi_1-)
+and other forecasts via e-mail, use one of the www-to-email systems 
+such as SAILDOCS or OTHERS described below.  Be aware computer generated 
+products from forecast models are not reviewed by forecasters and are 
+therefore subject to error. E.G. per the Wave Watch III webpage:
+
+
+
+URLs = http://polar.ncep.noaa.gov/waves/WEB_P/wwww.latest_run/plots/xxxx.yyyy.zzzz.png
+e.g. 24hr Wind Speed and Direction Forecast for NE Atlantic =
+http://polar.ncep.noaa.gov/waves/WEB_P/multi_1.latest_run/plots/NE_atlantic.u10.f024h.png
+
+where wwww =
+"multi_1"        GFS Model
+"multi_2"        GFS Hurricane Model
+"glw"            Great Lakes NAM Model
+"glwn"           Great Lakes NDFD Model
+
+where xxxx =
+"atlantic"        Atlantic Ocean  
+"pacific"         Pacific Ocean  
+"indian_o"        Indian Ocean   
+"NE_atlantic"     NE Atlantic 
+"NW_atlantic"     NW Atlantic  
+"US_eastcoast"    US East Coast  
+"NE_pacific"      NE Pacific 
+"alaska"          Alaskan Waters 
+"aus_ind_phi"     Australia-Indonesia  
+"gmex"            Gulf of Mexico 
+"US_keywest"      Key West  
+"US_puertorico"   Puerto Rico   
+"US_wc_zm1"       US West Coast Zoom 1 
+"US_wc_zm2"       US West Coast Zoom 2 
+"hawaii"          Hawaii
+"grl"             Great Lakes Region 
+"erie"            Lake Erie
+"huron"           Lake Huron 
+"michigan"        Lake Michigan 
+"ontario"         Lake Ontario
+"superior"        Lake Superior 
+
+
+where "yyyy" =
+"hs"       Significant Wave Height 	
+"hs_ws"    Wind Sea Wave Height 	
+"sw1"      Primary Swell Wave Height 	
+"sw2"      Secondary Swell Wave Height 	
+"u10"      Wind Speed and Direction 	 
+"tp"       Peak Wave Period
+"tp_ws"    Wind Sea Period
+"tp_ws1"   Primary Swell Period
+"tp_ws2"   Secondary Swell Period
+
+
+where "zzzz" = "h006h." or "h000" (multiples of 3 hours) for hindcasts
+where "zzzz" = "f006h" to "f180" for forecasts
+
+
+
+**** Important Note****
+The Atlantic RTOFS model data immediately below is under an on-going operational upgrade.  Use the Global RTOFS model as an alternative,(documented further below).
+
+(2)And similarly, to  retrieve sea surface temperature and surface 
+current forecasts from NOAA's for Real-Time Ocean Forecast System-Atlantic
+(http://polar.ncep.noaa.gov/ofs/)
+
+URLs = http://polar.ncep.noaa.gov/ofs/aofs_images/large/aofs_zzzz_yyyy_xxxx.png
+e.g.
+http://polar.ncep.noaa.gov/ofs/aofs_images/large/aofs_cur_f120_wnatlzoom.png
+      
+where xxxx =
+"natl"       North Atlantic
+"wnatl"      Western North Atlantic
+"wnatlzoom"  Western North Atlantic zoom
+"hurr"       Gulf of Mexico
+
+where yyyy =
+"nowcast", "f024", "f048", "f072", "f096" "f120" or 144"
+
+where "zzz" =
+"sst"       Sea Surface Temperature (°C)
+"cur"       Surface Current (magnitude m/sec)
+
+
+
+
+**** Important Note****
+The Atlantic RTOFS model data immediately above is under an on-going operational upgrade.  Use the Global RTOFS model immediatrely below as an alternative, see 
+http://polar.ncep.noaa.gov/global/nc/
+
+
+(3)To  retrieve sea surface temperature and surface current forecasts 
+from NOAA's for Global Real-Time Ocean Forecast System
+(http://polar.ncep.noaa.gov/global/nc/)
+
+
+URLs = http://polar.ncep.noaa.gov/global/nc/images/large/rtofs_zzzz_yyyy_xxxx_000.png
+e.g.
+http://polar.ncep.noaa.gov/global/nc/images/large/rtofs_natl_curr_f120_000.png
+
+
+where "zzzz" =
+"global"      Global
+"arctic"      Arctic
+"eqpac"       Equatorial Pacific
+"eqatl"       Equatorial Atlantic
+"indian"      Indian Ocean
+"med"         Mediterranean Sea
+"natl"        North Atlantic
+"npac"        North Pacific
+"satl"        North Atlantic
+"spac"        North Pacific
+"southern"    Southern Ocean 
+"agulhas"     Agulhas Current
+"gulfstream"  Gulf Stream
+"kuroshio"    Kuroshio Current
+"northbrazil" Brazil Current
+"somalia"     Somalia Current
+"alaska"      Alaska
+"gulfmex"     Gulf of Mexico
+"australia"   Australia and New Zealand 
+"indonesia"   Indonesia and Philippines
+"persiangulf" Somalia and Persian Gulf
+"westconus"   West CONUS
+
+where "yyyy" =
+"temperature"           Sea Surface Temperature (°C)
+"ssh"                   Ocean Surface Height	
+"mixed_layer_thickness  Mixed Layer Thickness 	 
+"salinity"              Salinity at Surface 	
+"curr"                  Surface Current (magnitude m/sec)	
+"ice_thickness"         Ice Thickness
+"ice_coverage"          Ice Coverage 
+
+where "xxxx" =
+"f024", "f048", "f072", "f096" "f120" or f144"
+
+
+
+
+>>>>National Hurricane Center Listserver<<<< 
+This service is no longer operational
+
+
+>>>>GovDelivery Weather Updates (Listserver)<<<<
+This service is no longer operational
+
+
+
+
+>>>>University of Illinois Listserver<<<< 
+The University of Illinois at Urbana-Champaign operates an e-mail 
+listserver of which two Lists, WX-ATLAN, and WX-TROPL are of special 
+interest to mariners who do not have direct access to the World Wide Web 
+but who are equipped with an e-mail system. These Lists provide an 
+automated means to receive NWS hurricane (and some marine) forecast 
+products via e-mail. However, performance may vary and receipt cannot be 
+guaranteed. To get started in using the University of Illinois 
+Listserver, follow these simple directions to obtain further information, 
+or see:   http://tgftp.nws.noaa.gov/fax/uiuclist.txt   
+See also: https://lists.illinois.edu/lists/info/wx-atlan 
+and https://lists.illinois.edu/lists/info/wx-tropl
+
+-In plain text format-
+Send an e-mail to:   NWS.FTPMail.OPS@noaa.gov
+Subject line:        Put anything you like
+Body:                open
+                     cd fax
+                     get uiuclist.txt
+                     quit
+
+
+
+>>>>Hurricane Watch Net YahooGroup Listserver<<<< 
+This service is no longer operational
+
+
+>>>>SAILDOCS<<<<
+SAILDOCS is an email-based document-retrieval system which currently 
+offers two services: a document retrieval service which will return 
+documents from the Internet or SAILDOCS own files, and a subscription 
+service which will send Internet documents (for example weather reports) 
+at scheduled intervals.  SAILDOCS files include National Weather Service 
+text forecasts and gridded binary (GRIB files) for wind, pressure, 500mb, 
+and sea surface temperature.  SAILDOCS is supported in part by Sailmail 
+(www.sailmail.com) but is an independent service that can be used by 
+anyone who agrees to the terms and conditions. To get started in using 
+SAILDOCS, follow these simple directions to obtain further information, 
+or see:  http://www.saildocs.com/ 
+
+Send an e-mail to:   info@saildocs.com 
+Subject line:        Put anything you like
+Body:                Put anything you like
+
+
+
+>>>>>Global Marine Networks (GMN)<<<<< 
+Global Marine Networks (GMN) offers 7 day wind forecasts of the world 
+as a free public service via its GRIB Mail Robot. See: http://www.globalmarinenet.com/grib_downloads.php
+
+
+>>>>ExpressWeather  - MailASail's Free Weather Service<<<<
+ExpressWeather is a free, simple system to offer popular weather forecasts 
+and charts by email. It aims to provide a deliberately limited subset of 
+all the weather available, and only to provide the most useful forecasts 
+in an easy to access format.  For details send a blank email with a BLANK 
+subject line to weather@mailasail.com
+(Remember that some email programs insert "No subject". This has to be deleted) 
+or see 
+http://weather.mailasail.com/Franks-Weather/Text-Chart-Grib-Forecasts-From-Mailasail
+
+Send an e-mail to:   weather@mailasail.com
+Subject line:        Leave blank
+Body:                Leave blank
+
+
+
+>>>>NAVIMAIL<<<<
+Météo-France's NAVIMAIL system enables you to receive gridded binary 
+(GRIB files) for wind, pressure, waves, sea surface temperature, as well 
+as text bulletins and satellite images.  There is a service charge for 
+GRIB data, however, text bulletins and satellite images are available at 
+no charge.  To get started in using NAVIMAIL, follow these simple 
+directions to obtain further information, or see: 
+http://www.meteo.fr/marine/navimail
+
+-In plain text format-
+Send an e-mail to:   NWS.FTPMail.OPS@noaa.gov
+Subject line:        Put anything you like
+Body:                open
+                     cd fax
+                     get navimail.txt
+                     quit
+
+
+
+>>>>U.S. NOTICES TO MARINERS BY E-MAIL<<<<
+The National Geospatial-Intelligence Agency (NGA) provides a 
+service whereby the U.S Notices to Mariners are e-mailed to the 
+requesting address every weekend, with the following limitations:
+
+* The notice transmitted is listed on the Maritime Safety 
+Information (MSI) Website in the "Notice to Mariners" section as 
+"Entire NtM". Graphics provided in this version are inadequate 
+for navigation purposes. Navigation-quality chartlets are available 
+for download on the MSI website as needed.
+* Many networks and e-mail applications have restrictions on file 
+sizes for e-mail attachments. In order to ensure all notices are 
+received, the limit on file sizes for the receiving account should 
+be changed to 2.5 Mb. Contact your system administrator or help desk 
+for more assistance.
+* In order to subscribe, the customer must be logged into the e-mail 
+account to which they wish the notice sent. When the hyperlink below 
+is selected, an e-mail window is generated with the "To" and "From" 
+addresses filled out. The "Subject" and "Body" will be blank. 
+Selecting "Send" subscribes the user to the e-mailed Notice to Mariners.
+* Instructions to unsubscribe from the notice are included in each Notice 
+to Mariners e-mail. 
+
+Privacy Act Advisory
+Your e-mail address will be used for the purpose of electronically 
+mailing the U.S. Notice to Mariners to you. Upon receipt of your 
+subscription, your identification as the sender will be stripped from 
+your e-mail and only the destination e-mail address you provide will 
+be automatically added to the subscription list. Subscriptions will 
+be processed automatically. If you unsubscribe, your e-mail address 
+will be purged from the file and will not be retained. NGA may collect 
+statistical data about the number of subscribers, number of subscription 
+cancellations, and the number of delivery failures.
+
+To subscribe to U.S. Notices to Mariners by E-mail:
+Send an e-mail to:   join-ntm@goldweb.nga.mil
+Subject line:        Leave blank
+Body:                Leave blank
+
+
+>>>>U.S. COAST GUARD LOCAL NOTICES TO MARINERS (LNM) LISTSERVER<<<<
+LNM's and other maritime related information are available via a one-way 
+listserver at:  http://www.navcen.uscg.gov/?pageName=LNMlistRegistration
+
+
+>>>>NANUS & GPS STATUS MSGS BY EMAIL<<<<
+Users with an urgent need to be notified of changes to the GPS Constellation 
+may subscribe to the Navigation Center NANU List Server 
+(http://cgls.uscg.mil/mailman/listinfo/nanu) and/or the GPS Status Message 
+List Server (http://cgls.uscg.mil/mailman/listinfo/gps). These services 
+provide emails containing the NANU and/or GPS Status Messages, generally 
+within 60 minutes of notification by the Air Force of a change to the GPS 
+Constellation. This is a free service. PRIVACY INFORMATION: Disclosure of 
+your email address is voluntary. It is solicited for the sole purpose of 
+delivering the requested information to you and will not be released to 
+any other party. 
+
+
+>>>>U.S. Coast Guard Ice Patrol Chart and Text<<<<
+To receive U.S. Coast Guard Ice Patrol products via email, 
+sign up for Iceberg Chart list server at
+https://radioaid.rdc.uscg.gov/mailman/listinfo/iceberg_chart 
+and the Iceberg Text Bulletin list server at
+https://radioaid.rdc.uscg.gov/mailman/listinfo/iceberg_bulletin
+You will be emailed the products daily as soon as they are released.
+(The iceburg chart is also available via FTPMAIL above)
+
+
+>>>>OTHERS<<<<
+A non-NWS FAQ webpage describing several FTP-to-EMAIL and WWW-to-EMAIL 
+servers may be found at:
+
+http://www.faqs.org/faqs/internet-services/access-via-email/ 
+
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                      NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm   NWS Marine Page
+cell.weather.gov                             Cellphone page
+mobile.weather.gov                           Mobile Page
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26  
+        National Weather Service
+        Last Modified May 08, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/robots.txt
+                      ftp://tgftp.nws.noaa.gov/fax/robots.txt
+

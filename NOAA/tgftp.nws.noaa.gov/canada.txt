@@ -1,0 +1,247 @@
+                         CANADIAN MARINE PRODUCTS
+      
+            
+
+**** IMPORTANT NOTICES ****
+
+
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly.  
+ 
+The "help" file contains a more detailed description of the
+FTPMAIL system and available products. To obtain a copy of the 
+FTPMAIL "help" file.
+
+-In plain text format-
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+ 
+These instructions are subject to revision....download frequently.
+ 
+**********
+
+
+This file is intended to assist mariners using the FTPMAIL system
+which is used to obtain National Weather Service products via 
+e-mail.  These International products are provided as a public service.
+
+Many of these products are seasonal.  Check date and time.  If the date
+and time of the forecast are not explicitly stated,  the validity of the
+forecast should be considered in doubt.
+
+
+CANADIAN MARINE TEXT FORECASTS
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/raw/fq
+http://tgftp.nws.noaa.gov/data/raw/fq
+
+The following is an example in the use of the FTPMAIL
+system.  NOTE CAPITALIZATION!
+
+-In plain text format-
+Send an e-mail to:      NWS.FTPMail.OPS@noaa.gov
+Subject Line:           Put anything you like
+Body:                   open
+                        cd data
+                        cd raw
+                        cd fq
+                        get fqcn14.cwnt..txt
+                        cd ..
+                        cd fi
+                        get ficn14.cwis..txt 
+                        quit
+
+
+Note:  Many of these products are seasonal
+
+
+PRODUCT DESCRIPTION                                     FILE NAME
+
+BRITISH COLUMBIA
+  Marine Forecasts                                    fqcn13.cwvr..txt
+  Extended Forecasts                                  fqcn53.cwvr..txt
+  Wave Height Forecasts                               fqcn23.cwvr..txt
+  Synopsis                                            fqcn10.cwvr..txt
+  Marine Weather Statement                            fqcn20.cwvr..txt
+  NAVTEX format for the North Coast                   fqcn35.cwvr..txt
+  NAVTEX format for the South Coast and Georgia Basin fqcn33.cwvr..txt
+
+
+NORTHWEST TERRITORIES (Seasonal)
+MacKenzie River, Great Slave Lake and Lake Athabasca  fqcn13.cwnt..txt
+  Extended Forecasts                                  fqcn53.cwnt..txt
+Beaufort Sea and Coronation Gulf
+  Marine Forecasts                                    fqcn14.cwnt..txt
+  Extended Forecasts                                  fqcn54.cwnt..txt
+  Synopsis                                            fqcn10.cwnt..txt
+  Ice Forecasts                                       ficn14.cwis..txt
+
+
+NUNAVUT (Seasonal)
+Beaufort Sea and Coronation Gulf
+  Marine Forecasts                                    fqcn14.cwnt..txt
+  Extended Forecasts                                  fqcn54.cwnt..txt
+  Synopsis                                            fqcn10.cwnt..txt
+  Ice Forecasts                                       ficn14.cwis..txt
+
+High Arctic - Baffin Bay
+  Marine Forecasts                                    fqcn15.cwnt..txt
+  Extended Forecasts                                  fqcn55.cwnt..txt
+  Synopsis                                            fqcn11.cwnt..txt
+  Ice Forecasts                                       ficn16.cwis..txt
+
+Foxe Basin - Hudson Bay
+  Marine Forecasts                                    fqcn17.cwnt..txt
+  Extended Forecasts                                  fqcn57.cwnt..txt
+  Synopsis                                            fqcn11.cwnt..txt
+  NAVTEX Format                                       fqcn36.cwnt..txt
+  Ice Forecasts                                       ficn15.cwis..txt
+
+Western Hudson Bay
+  Marine Forecasts                                    fqcn16.cwnt..txt
+  Extended Forecasts                                  fqcn56.cwnt..txt
+  Synopsis                                            fqcn11.cwnt..txt
+  Ice Forecasts                                       ficn15.cwis..txt
+
+Eastern Hudson Bay
+  Marine Forecasts                                    fqcn16.cwul..txt
+  Extended Forecasts                                  fqcn56.cwul..txt
+  Wave Height Forecasts                               fqcn26.cwul..txt
+  Synopsis                                            fqcn11.cwul..txt
+  Ice Forecasts                                       ficn15.cwis..txt
+
+Davis Strait
+  Marine Forecasts                                    fqcn18.cwnt..txt
+  Extended Forecasts                                  fqcn58.cwnt..txt
+  Synopsis                                            fqcn11.cwnt..txt
+  NAVTEX Format                                       fqcn36.cwnt..txt
+  Ice Forecasts                                       ficn16.cwis..txt
+
+
+SASKATCHEWAN
+Lake Athabasca (seasonal) 
+  Marine Forecasts                                    fqcn13.cwnt..txt
+  Extended Forecasts                                  fqcn53.cwnt..txt
+
+
+MANITOBA
+Manitoba Lakes (seasonal) 
+  Marine Forecasts                                    fqcn13.cwwg..txt
+  Extended Forecasts                                  fqcn53.cwwg..txt
+
+
+ONTARIO
+Great Lakes & St. Lawrence (Kinston to Cornwall) 
+  Marine Forecasts                                    fqcn13.cwto..txt
+  Extended Forecasts                                  fqcn53.cwto..txt
+  Wave Height Forecasts                               fqcn23.cwto..txt
+  Synopsis                                            fqcn10.cwto..txt
+  MAFOR                                               fqcn30.cwto..txt
+  Marine Weather Statement                            fqcn20.cwto..txt
+  NAVTEX Format (Lakes Huron, Erie and Ontario)       fqcn38.cwto..txt
+  NAVTEX Format (Lake Superior and Lake Huron)        fqcn39.cwto..txt
+  Ice Forecasts                                       ficn19.cwis..txt
+Lake Simcoe & Lake Nipissing and 
+Lake of the Woods, Lake Nipigon and North Channel     fqcn19.cwto..txt 
+
+
+QUEBEC (Some seasonal)
+St. Lawrence (Cornwall to Anticosti) and Saguenay Rivers
+  Marine Forecasts                                    fqcn13.cwul..txt
+  Extended Forecasts                                  fqcn53.cwul..txt
+  Wave Height Forecasts                               fqcn23.cwul..txt
+  Synopsis                                            fqcn10.cwul..txt
+  MAFOR Code                                          fqcn30.cwul..txt
+  NAVTEX Format                                       fqcn37.cwul..txt
+  NAVTEX Format (Gulf of St. Lawrence)                fqcn37.cwhx..txt
+  Ice Forecasts                                       ficn17.cwis..txt
+
+Eastern Hudson Bay
+  Marine Forecasts                                    fqcn16.cwul..txt
+  Extended Forecasts                                  fqcn56.cwul..txt
+  Wave Height Forecasts                               fqcn26.cwul..txt
+  Synopsis                                            fqcn11.cwul..txt
+  Ice Forecasts                                       ficn15.cwis..txt
+
+NEW BRUNSWICK
+  Marine Forecasts                                    fqcn13.cwhx..txt
+  Extended Forecasts                                  fqcn53.cwhx..txt
+  Wave Height Forecasts                               fqcn23.cwhx..txt
+  Synopsis                                            fqcn10.cwhx..txt
+  NAVTEX Format                                       fqcn33.cwhx..txt
+  Ice Forecasts                                       ficn17.cwis..txt
+
+
+NOVA SCOTIA (some seasonal)
+  Marine Forecasts                                    fqcn13.cwhx..txt 
+  Halifax Harbour Forecast                            fqcn14.cwhx..txt   
+  Bras d'Or Lakes Forecast                            fqcn19.cwhx..txt 
+  Extended Forecasts                                  fqcn53.cwhx..txt
+  Wave Height Forecasts                               fqcn23.cwhx..txt  
+  Synopsis                                            fqcn10.cwhx..txt
+  Marine Weather Statement                            fqcn20.cwhx..txt
+  NAVTEX Format (West)                                fqcn33.cwhx..txt 
+  NAVTEX Format (East and North)                      fqcn34.cwhx..txt 
+  NAVTEX Format (South Coast of Nfld)                 fqcn34.cyqx..txt
+  Ice Forecasts                                       ficn17.cwis..txt
+
+
+PRINCE EDWARD ISLAND
+  Marine Forecasts                                    fqcn13.cwhx..txt 
+  Extended Forecasts                                  fpcn53.cwhx..txt 
+  Wave Height Forecasts                               fqcn23.cwhx..txt
+  Synopsis                                            fqcn10.cwhx..txt
+  NAVTEX Format                                       fqcn34.cwhx..txt
+  Ice Forecasts                                       ficn17.cwis..txt
+
+
+NEWFOUNDLAND and  LABRADOR
+Newfoundland
+  Marine Forecasts                                    fqcn13.cyqx..txt 
+  Extended Forecasts                                  fqcn53.cyqx..txt 
+  Wave Height Forecasts                               fqcn23.cyqx..txt 
+  Synopsis                                            fqcn10.cyqx..txt
+  Marine Weather Statement                            fqcn20.cyqx..txt 
+  NAVTEX Format (West)                                fqcn33.cyqx..txt 
+  NAVTEX Format (East)                                fqcn34.cyqx..txt 
+  Ice Forecasts                                       ficn18.cwis..txt
+  Iceberg Bulletin                                    ficn10.cwis..txt
+
+Labrador
+  Marine Forecasts                                    fqcn15.cyqx..txt 
+  Extended Forecasts                                  fqcn55.cyqx..txt 
+  Wave Height Forecasts                               fqcn25.cyqx..txt 
+  Synopsis                                            fqcn11.cyqx..txt
+  Marine Weather Statement                            fqcn21.cyqx..txt
+  NAVTEX Format                                       fqcn35.cyqx..txt 
+  NAVTEX Format (Strait of Belle Isle)                fqcn37.cyqx..txt 
+  Ice Forecasts                                       ficn18.cwis..txt
+  Iceberg Bulletin                                    ficn10.cwis..txt
+
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                      NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm   NWS Marine Page
+cell.weather.gov                             Cellphone page
+mobile.weather.gov                           Mobile Page
+
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26 
+        National Weather Service
+        Feedback or questions: marine.weather@noaa.gov
+        Last Modified Dec 12, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/canada.txt
+                      ftp://tgftp.nws.noaa.gov/fax/canada.txt
+

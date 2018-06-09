@@ -1,0 +1,210 @@
+        NATIONAL WEATHER SERVICE MARINE TEXT PRODUCTS
+HIGHSEAS, FORECAST DISCUSSION, OFFSHORE, NAVTEX, and OPEN LAKE PRODUCTS
+            
+
+**** IMPORTANT NOTICES ****
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly. 
+
+The "help" file contains a more detailed description of the
+FTPMAIL system and available products. To obtain a copy of the 
+FTPMAIL "help" file.
+
+-In plain text format-
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+
+These instructions are subject to revision....download frequently.
+ 
+**********
+
+This file is intended to assist mariners using the FTPMAIL system
+which is used to obtain National Weather Service products via 
+e-mail.  The following is an example in the use of the FTPMAIL
+system. NOTE CAPITALIZATION!
+
+-In plain text format-
+Send an e-mail to:      NWS.FTPMail.OPS@noaa.gov
+Subject Line:           Put anything you like
+Body:                   open
+                        cd data
+                        cd forecasts
+                        cd marine
+                        cd high_seas
+                        get north_pacific.txt
+                        get north_atlantic.txt
+                        quit
+
+HIGH SEAS FORECASTS
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/forecasts/marine/high_seas/
+http://tgftp.nws.noaa.gov/data/forecasts/marine/high_seas/
+
+PRODUCT DESCRIPTION                             FILE NAME
+
+Northwest Atlantic Highseas (GMDSS Area IV)  north_atlantic.txt
+Northeast Pacific Highseas (GMDSS Area XII)  north_pacific.txt
+Peru Highseas (GMDSS Area XVI)               east_pacific_3.txt
+25S-0N, 160E-120W South Central Pacific      south_hawaii.txt
+30-60N, east of 160 E (part of NE Pacific)   east_pacific_1.txt
+0-30N, E of 140W (part of NE Pacific)        east_pacific_2.txt
+0-30N, 160E-140W (part of NE Pacific)        north_hawaii.txt
+
+
+FORECAST DISCUSSION
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/raw/ag/
+http://tgftp.nws.noaa.gov/data/raw/ag/
+
+Example:
+-In plain text format-
+Send an e-mail to:      NWS.FTPMail.OPS@noaa.gov
+Subject Line:           Put anything you like
+Body:                   open
+                        cd data
+                        cd raw
+                        cd ag
+                        get agnt40.kwnm.mim.atn.txt
+                        quit
+
+PRODUCT DESCRIPTION                             FILE NAME
+
+Northwest Atlantic                            agnt40.kwnm.mim.atn.txt
+Northeast Pacific                             agpn40.kwnm.mim.pac.txt
+Gulf, Caribbean Sea & SW N. Atlantic          agxx40.knhc.mim.ats.txt
+
+Note...these Forecast Discussions are primarily intended for use
+by forecasters and make heavy use of abbreviations.  A glossary is 
+not available.
+
+
+OFFSHORE FORECASTS
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/raw/fz/
+http://tgftp.nws.noaa.gov/data/raw/fz/
+
+Example:
+-In plain text format-
+Send an e-mail to:      NWS.FTPMail.OPS@noaa.gov
+Subject Line:           Put anything you like
+Body:                   open
+                        cd data
+                        cd raw
+                        cd fz
+                        get fznt21.kwbc.off.nt1.txt
+                        quit
+
+PRODUCT DESCRIPTION                         FILE NAME
+
+New England                         fznt21.kwbc.off.nt1.txt	
+ Short version for radio broadcast  fznt33.kwbc.off.n31.txt	
+Mid-Atlantic                        fznt22.kwbc.off.nt2.txt
+ Short version for radio broadcast  fznt34.kwbc.off.n32.txt
+SW North Atlantic, Caribbean        fznt23.knhc.off.nt3.txt
+ Short version for radio broadcast  fznt31.knhc.off.n20.txt
+Gulf of Mexico                      fznt24.knhc.off.nt4.txt
+ Short version for radio broadcast  fznt32.knhc.off.n21.txt
+Washington, Oregon                  fzpn25.kwbc.off.pz5.txt	
+ Short version for radio broadcast  fzpn35.kwbc.off.n35.txt
+California                          fzpn26.kwbc.off.pz6.txt		
+ Short version for radio broadcast  fzpn36.kwbc.off.n36.txt
+Eastern Gulf of Alaska              fzak67.pajk.off.ajk.txt
+Western Gulf of Alaska              fzak61.pafc.off.aer.txt           
+Bering Sea                          fzak62.pafc.off.alu.txt
+U.S. Arctic                         fzak69.pafg.off.afg.txt
+Hawaii                              fzhw60.phfo.off.hfo.txt		
+                          
+
+NAVTEX FORECASTS
+
+For offshore areas, NAVTEX forecasts can also be utililized 
+which are similar to offshore forecasts and may contain 
+supplementary information at times for coastal areas.
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/raw/fz/
+http://tgftp.nws.noaa.gov/data/raw/fz/
+
+Example:
+-In plain text format-
+Send an e-mail to:      NWS.FTPMail.OPS@noaa.gov
+Subject Line:           Put anything you like
+Body:                   open
+                        cd data
+                        cd raw
+                        cd fz
+                        get fznt23.kwnm.off.n01.txt
+                        quit
+
+PRODUCT DESCRIPTION                   	    FILE NAME
+
+NAVTEX Boston, MA                   fznt23.kwnm.off.n01.txt
+NAVTEX Chesapeake, VA               fznt24.kwnm.off.n02.txt 
+NAVTEX Charleston, SC               fznt25.kwnm.off.n03.txt
+NAVTEX Miami, FL                    fznt25.knhc.off.n04.txt
+NAVTEX San Juan, PR                 fznt26.knhc.off.n05.txt
+NAVTEX New Orleans, LA              fznt27.knhc.off.n06.txt
+NAVTEX Astoria, OR                  fzpn24.kwnm.off.n09.txt
+NAVTEX Pt. Reyes, CA                fzpn23.kwnm.off.n08.txt
+NAVTEX Cambria, CA                  fzpn22.kwnm.off.n07.txt
+NAVTEX Honolulu, HI                 fzhw61.phfo.off.n10.txt
+NAVTEX Kodiak,(SE) AK               fzak61.pajk.off.n11.txt
+NAVTEX Kodiak,(N Gulf) AK           fzak63.pafc.off.n12.txt
+NAVTEX Kodiak,(W) AK                fzak64.pafc.off.n13.txt
+NAVTEX Kodiak,(NW and Artic) AK     fzak69.pafg.off.n14.txt
+
+
+OPEN LAKE FORECASTS
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/raw/fz/
+http://tgftp.nws.noaa.gov/data/raw/fz/
+
+Example:
+-In plain text format-
+Send an e-mail to:      NWS.FTPMail.OPS@noaa.gov
+Subject Line:           Put anything you like
+Body:                   open
+                        cd data
+                        cd raw
+                        cd fz
+                        get fzus61.kbuf.glf.sl.txt
+                        quit
+
+PRODUCT DESCRIPTION                         FILE NAME
+
+St. Lawrence                        fzus61.kbuf.glf.sl.txt	
+Lake Ontario                        fzus61.kbuf.glf.lo.txt		
+Lake Erie                           fzus61.kcle.glf.le.txt		
+Lake St. Clair                      fzus63.kdtx.glf.sc.txt		
+Lake Huron                          fzus63.kdtx.glf.lh.txt		
+Lake Michigan                       fzus63.klot.glf.lm.txt	
+Lake Superior                       fzus63.kmqt.glf.ls.txt		
+	
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                      NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm   NWS Marine Page
+cell.weather.gov                             Cellphone page
+mobile.weather.gov                           Mobile Page
+
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26 
+        National Weather Service
+        Feedback or questions: marine.weather@noaa.gov
+        Last Modified Dec 12, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/marine1.txt
+                      ftp://tgftp.nws.noaa.gov/fax/marine1.txt

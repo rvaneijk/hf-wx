@@ -1,0 +1,120 @@
+                         UK MARINE PRODUCTS
+      
+
+**** IMPORTANT NOTICES ****
+
+
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from NWS.FTPMail.OPS@noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly.  
+ 
+These instructions are subject to revision....download frequently.
+ 
+**********
+
+This file is intended to assist mariners using the FTPMAIL system
+which is used to obtain National Weather Service products via 
+e-mail.  These International products are provided as a public service.
+
+The "help" file contains a more detailed description of the
+FTPMAIL system and available products. To obtain a copy of the 
+FTPMAIL "help" file.
+
+-In plain text format-
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+
+
+UK MARINE TEXT FORECASTS
+
+
+The following is an example in the use of the FTPMAIL
+system.  NOTE CAPITALIZATION!
+
+-In plain text format-
+Send an e-mail to:	NWS.FTPMail.OPS@noaa.gov
+Subject Line:		Put anything you like
+Body:                   open
+                        cd data
+                        cd raw
+                        cd fq
+                        get fqnt21.egrr..txt
+                        cd ..
+                        cd fp
+                        get fpuk71.egrr..txt
+                        cd ..
+                        cd wo
+                        get wont54.egrr..txt
+                        quit
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/fax or
+http://tgftp.nws.noaa.gov/pub/fax
+
+
+PRODUCT DESCRIPTION                             FILE NAME
+
+High Seas Forecast for METAREA 1 (NE Atlantic)	fq/fqnt21.egrr..txt
+UK Shipping Forecast                            fp/fpuk71.egrr..txt
+Storm Warning for METAREA 1 (NE Atlantic)       wo/wont54.egrr..txt
+
+
+UK Graphic Forecasts
+
+These files may be found in directory:
+ftp://tgftp.nws.noaa.gov/fax/
+
+The following is an example in the use of the FTPMAIL
+system.  NOTE CAPITALIZATION!
+
+
+Send an e-mail to:	NWS.FTPMail.OPS@noaa.gov
+Subject Line:		Put anything you like
+Body:                   open
+                        cd fax
+                        get PPVJ89.TIF
+                        get PPVK89.TIF
+                        get PPVM89.TIF
+                        get PPVO89.TIF
+                        quit
+
+PRODUCT DESCRIPTION                                             FILE NAME
+
+      Sea Swell/Wind Direction Analysis (North Atlantic)        PJGA93.TIF
+ 24HR Sea Swell/Wind Direction Forecast (North Atlantic)        PJGE93.TIF
+ 36HR Sea Swell/Wind Direction Forecast (North Atlantic &Carib) PJLG98.TIF
+ 48HR Sea Swell/Wind Direction Forecast (North Atlantic)        PJGI93.TIF
+      Surface Analysis (North Atlantic)                         PPVA89.TIF
+ 24HR Surface Forecast (North Atlantic)                         PPVE89.TIF
+ 36HR Surface Forecast (North Atlantic)                         PPVG89.TIF
+ 48HR Surface Forecast (North Atlantic)                         PPVI89.TIF
+ 60HR Surface Forecast (North Atlantic)                         PPVJ89.TIF
+ 72HR Surface Forecast (North Atlantic)                         PPVK89.TIF
+ 96HR Surface Forecast (North Atlantic)                         PPVM89.TIF
+120HR Surface Forecast (North Atlantic)                         PPVO89.TIF
+132HR Surface Forecast (North Atlantic)                         PPVP89.TIF
+Mean Sea Isotherm Chart 5 Day Analysis, NE Atlantic & North Sea PTUK21.TIF
+
+	
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                      NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm   NWS Marine Page
+cell.weather.gov                             Cellphone page
+mobile.weather.gov                           Mobile Page
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26 
+        National Weather Service
+        Feedback or questions: marine.weather@noaa.gov
+        Last Modified Dec 12, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/uk.txt
+                      ftp://tgftp.nws.noaa.gov/fax/uk.txt

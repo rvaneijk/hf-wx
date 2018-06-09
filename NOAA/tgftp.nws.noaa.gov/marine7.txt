@@ -1,0 +1,200 @@
+        NATIONAL WEATHER SERVICE MARINE TEXT PRODUCTS
+      COASTAL FORECASTS by ZONE for the GULF of MEXICO 
+            
+
+**** IMPORTANT NOTICES ****
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Please note, as a further option, these zone forecasts and the associated 
+synopsis are available as part of the complete Coastal Waters Forecast 
+for those zones.  See the FTPMAIL "help" file for information on downloading 
+directory file marine3.txt 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly. 
+
+The "help" file contains a more detailed description of the
+FTPMAIL system and available products. To obtain a copy of the 
+FTPMAIL "help" file.
+
+-In plain text format-
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+ 
+These instructions are subject to revision....download frequently.
+ 
+**********
+
+This file is intended to assist mariners using the FTPMAIL system
+which is used to obtain National Weather Service products via 
+e-mail.  The following is an example in the use of the FTPMAIL
+system. NOTE CAPITALIZATION!
+
+ 
+-In plain text format-
+Send an e-mail to:      NWS.FTPMail.OPS@noaa.gov
+Subject Line:           Put anything you like
+Body:                   open
+                        cd data
+                        cd forecasts
+                        cd marine
+                        cd coastal
+                        cd gm
+                        get gmz005.txt
+                        get gmz052.txt
+                        get gmz072.txt
+                        quit
+
+ 
+COASTAL FORECASTS by ZONE for the GULF of MEXICO
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/forecasts/marine/coastal/gm
+http://tgftp.nws.noaa.gov/data/forecasts/marine/coastal/gm
+
+Please note that many zones will contain identical forecast information at times. 
+
+
+
+GMZ005 Synopsis for Florida Keys Coastal Waters
+   GMZ031 Florida Bay including Barnes Sound, Blackwater Sound, and 
+          Buttonwood Sound                       
+   GMZ032 Bayside and Gulfside from Craig Key to West End of Seven Mile Bridge   
+   GMZ033 Gulf of Mexico from East Cape Sable to Chokoloskee 20 to 60 nm out 
+          and beyond 5 fathoms                                              
+   GMZ034 Gulf of Mexico including Dry Tortugas and Rebecca Shoal Channel                                
+   GMZ035 Gulf of Mexico from west end of Seven Mile Bridge to Halfmoon Shoal
+          out to 5 fathoms    
+   GMZ042 Hawk Channel from Ocean Reef to Craig Key out to the reef                                      
+   GMZ043 Hawk Channel from Craig Key to west end of Seven Mile Bridge out to
+          the reef                    
+   GMZ044 Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out
+          to the reef             
+   GMZ052 Straits of Florida from Ocean Reef to Craig Key out 20 nm                                  
+   GMZ053 Straits of Florida from Craig Key to west end of Seven Mile Bridge out
+          20 nm                   
+   GMZ054 Straits of Florida from west end of Seven Mile Bridge to south of
+          Halfmoon Shoal out 20 nm                                                
+   GMZ055 Straits of Florida from Halfmoon Shoal to 20 nm west of Dry Tortugas
+          out 20 nm                 
+   GMZ072 Straits of Florida from Ocean Reef to Craig Key 20 to 60 nm out                                  
+   GMZ073 Straits of Florida from Craig Key to west end of Seven Mile Bridge 
+          20 to 60 nm out             
+   GMZ074 Straits of Florida from west end of Seven Mile Bridge to south of
+          Halfmoon Shoal 20 to 60 nm out                                      
+   GMZ075 Straits of Florida from Halfmoon Shoal to 20 nm west of Dry Tortugas
+          20 to 60 nm out           
+GMZ606 Synopsis for East Cape Sable to Bonita Beach FL out 60 NM
+   GMZ656 Coastal waters from Chokoloskee to Bonita Beach FL out 20 NM
+   GMZ657 Coastal waters from East Cape Sable to Chokoloskee FL out 20 NM
+   GMZ676 Waters from Chokoloskee to Bonita Beach FL from 20 to 60 NM
+   GMZ800 Synopsis for the coastal waters from Bonita Beach to Suwannee River FL
+          out 60 NM
+   GMZ870 Waters from Tarpon Springs to Suwannee River FL out 20 to 60 nm
+   GMZ873 Waters from Englewood to Tarpon Springs FL out 20 to 60 nm
+   GMZ876 Waters from Bonita Beach to Englewood FL out 20 to 60 nm
+   GMZ850 Coastal waters from Tarpon Springs to Suwannee River FL out 20 nm
+   GMZ853 Coastal waters from Englewood to Tarpon Springs FL out 20 nm
+   GMZ856 Coastal waters from Bonita Beach to Englewood FL out 20 nm
+   GMZ836 Charlotte Harbor and Pine Island Sound            
+   GMZ830 Tampa Bay Waters                                  
+GMZ700 Synopsis for Suwannee River to Destin FL out 60 NM
+   GMZ730 Apalachee Bay or Coastal Waters From Keaton Beach to Ochlockonee River
+          FL out to 20 NM
+   GMZ755 Coastal Waters from Ochlockonee River to Apalachicola FL out to 20 NM
+   GMZ775 Waters from Suwannee River to Apalachicola FL from 20 to 60 NM
+   GMZ750 Coastal waters from Apalachicola to Destin FL out 20 NM
+   GMZ765 Coastal waters from Suwanee River to Keaton Beach out 20 NM
+   GMZ770 Waters from Apalachicola to Destin FL from 20 to 60 NM
+GMZ600 Synopsis for Destin FL to Pascagoula MS out 60 NM including Mobile Bay
+   GMZ630 North Mobile Bay                              
+   GMZ631 South Mobile Bay                              
+   GMZ632 Mississippi Sound                             
+   GMZ633 Perdido Bay Area                              
+   GMZ634 Pensacola Bay Area including Santa Rosa Sound                             
+   GMZ635 Choctawhatchee Bay                            
+   GMZ650 Coastal Waters from Pensacola FL to Pascagoula MS out 20 NM                      
+   GMZ655 Coastal Waters from Destin FL to Pensacola FL out 20 NM                       
+   GMZ670 Waters from Pensacola FL to Pascagoula MS from 20 to 60 NM               
+   GMZ675 Waters from Destin FL to Pensacola FL from 20 to 60 NM     
+GMZ500 Synopsis Pascagoula to Southwest Pass of Mississippi River
+   GMZ530 Lake Pontchartrain and Lake Maurepas
+   GMS532 Mississippi Sound
+   GMZ534 Lake Borgne
+   GMZ536 Chandeleur Sound
+   GMZ538 Breton Sound
+   GMZ555 Coastal Waters from Boothville LA to Southwest Pass of the Mississippi
+          River out 20 nm
+   GMZ557 Coastal Waters from Pascagoula MS to Stake Island LA out 20 nm
+   GMZ575 Coastal Waters from Stake Island LA to Southwest Pass of the
+          Mississippi River from 20 to 60 nm
+   GMZ577 Coastal Waters from Pascagoula MS to Stake Island LA from 20 to 60 nm
+GMZ501 Synopsis for Southwest Pass of the Mississippi River to Atchafalya River 
+   GMZ552 Coastal Waters from Southwest Pass of Mississippi River to Port
+          Fourchon LA out 20 nm
+   GMZ572 Coastal Waters from Southwest Pass of Mississippi River to Port
+          Fourchon LA  from 20 to 60 nm
+   GMZ550 Coastal Waters from Port Fourchon LA to Lower Atchafalya RiverLA out
+          20 nm
+   GMZ570 Coastal Waters from Port Fourchon LA to Lower Atchafalya River LA from
+          20 to 60 nm
+GMZ400 Synopsis for Lower Atchafalaya River LA to High Island TX out 60 NM
+   GMZ455 Coastal waters from Lower Atchafalaya River to Intracoastal City LA
+          out 20 NM
+   GMZ475 Waters from Lower Atchafalaya River to Intracoastal City LA from 
+          20 to 60 NM
+   GMZ452 Coastal waters from Intracoastal City to Cameron LA out 20 NM
+   GMZ472 Waters from Intracoastal City to Cameron LA from 20 to 60 NM
+   GMZ450 Coastal waters from Cameron LA to High Island TX out 20 NM
+   GMZ470 Waters from Cameron LA to High Island TX from 20 to 60 NM
+   GMZ430 Sabine Lake
+   GMZ432 Calcasieu Lake
+   GMZ435 Vermillion Bay
+GMZ300 Synopsis for High Island to Matagorda Ship Channel out 60 NM, 
+including Galveston and Matagorda Bays
+   GMZ335 Galveston Bay
+   GMZ355 Coastal waters from High Island to Freeport TX out 20 NM
+   GMZ375 Waters from High Island to Freeport TX from 20 to 60 NM
+   GMZ330 Matagorda Bay
+   GMZ350 Coastal waters from Freeport to Matagorda Ship Channel TX out 20 NM
+   GMZ370 Waters from Freeport to Matagorda Ship Channel TX from 20 to 60 NM
+GMZ200 Synopsis for the middle Texas coastal waters
+   GMZ235 Bays and Waterways from Port Aransas to Port O'Connor
+   GMZ255 Coastal waters from Port Aransas to Matagorda Ship Channel out 20 NM
+   GMZ275 Waters from Port Aransas to Matagorda Ship Channel from 20 to 60 NM
+   GMZ230 Bays and Waterways from Baffin Bay to Port Aransas
+   GMZ250 Coastal waters from Baffin Bay to Port Aransas out 20 NM
+   GMZ270 Waters from Baffin Bay to Port Aransas from 20 to 60 NM
+GMZ100 Synopsis from Baffin Bay to the Rio Grande River out 60 NM
+   GMZ155 Coastal waters from Baffin Bay to Port Mansfield TX out 20 NM
+   GMZ175 Waters from Baffin Bay to Port Mansfield TX from 20 to 60 NM
+   GMZ130 Laguna Madre from the Port of Brownsville to the Arroyo Colorado
+   GMZ132 Laguna Madre from the Arroyo Colorado to 5 NM North of 
+          Port Mansfield TX
+   GMZ135 Laguna Madre from 5 nm North of Port Mansfield to Baffin Bay TX
+   GMZ150 Coastal waters from Port Mansfield TX to the Rio Grande River out 
+          20 NM
+   GMZ170 Waters from Port Mansfield TX to the Rio Grande River from 20 to 60 NM
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                      NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm   NWS Marine Page
+cell.weather.gov                             Cellphone page
+mobile.weather.gov                           Mobile Page
+
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26 
+        National Weather Service
+        Feedback or questions: marine.weather@noaa.gov
+        Last Modified Dec 12, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/marine7.txt
+                      ftp://tgftp.nws.noaa.gov/fax/marine7.txt

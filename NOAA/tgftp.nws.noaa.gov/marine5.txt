@@ -1,0 +1,253 @@
+        NATIONAL WEATHER SERVICE MARINE TEXT PRODUCTS
+          COASTAL FORECASTS by ZONE for the ATLANTIC
+            
+
+**** IMPORTANT NOTICES ****
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Please note, as a further option, these zone forecasts and the associated 
+synopsis are available as part of the complete Coastal Waters Forecast 
+for those zones.  See the FTPMAIL "help" file for information on downloading 
+directory file marine3.txt 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly. 
+
+The "help" file contains a more detailed description of the
+FTPMAIL system and available products. To obtain a copy of the 
+FTPMAIL "help" file.
+
+-In plain text format-
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+ 
+These instructions are subject to revision....download frequently.
+ 
+**********
+
+This file is intended to assist mariners using the FTPMAIL system
+which is used to obtain National Weather Service products via 
+e-mail.  The following is an example in the use of the FTPMAIL
+system. NOTE CAPITALIZATION!
+
+ 
+-In plain text format-
+Send an e-mail to: NWS.FTPMail.OPS@noaa.gov
+Subject Line:      Put anything you like
+Body:              open
+                   cd data
+                   cd forecasts
+                   cd marine
+                   cd coastal
+                   cd an
+                   get anz200.txt
+                   get anz230.txt
+                   get anz231.txt
+                   quit
+
+ 
+COASTAL FORECASTS by ZONE for the ATLANTIC
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/forecasts/marine/coastal/an  (an, am, gm, etc.)
+http://tgftp.nws.noaa.gov/data/forecasts/marine/coastal/an
+
+These zones may be viewed graphically at: 
+http://www.nws.noaa.gov/om/marine/zone/usamz.htm
+
+Please note that many zones will contain identical forecast information at times. 
+
+
+ANZ005 Synopsis for Eastport ME to Stonington ME out 25 NM
+   ANZ050 Coastal Waters from Eastport ME to Schoodic Point ME out 25 NM
+   ANZ051 Coastal Waters from Schoodic Point ME to Stonington ME out 25 NM
+   ANZ052 Intra Coastal Waters from Schoodic Point ME to Stonington ME
+ANZ100 Synopsis for Stonington ME to Merrimack River MA out 25 NM
+   ANZ150 Coastal Waters from Stonington ME to Port Clyde ME out 25 NM
+   ANZ151 Penobscot Bay
+   ANZ152 Coastal Waters from Port Clyde ME to Cape Elizabeth ME out 25 NM
+   ANZ153 Casco Bay
+   ANZ154 Coastal Waters from Cape Elizabeth ME to Merrimack River MA out 25 NM
+ANZ200 Synopsis for MA and RI coastal waters
+   ANZ230 Boston Harbor
+   ANZ231 Cape Cod Bay
+   ANZ232 Nantucket Sound
+   ANZ233 Vineyard Sound
+   ANZ234 Buzzards Bay
+   ANZ235 Rhode Island Sound
+   ANZ236 Narragansett Bay
+   ANZ237 Block Island Sound
+   ANZ250 Coastal waters east of Ipswich Bay and the Stellwagen Bank National
+          Marine Sanctuary
+   ANZ251 Massachusetts Bay and Ipswich Bay
+   ANZ254 Coastal waters from Provincetown MA to Chatham MA to Nantucket MA out
+          20 NM
+   ANZ255 Coastal waters extending out to 25 NM south of Martha's Vineyard and
+          Nantucket
+   ANZ256 Coastal waters from Montauk NY to Martha's Vineyard extending out to
+          20 NM south of Block Island
+ANZ300 Synopsis for Long Island waters and New York Harbor
+   ANZ350 Moriches Inlet NY to Montauk Point NY out 20 NM
+   ANZ353 Fire Island Inlet NY to Moriches Inlet NY out 20 NM
+   ANZ355 Sandy Hook NJ to Fire Island Inlet NY out 20 NM
+   ANZ330 Long Island Sound East of New Haven CT/Port Jefferson NY
+   ANZ335 Long Island Sound West of New Haven CT/Port Jefferson NY
+   ANZ338 New York Harbor
+   ANZ340 Peconic and Gardiners Bays
+   ANZ345 South Shore Bays from Jones Inlet through Shinnecock Bay
+ANZ400 Synopsis for the coastal waters from Sandy Hook NJ to Fenwick Island DE and for
+Delaware Bay
+   ANZ450 Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 NM
+   ANZ451 Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM
+   ANZ452 Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 NM
+   ANZ453 Coastal waters from Great Egg Inlet to Cape May NJ out 20 NM
+   ANZ454 Coastal waters from Cape May NJ to Cape Henlopen DE out 20 NM
+   ANZ455 Coastal waters from Cape Henlopen to Fenwick Island DE out 20 NM
+   ANZ430 Delaware Bay waters north of East Point NJ to Slaughter Beach DE
+   ANZ431 Delaware Bay waters south of East Point NJ to Slaughter Beach DE
+ANZ500 Synopsis for the Tidal Potomac and MD portion of Chesapeake Bay
+   ANZ530 Chesapeake Bay north of Pooles Island MD
+   ANZ531 Chesapeake Bay from Pooles Island to Sandy Point MD
+   ANZ532 Chesapeake Bay from Sandy Point to North Beach MD
+   ANZ533 Chesapeake Bay from North Beach to Drum Point MD
+   ANZ534 Chesapeake Bay from Drum Point MD to Smith Point VA
+   ANZ535 Tidal Potomac from Key Bridge to Indian Head MD
+   ANZ536 Tidal Potomac from Indian Head to Cobb Island MD
+   ANZ537 Tidal Potomac from Cobb Island MD to Smith Point VA
+   ANZ538 Patapsco River including Baltimore Harbor
+   ANZ539 Chester River to Queenstown MD
+   ANZ540 Eastern Bay
+   ANZ541 Choptank River to Cambridge MD and the Little Choptank River
+   ANZ542 Patuxent River to Broome's Island MD
+   ANZ543 Tangier Sound and the Inland Waters surrounding Bloodsworth Island
+ANZ600 Synopsis for Fenwick Island DE to Currituck Beach Light NC out 20 NM
+including Virginia portion of the Chesapeake Bay and Currituck Sound
+   ANZ630 Chesapeake Bay from Smith Point to Windmill Point
+   ANZ631 Chesapeake Bay from Windmill Point to New Point Comfort                      
+   ANZ632 Chesapeake Bay from New Point Comfort to Little Creek, VA
+   ANZ633 Currituck Sound                             
+   ANZ634 Chesapeake Bay from Little Creek, VA, to Cape Henry, VA including the  
+          Chesapeake Bay Bridge Tunnel
+   ANZ635 Rappahannock River from Urbanna to Windmill Point
+   ANZ636 York River                                
+   ANZ637 James River from Jamestown to the James River Bridge
+   ANZ638 James River from James River Bridge to Hampton Roads Bridge-Tunnel
+   ANZ650 Coastal Waters from Fenwick Island, DE to Chincoteague, VA out to 
+          20 nm
+   ANZ652 Coastal Waters from Chincoteague to Parramore Island, VA out to 20 nm
+   ANZ654 Coastal Waters from Parramore Island to Cape Charles Light, VA out to
+          20 nm
+   ANZ656 Coastal Waters from Cape Charles Light to VA/NC border out to 20 nm
+   ANZ658 Coastal Waters from VA/NC border to Currituck Beach Light, NC out to
+          20 nm
+AMZ100 Synopsis for eastern North Carolina coastal waters
+   AMZ130 Albemarle Sound
+   AMZ131 Alligator River
+   AMZ135 Pamlico Sound
+   AMZ136 Pamlico and Pungo Rivers
+   AMZ137 Neuse and Bay Rivers
+   AMZ150 S of Currituck Beach Light to Oregon Inlet NC out 
+          20 NM
+   AMZ152 S of Oregon Inlet to Cape Hatteras NC out 20 NM
+   AMZ154 S of Cape Hatteras to Ocracoke Inlet NC out 20 NM
+   AMZ156 S of Ocracoke Inlet to Cape Lookout NC out 20 NM
+   AMZ158 S of Cape Lookout to N of Surf City NC out 20 NM
+AMZ200 Synopsis for coastal waters from Surf City North Carolina to South Santee
+River South Carolina out to 20 NM
+   AMZ250 Coastal waters from Surf City to Cape Fear NC out 20 NM
+   AMZ252 Coastal waters from Cape Fear NC to Little River Inlet SC out 20 NM
+   AMZ254 Coastal waters from Little River Inlet to Murrells Inlet SC out 20 NM
+   AMZ256 Coastal waters from Murrells Inlet to South Santee River SC out 20 NM
+AMZ300 Synopsis for southern South Carolina and northern Georgia waters
+   AMZ350 Coastal waters from South Santee River to Edisto Beach SC out 20 NM
+   AMZ352 Coastal waters from Edisto Beach SC to Savannah GA out 20 NM
+   AMZ330 Charleston Harbor
+   AMZ354 Coastal waters from Savannah to Altamaha Sound GA out 20 NM
+          ...including Grays Reef National Marine Sanctuary
+   AMZ374 Waters from Savannah to Altamaha Sound GA from 20 to 60 NM
+AMZ400 Synopsis for Altamaha Sound GA to Flagler Beach FL out 60 NM
+   AMZ450 Coastal waters from Altamaha Sound GA to Fernandina Beach FL out 20 NM
+   AMZ470 Waters from Altamaha Sound GA to Fernandina Beach FL from 20 to 60 NM
+   AMZ452 Coastal waters from Fernandina Beach to St. Augustine FL out 20 NM
+   AMZ472 Waters from Fernandina Beach to St. Augustine FL from 20 to 60 NM
+   AMZ454 Coastal waters from St. Augustine to Flagler Beach FL out 20 NM
+   AMZ474 Waters from St. Augustine to Flagler Beach FL from 20 to 60 NM
+AMZ500 Synopsis for Flagler Beach to Jupiter Inlet FL out 60 NM
+   AMZ550 Flagler Beach to Volusia-Brevard County Line 0-20 NM
+   AMZ552 Volusia-Brevard County Line to Sebastian Inlet 0-20 NM
+   AMZ555 Sebastian Inlet to Jupiter Inlet 0-20 NM
+   AMZ570 Flagler Beach to Volusia-Brevard County Line 20-60 NM
+   AMZ572 Volusia-Brevard County Line to Sebastian Inlet 20-60 NM
+   AMZ575 Sebastian Inlet to Jupiter Inlet 20-60 NM
+AMZ600 Synopsis for Jupiter Inlet to Ocean Reef FL including Biscayne Bay out 
+60 NM
+   AMZ610 Lake Okeechobee
+   AMZ650 Coastal waters from Jupiter Inlet to Deerfield Beach FL out 20 NM
+   AMZ670 Waters from Jupiter Inlet to Deerfield Beach FL from 20 to 60 NM
+   AMZ630 Biscayne Bay
+   AMZ651 Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM
+   AMZ671 Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM,
+          excluding the territorial waters of the Bahamas
+GMZ005 Synopsis for Florida Keys Coastal Waters
+   GMZ031 Florida Bay including Barnes Sound, Blackwater Sound, and Buttonwood
+          Sound                       
+   GMZ032 Bayside and Gulfside from Craig Key to West End of Seven Mile Bridge   
+   GMZ033 Gulf of Mexico from East Cape Sable to Chokoloskee 20 to 60 nm out 
+          and beyond 5 fathoms                                              
+   GMZ034 Gulf of Mexico including Dry Tortugas and Rebecca Shoal Channel                                
+   GMZ035 Gulf of Mexico from west end of Seven Mile Bridge to Halfmoon Shoal
+          out to 5 fathoms    
+   GMZ042 Hawk Channel from Ocean Reef to Craig Key out to the reef                                      
+   GMZ043 Hawk Channel from Craig Key to west end of Seven Mile Bridge out 
+          to the reef                    
+   GMZ044 Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out
+          to the reef             
+   GMZ052 Straits of Florida from Ocean Reef to Craig Key out 20 nm                                  
+   GMZ053 Straits of Florida from Craig Key to west end of Seven Mile Bridge out
+          20 nm                   
+   GMZ054 Straits of Florida from west end of Seven Mile Bridge to south of
+          Halfmoon Shoal out 20 nm                                                
+   GMZ055 Straits of Florida from Halfmoon Shoal to 20 nm west of Dry Tortugas
+          out 20 nm                 
+   GMZ072 Straits of Florida from Ocean Reef to Craig Key 20 to 60 nm out                                  
+   GMZ073 Straits of Florida from Craig Key to west end of Seven Mile Bridge 
+          20 to 60 nm out             
+   GMZ074 Straits of Florida from west end of Seven Mile Bridge to south of
+          Halfmoon Shoal 20 to 60 nm out                                      
+   GMZ075 Straits of Florida from Halfmoon Shoal to 20 nm west of Dry Tortugas
+          20 to 60 nm out           
+AMZ700 Synopsis for Puerto Rico and U.S. Virgin Islands waters
+   AMZ710 Atlantic Waters of Puerto Rico and U.S. VI from 10 NM to 19.5 N.
+   AMZ712 Coastal Waters of Northern Puerto Rico out 10 NM
+   AMZ715 Coastal Waters of Northern U.S. VI and Culebra out 10 NM
+   AMZ722 Anegada Passage Southward to 17 N
+   AMZ725 Coastal Waters of Southern U.S. VI, Vieques, and Eastern Puerto Rico
+          out 10 NM
+   AMZ732 Caribbean Waters of Puerto Rico and U.S. VI from 10 NM to 17 N
+   AMZ735 Coastal Waters of Southern Puerto Rico out 10 NM
+   AMZ741 Mona Passage Southward to 17 N
+   AMZ742 Coastal Waters of Northwestern Puerto Rico out 10 NM
+   AMZ745 Coastal Waters of Southwestern Puerto Rico out 10 NM
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                      NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm   NWS Marine Page
+cell.weather.gov                             Cellphone page
+mobile.weather.gov                           Mobile Page
+
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26 
+        National Weather Service
+        Feedback or questions: marine.weather@noaa.gov
+        Last Modified Dec 12, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/marine5.txt
+                      ftp://tgftp.nws.noaa.gov/fax/marine5.txt

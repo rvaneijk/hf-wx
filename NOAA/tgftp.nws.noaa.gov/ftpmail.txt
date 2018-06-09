@@ -1,0 +1,308 @@
+FTPMAIL help file
+************************************************************
+*                         WARNING                          *           
+*                                                          *                                                     
+*     This is a United States Government Computer.  Use of *
+*     this computer for purposes for which authorization   *
+*     has not been extended is a violation of federal law. *
+*                                                          *
+*                   (Reference Public Law 99-474)          *
+*                                                          *
+*     For technical assistance with FTPMAIL contact:       *                                  
+*                                                          * 
+*     marine.weather@noaa.gov       301-427-9390           *
+*                                                          *
+************************************************************
+
+
+**** IMPORTANT NOTICES **** Read these notes carefully ****
+
+These instructions are subject to revision....download frequently.
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov  
+
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from  NWS.FTPMail.OPS@noaa.gov. 
+
+99% of errors using ftpmail are simple typing errors, incorrect capitalization, 
+failure to send in plain text format, leading or trailing spaces, or failure to 
+set up any spam filters properly.  See section on ensuring e-mail 
+requests are sent in the proper format and follow the examples closely.
+
+Check time and date of forecasts. Downloaded data may not 
+represent the latest forecast. The Internet is not part of the 
+National Weather Service's operational data stream and should never 
+be relied upon as a means to obtain the latest forecast and warning 
+data. Become familiar with and use other means such as NOAA Weather 
+Radio to obtain the latest forecasts and warnings. Please read our 
+disclaimer at http://www.nws.noaa.gov/disclaimer.php
+
+Radiofax .TIF files now also available as (larger) .gif files
+
+ftp://tgftp.nws.noaa.gov/ is the only valid FTP site for this service.
+
+This "help" file contains a detailed description of the FTPMAIL system 
+and available products. To obtain another copy of the FTPMAIL "help" file:
+
+-In plain text format-
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+  
+This National Weather Service (NWS) FTPMAIL server is intended to
+allow Internet access for users who do not have direct access to
+the World Wide Web but who are equipped with an e-mail system. 
+The service is free and no signup is required.  Using FTPMAIL,
+users can request files from NWS and have them automatically
+e-mailed back to them.  Turnaround is generally less than one
+hour, however, performance may vary widely and the NWS cannot guarantee 
+receipt. 
+
+Although these instructions are tailored for marine users to gain
+access to graphic (radiofax) and text products via e-mail, all
+publicly available data on the NWS.FTPMail.OPS@noaa.gov Internet FTP 
+server is accessible using the FTPMAIL service.  
+
+To begin using the FTPMAIL service, the user sends a small script file via 
+e-mail requesting the desired file(s). A list of available product
+directories and file names can be seen by clicking the link below.
+
+http://tgftp.nws.noaa.gov/fax/
+
+A listing of all available product descriptions, file names, times the product 
+is available and issuing center can be viewed at the link below. It will help 
+you determine which products you want/need to receive using FTPMAIL.    
+
+http://tgftp.nws.noaa.gov/fax/Amaster_index.html
+
+
+*ENSURING YOUR E-MAIL IS IN THE PROPER FORMAT*
+
+FTPMAIL e-mail requests must be sent in ASCII/Plain Text only. 
+ 
+HTML formatting will likely result in no response from the FTPMAIL
+server. 
+
+An FAQ webpage describing several public and commercial FTP-to-EMAIL 
+and WWW-to-EMAIL servers may be found at: 
+www.faqs.org/faqs/internet-services/access-via-email/
+
+Users should be familiar with sending and receiving messages and
+attachments with their particular e-mail system.  Attachments are
+received in UUencoded form.  The majority of modern e-mail systems 
+handle the conversion automatically, other users will need to run 
+the UUdecode program for their particular system. If your e-mail 
+system does not UUENCODE automatically, you will get back a bunch 
+of gibberish starting with something like "begin 600 PWAE98.TIF" 
+See your system administrator if you have any questions on this 
+topic. UUdecode freeware and shareware may also be found on the Web, 
+but the easier solution is to try a different e-mail system if that 
+option is open  to you. The UUencoding process can add 0 to >100% 
+overhead depending on your system and the type of file. 
+
+Files which are greater than approximately 400KB in length may be 
+sent as multiple e-mails which must then be appended to another and 
+UUdecoded. This can be avoided using the "size" command following 
+the "open" statement, e.g. "size 1000000." The maximum allowable is 2MB.  
+
+Files sizes for NWS radiofax graphic files average 35KB but can be 
+much greater especially some satellite images which can approach 1MB.
+Use the "dir" command to ascertain the size of files of interest 
+as a precaution.  Users should be aware of the costs for operating 
+their particular e-mail system before attempting to use FTPMAIL, 
+especially when using satellite communication systems.  For marine 
+users,  using FTPMAIL via INMARSAT-C for obtaining current NWS 
+radiofax graphic files is cost prohibitive.   Using the FTPMAIL 
+compression feature of FTPMAIL is not recommended as these files 
+are already in a compressed T4(G4) format enveloped in TIFF for 
+viewing. You will need a graphics program capable of displaying 
+files in this format in order to view them.  Suggestions for TIFF 
+viewers may be found in file  http://tgftp.nws.noaa.gov/fax/rfaxtif.txt
+
+Make certain you have not enabled any auto-reply function in your email 
+system.
+
+If you see the following response and believe your script to be correct,
+the most likely  problem is that you are sending your e-mail in HTML 
+format rather than the required plain text format.  
+
+<FTP EMAIL> response
+ftpmail has failed to queue your request with an error of:
+	Must have an 'open [site [user [pass]]]'
+
+
+Problems have been reported by users of Hotmail. (This may now be fixed) 
+
+If you restrict incoming e-mail as a means of preventing spam, you
+must program your e-mail system to allow messages from:
+NWS.FTPMail.OPS@noaa.gov
+
+The majority of error messages have been disabled.   You may or may
+not receive an error message back from FTPMAIL if your script is in
+error.
+
+FTPMAIL problems are occasionally encountered when embedded control
+characters are received within the e-mail message received by the 
+FTPMAIL server.  These control characters may be introduced by the 
+user's e-mail system and may be unavoidable. 
+
+Also be certain that each of your commands does not have any leading
+and/or trailing space(s) or you may see an error message with a number 
+of statements saying "=20" 
+
+Problems may also be encountered in trying to go down several levels
+of directories simultaneously, e.g. "cd data/forecasts/marine/test".
+Use a series of commands "cd data", "cd forecasts", "cd marine" instead.
+In both these instances, the likely error will be "Directory not Found"
+
+If the FTPMAIL server is too busy, you will receive an e-mail with a 
+subject line similar to: "ftpmail job queuing for retry queue/097095.69568"
+Your request will be resubmitted automatically and your requested 
+file(s) should be received within several hours. 
+
+
+*EXAMPLES*
+
+The following examples demonstrate the use of FTPMAIL. Indexes of
+currently available marine products, the list FTPMAIL commands,
+and suggestions for TIFF viewers may be obtained following these
+instructions.
+
+To use FTPMAIL:
+-In plain text format-
+o  Send an e-mail via the Internet to:  NWS.FTPMail.OPS@noaa.gov
+o  Put anything you like on the subject line
+o  Enter a command script in the body of the message
+
+NOTE:  Correct capitalization for commands, directory and file
+       names is critical
+
+
+Example scripts are:
+
+help
+    
+     Connect to default site (tgftp.nws.noaa.gov) and send back
+     this help file to e-mail address of requestor
+
+open
+cd fax
+get PWAE98.TIF (24 hour wind and wave graphic forecast for the Atlantic)
+quit
+  
+     Connect to default site (tgftp.nws.noaa.gov) and send back
+     the chart file PWAE98.TIF to e-mail address of requestor
+
+open
+cd data
+cd forecasts
+cd marine
+cd coastal
+cd an
+get anz231.txt (text marine forecast for Cape Cod Bay)
+quit
+  
+     Connect to default site (tgftp.nws.noaa.gov) and send back coastal 
+     marine zone forecast ANZ231 to e-mail address of requestor
+
+open
+cd data
+cd forecasts
+cd zone
+cd md
+get mdz004.txt (Text of land forecast for Frederick County Maryland)
+quit
+  
+     Connect to default site (tgftp.nws.noaa.gov) and send back public
+     land zone forecast MDZ004 to e-mail address of requestor.
+     (Contact your local forecast office to identify the public
+     forecast zone number for your county, known as the UGC code) 
+     Zones lists by State may also be found at http://alerts.weather.gov/
+
+reply-to captain.kidd@noaa.gov
+open
+dir
+quit
+     Connect to default site (tgftp.nws.noaa.gov) and send back the
+     contents of the top level directory to captain.kidd@noaa.gov
+
+open
+cd fax
+get ftpcmd.txt      (List of FTPMAIL commands)
+get rfaxtif.txt     (TIFF suggestions)
+get rfaxatl.txt     (Atlantic radiofax file directory)
+get rfaxpac.txt     (Pacific radiofax file directory)
+get rfaxmex.txt     (Gulf of Mexico and Trop Atl radiofax file dir)
+get rfaxak.txt      (Alaska radiofax and ice file directory)
+get rfaxhi.txt      (Hawaii radiofax file directory)
+get otherfax.txt    (Foreign charts file directory)
+get marine1.txt     (Highseas,Offshore,Open Lakes,NAVTEX text file dir)
+get marine2.txt     (Hurricane text file directory)
+get marine3.txt     (Coastal and nearshore forecasts text file dir)
+get marine4.txt     (Offshore forecasts by zone directory)
+get marine5.txt     (Atlantic coastal forecasts by zone directory)
+get marine6.txt     (Pacific coastal forecasts by zone directory)
+get marine7.txt     (Gulf of Mexico coastal forecasts by zone dir)
+get marine8.txt     (Great Lakes nearshore forecasts by zone directory)
+get marine9.txt     (Alaska coastal forecasts by zone directory)
+get marine10.txt    (Hawaii&Trust coastal forecasts by zone directory)
+get uk.txt          (UK marine forecasts from Bracknell directory)
+get canada.txt      (Canadian marine text forecast directory)
+get tsunami.txt     (Tsunami products directory)
+get buoydata.txt    (Buoy and C-MAN station observations directory)
+get robots.txt      (Marine forecasts and info via e-mail systems) 
+quit
+
+     Connect to default site (tgftp.nws.noaa.gov) and send back the
+     requested files to e-mail address of requestor.
+
+
+Many, but not all National Weather Service forecast products may be
+obtained using FTPMAIL if the WMO/AWIPS Header is known. 
+
+Example: 
+To obtain the Atlantic high seas Forecast, WMO header FZNT01 KWBC,
+AWIPS header HSFAT1
+
+
+Send an e-mail to:      NWS.FTPMail.OPS@noaa.gov
+Subject Line:           Put anything you like
+Body:                   open
+                        cd data
+                        cd raw
+                        cd fz
+                        get fznt01.kwbc.hsf.at1.txt
+                        quit
+
+*IMPORTANT NWS WEBPAGES*
+
+If you have access to the Internet, check out the following NWS webpages.  
+
+NWS watch warning advisory webpage
+http://www.weather.gov/
+
+NWS Marine Forecast webpage                      
+http://www.weather.gov/marine
+
+NWS Cell Phone webpage
+Cell.weather.gov
+   	     
+NWS Mobile Device webpage
+mobile.weather.gov 
+
+Ocean Prediction Center                           
+http://www.opc.ncep.noaa.gov/	
+
+Tropical Analyses and Forecast Branch webpage	       
+http://www.nhc.noaa.gov/abouttafb.shtml      
+
+Hawaii Marine Products webpage
+http://www.prh.noaa.gov/hnl/pages/marine.php
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26  
+        National Weather Service
+        Last Modified September 07, 2016
+        Document URL: http://tgftp.nws.noaa.gov/fax/ftpmail.txt
+                      ftp://tgftp.nws.noaa.gov/fax/ftpmail.txt

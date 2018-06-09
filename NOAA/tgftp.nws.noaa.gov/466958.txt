@@ -1,0 +1,323 @@
+This copy of Federal Register Vol. 72, No. 80 pages 20863-20865 
+(http://dmses.dot.gov/docimages/p101/466958.pdf)
+is provided as a service to mariners by the National Weather Service, 
+NOAA to bring  attention to the U.S. Coast Guard's notice soliciting 
+public comment on the need to  continue providing high frequency (HF) 
+radio broadcasts of weather forecasts and warnings via:
+
+(1) Radiofacsimile;
+(2) voice; and,
+(3) Simplex Teletype Over Radio (SITOR)
+
+If providing comments in response to this Notice, please be sure
+to answer the 8 questions.
+
+This copy of the Notice may also be obtained via the National Weather 
+Service's, FTPMAIL e-mail server as follows. The request must be sent 
+in plain text format and with the correct capitalization and no leading spaces
+
+Send an e-mail to:      NWS.FTPMail.OPS@noaa.gov
+Subject line:           Put anything you like
+Body:                   open
+                        cd fax
+                        get 466958.txt
+                        quit
+
+............................................
+
+
+DEPARTMENT OF HOMELAND
+SECURITY
+
+Coast Guard
+
+[USCG–2007–27656]
+
+High Frequency (HF) Radio Broadcasts
+of Marine Weather Forecasts and
+Warnings
+
+AGENCY: Coast Guard, DHS.
+ACTION: Notice; request for public
+comments.
+
+SUMMARY: The Coast Guard is soliciting        
+public comment on the need to continue
+providing high frequency (HF) radio
+broadcasts of weather forecasts and
+warnings. Public comment is necessary
+in order to assess the demand for the HF
+radio broadcasts of weather forecasts in
+each of three forms: (1) Radiofacsimile;
+(2) voice; and, (3) Simplex Teletype
+Over Radio (SITOR), also known as
+Narrow Band Direct Printing (NBDP).
+The infrastructure necessary to provide
+these services has exceeded its life
+expectancy; the equipment is no longer
+manufactured, repairs are difficult to
+accomplish, and spare parts generally
+are not available. Because of the very
+significant costs involved to continue
+these specific HF radio services, the
+Coast Guard requires information on the
+extent to which these services are used
+by the public and what alternative
+services are being used or are available
+to obtain weather forecasts and
+warnings.
+
+DATES: Comments and related material
+must reach the Docket Management
+Facility on or before August 24, 2007.
+ADDRESSES: You may submit comments
+identified by Coast Guard docket
+number USCG–2007–27656 to the
+Docket Management Facility at the U.S.
+Department of Transportation. To avoid
+duplication, please use only one of the
+following methods:
+(1) Web Site: http://dms.dot.gov
+(2) Mail: Docket Management Facility,
+U.S. Department of Transportation, 400
+Seventh Street SW., Washington, DC
+20590–0001.
+(3) Fax: 202–493–2251.
+(4) Delivery: Room PL–401 on the
+Plaza level of the Nassif Building, 400
+Seventh Street SW., Washington, DC,
+between 9 a.m. and 5 p.m., Monday
+through Friday, except Federal holidays.
+The telephone number is 202–366–
+9329.
+
+FOR FURTHER INFORMATION CONTACT: If
+you have questions on this notice,
+please contact Mr. Russell S. Levin,
+Spectrum Management Division (CG–
+622), U.S. Coast Guard Headquarters,
+telephone: 202–475–3555, fax: 202–
+475–3927, or e-mail:
+Russell.S.Levin@uscg.mil. If you have
+questions on viewing or submitting
+material to the docket, call Renee V.
+Wright, Program Manager, Docket
+Operations, telephone 202–493–0402.
+
+SUPPLEMENTARY INFORMATION:
+
+Request for Comments
+We encourage you to participate by
+submitting comments. All comments
+received will be posted, without change,
+to http://dms.dot.gov and will include
+any personal information you have
+provided. We have an agreement with
+the Department of Transportation (DOT)
+to use the Docket Management Facility.
+Please see DOT’s ‘‘Privacy Act’’
+paragraph below.
+Submitting comments: If you submit a
+comment, please include your name and
+address, identify the docket number for
+this notice (USCG–2007–27656) and
+give the reason for each comment. You
+may submit your comments by
+electronic means, mail, fax, or delivery
+to the Docket Management Facility at
+the address under ADDRESSES; but
+please submit your comments by only
+one means. If you submit them by mail
+or delivery, submit them in an unbound
+format, no larger than 81?2 by 11 inches,
+suitable for copying and electronic
+filing. If you submit them by mail and
+would like to know that they reached
+the Facility, please enclose a stamped,
+self-addressed postcard or envelope. We
+will consider all comments received
+during the comment period.
+Viewing comments and documents:
+To view comments, go to http://
+dms.dot.gov at any time, click on
+‘‘Simple Search,’’ enter the last five
+digits of the docket number for this
+notice, and click on ‘‘Search.’’ You may
+also visit the Docket Management
+Facility in room PL–401 on the Plaza
+level of the Nassif Building, 400
+Seventh Street SW., Washington, DC,
+between 9 a.m. and 5 p.m., Monday
+through Friday, except Federal holidays.
+Privacy Act: Anyone can search the
+electronic form of all comments
+received into any of our dockets by the
+name of the individual submitting the
+comment (or signing the comment, if
+submitted on behalf of an association,
+business, labor union, etc.). You may
+review the Department of
+Transportation’s Privacy Act Statement
+in the Federal Register published on
+April 11, 2000 (65 FR 19477), or you
+may visit http://dms.dot.gov.
+
+Background and Purpose
+
+The Coast Guard broadcasts the
+National Oceanic and Atmospheric
+Administration’s (NOAA) National
+Weather Service (NWS) weather
+forecasts and warnings using 24 high
+frequency (HF) radio transmitters
+(transmitting on frequencies between 3
+and 30 MHz) located at seven Coast
+Guard communications stations in the
+United States and Guam. The range of
+these HF radio transmissions is
+dependent upon operating frequency,
+time of day and atmospheric conditions,
+and can vary from only short distances
+to several thousand miles. There are
+three types of HF radio broadcasts
+currently provided: (1) Voice broadcasts
+that transmit a synthesized voice to
+announce the forecasts); (2)
+radiofacsimile, also known as
+‘‘radiofax’’ or ‘‘HF Fax’’ broadcasts, that
+transmit graphic weather maps and
+other graphic images over HF radio
+(maps are received using a dedicated
+radiofax receiver or a single sideband
+shortwave receiver connected to an
+external facsimile recorder or a personal
+computer equipped with a radiofax
+interface and application software); and,
+(3) Simplex Teletype Over Radio
+(SITOR) broadcasts also known as
+Narrow Band Direct Printing (NBDP).
+The 24 HF transmitters employed to
+transmit weather forecasts and warnings
+are not, because of their age, providing
+the reliability the Coast Guard expects
+from its radio transmitters. These
+particular transmitters are no longer
+manufactured and replacement parts
+generally are not available, making it
+difficult, if not impossible, to repair
+them. If the HF weather broadcasts are
+to continue, the infrastructure necessary
+for the broadcasts must be replaced.
+Significant costs will be incurred to
+replace the requisite transmitters and
+associated infrastructure. Before seeking
+funds for this undertaking, the Coast
+Guard must gather evidence relating to
+how frequently, and under what
+circumstances, the maritime community
+uses the various types of HF radio
+weather broadcasts. In addition, it
+would be helpful to learn about current
+and future needs of the maritime
+community with regard to receiving
+weather forecasts and warnings over HF
+radio, and what alternatives are being
+used or might become available.
+Questions: The following are
+questions related to Coast Guard HF
+radio broadcasts on which we seek your
+comments. It would be helpful if
+commenters would answer the question
+as specifically as possible, and then
+provide explanations, if any, for the
+responses.
+(1) What is your position in the
+maritime community? (Please be as
+specific as possible, e.g., captain of 600?
+oil tanker, 1st mate on 500 unit
+containership, owner/operator of 45?
+cruising sailboat, fleet manager of a 27
+vessel shipping company, yacht
+delivery captain, etc.)
+(2) What are your primary sources for
+obtaining marine weather forecasts? (For
+example, Inmarsat-C/SafetyNet, USCG
+HF radio broadcasts, USCG medium
+frequency (MF) Radio Broadcasts, USCG
+very high frequency (VHF) radio
+broadcasts, NOAA Weather Radio,
+NAVTEX, shoreside Internet, radio/
+television, commercial service/system,
+etc.)
+(3) Do you use Coast Guard HF radio
+voice broadcasts to receive marine
+weather forecasts? (Yes or No) If yes,
+how often do you use Coast Guard HF
+voice broadcasts and how critical are
+they to your safety and operation as
+compared to the other sources you listed
+in your response to Question 2?
+(4) Do you use Coast Guard HF
+radiofax broadcasts to receive marine
+weather forecasts? (Yes or No) If yes,
+how often do you use Coast Guard HF
+radiofax broadcasts and how critical are
+they to your safety and operation as
+compared to the other sources you listed
+in your response to Question 2?
+(5) Do you use Coast Guard HF radio
+Simplex Teletype over Radio (SITOR)
+(also known as Narrow Band Direct
+printing (NBDP)) to receive marine
+weather forecasts? (Yes or No) If yes,
+how often do you use Coast Guard
+SITOR radio broadcasts and how critical
+are they to your safety and operation as
+compared to the other sources you listed
+in your response to Question 2?
+(6) What alternative source(s) for
+obtaining marine weather forecasts
+would you pursue if Coast Guard HF
+broadcasts were no longer available?
+How would you rate the alternative
+source(s) in terms of (a) user cost and (b)
+usefulness of the information as
+compared to the Coast Guard HF
+broadcast it replaces?
+(7) Would the loss of Coast Guard HF
+marine weather broadcasts affect you?
+Please explain.
+(8) How far seaward does your vessel
+primarily operate? (For example, coastal
+(0–25 nautical miles (nm) seaward);
+offshore (25–200 nm seaward); or, high
+seas (more than 200 nm seaward.) In
+what geographic area(s) do you
+generally operate your vessel? (For
+example, mid-Atlantic, New England,
+North Central Pacific, Hawaii, Gulf of
+Mexico, etc.)
+As noted previously, comments
+regarding these questions, and any other
+pertinent matters brought to our
+attention during the comment period,
+will be taken into account in our future
+actions regarding the issues raised by
+these questions.
+
+Dated: April 18, 2007.
+
+C.S. Johnson, JR.,
+Captain, U.S. Coast Guard, Acting Assistant
+Commandant for Command, Control,
+Communications, Computers and
+Information Technology.
+[FR Doc. E7–7945 Filed 4–25–07; 8:45 am]
+BILLING CODE 4910–15–P
+
+............................................
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26  
+        National Weather Service
+	  Last Modified Aug 12, 2008
+

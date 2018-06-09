@@ -1,0 +1,171 @@
+
+	    NATIONAL WEATHER SERVICE RADIOFAX PRODUCTS
+for the Gulf of Mexico, Caribbean, Tropical Atlantic and Tropical E Pacific
+
+**** IMPORTANT NOTICES ****
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly.  
+ 
+The "help" file contains a more detailed description of the
+FTPMAIL system and available products. To obtain a copy of the 
+FTPMAIL "help" file.
+
+-In plain text format-
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+ 
+These instructions are subject to revision....download frequently.
+ 
+**********
+
+
+
+U.S. Coast Guard Communications Station NMG - New Orleans, Louisiana
+
+Assigned frequencies 4317.9, 8503.9 12789.9, 17146.4 kHz
+
+Select a carrier frequency 1.9 kHz below those listed when using a
+single sideband radio in the USB mode to receive these broadcasts.
+
+The latest version of marine weather charts for broadcast by the U.S. Coast
+Guard are available from the National Weather Service Telecommunication
+Gateway on this server.  The listed charts are in the G4(T4) format and
+enveloped in TIFF for viewing.  These charts may be found in directory:
+ftp://tgftp.nws.noaa.gov/fax or http://tgftp.nws.noaa.gov/pub/fax
+
+For information of how these files and other text and graphic marine
+forecasts may be downloaded via e-mail (FTPMAIL) see:
+http://tgftp.nws.noaa.gov/fax/ftpmail.txt
+
+.TIF files now also available as .gif files
+
+This file is intended to assist mariners using the FTPMAIL system
+which is used to obtain National Weather Service products via 
+e-mail.  The following is an example in the use of the FTPMAIL
+system. NOTE CAPITALIZATION!
+
+
+Example using FTPMAIL:
+
+-In plain text format-
+Send an e-mail to:         NWS.FTPMail.OPS@noaa.gov
+Subject line:              Put anything you like
+Body:                      open
+                           cd fax
+                           get PWEE11.TIF
+                           get PYEA11.gif
+                           quit
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/fax or
+http://tgftp.nws.noaa.gov/pub/fax
+                                                                 FILE
+WIND/WAVE CHARTS                                                 NAME
+
+00Z Sea State Analysis, 0N-31N, 35W-100W                       PJEA88.TIF
+12Z Sea State Analysis, 0N-31N, 35W-100W                       PJEA90.TIF
+    Sea State Analysis (Most Current)                          PJEA11.TIF
+24HR Wind/Wave Forecast VT00, 0N-31N, 35W-100W                 PWEE89.TIF
+24HR Wind/Wave Forecast VT12, 0N-31N, 35W-100W                 PWEE91.TIF
+24HR Wind/Wave Forecast (Most Current)                         PWEE11.TIF
+36HR Wind/Wave Forecast VT12, 0N-31N, 35W-100W                 PWED98.TIF
+48HR Wind/Wave Forecast VT00, 0N-31N, 35W-100W                 PWEI88.TIF
+48HR Wind/Wave Forecast VT12, 0N-31N, 35W-100W                 PWEI89.TIF
+48HR Wind/Wave Forecast (Most Current)                         PWEI11.TIF
+48HR Wave Period/Swell Dir Forecast VT00, 0N-31N, 35W-100W     PJEI88.TIF
+48HR Wave Period/Swell Dir Forecast VT12, 0N-31N, 35W-100W     PJEI89.TIF
+48HR Wave Period/Swell Direction Forecast (Most Current)       PJEI11.TIF
+72HR Wind/Wave Forecast VT00, 0N-31N, 35W-100W                 PJEK88.TIF
+72HR Wind/Wave Forecast VT12, 0N-31N, 35W-100W                 PJEK89.TIF
+72HR Wind/Wave Forecast (Most Current)                         PJEK11.TIF
+72HR Wave Period/Swell Dir Forecast VT00, 0N-31N, 35W-100W     PKEK88.TIF
+
+
+SURFACE CHARTS
+
+@00Z U.S./Tropical Surface Analysis (W Half) 5S-50N,55W-125W   PYEB86.TIF
+@06Z U.S./Tropical Surface Analysis (W Half) 5S-50N,55W-125W   PYEB87.TIF
+@12Z U.S./Tropical Surface Analysis (W Half) 5S-50N,55W-125W   PYEB85.TIF
+@18Z U.S./Tropical Surface Analysis (W Half) 5S-50N,55W-125W   PYEB88.TIF
+@    U.S./Tropical Surface Analysis (W Half) (Most Current)    PYEB11.TIF
+00Z Tropical Surface Analysis (E Half) 5S-50N, 0W-70W          PYEA86.TIF
+06Z Tropical Surface Analysis (E Half) 5S-50N, 0W-70W          PYEA87.TIF
+12Z Tropical Surface Analysis (E Half) 5S-50N, 0W-70W          PYEA85.TIF
+18Z Tropical Surface Analysis (E Half) 5S-50N, 0W-70W          PYEA88.TIF
+    Tropical Surface Analysis (E Half) (Most Current)          PYEA11.TIF
+24HR Tropical Surface Forecast(E Half)VT00,00N-31N, 35W-100W   PYEE79.TIF
+24HR Tropical Surface Forecast(E Half)VT12,00N-31N, 35W-100W   PYEE80.TIF
+     Tropical Surface Forecast(Most Current)                   PYEE10.TIF
+48HR Tropical Surface Forecast(E Half)VT00,00N-31N, 35W-100W   PYEI81.TIF
+48HR Tropical Surface Forecast(E Half)VT12,00N-31N, 35W-100W   PYEI82.TIF
+     Tropical Surface Forecast(Most Current)                   PYEI10.TIF
+72HR Tropical Surface Forecast(E Half)VT00,00N-31N, 35W-100W   PYEK83.TIF
+72HR Tropical Surface Forecast(E Half)VT12,00N-31N, 35W-100W   PYEK84.TIF
+     Tropical Surface Forecast(Most Current)                   PYEK10.TIF
+
+@ For further forecasts covering the Tropical East Pacific, 
+  see Pt. Reyes and Honolulu charts
+
+TROPICAL CYCLONE CHARTS
+
+Tropical Cyclone Danger Area* VT03, 05N-60N, 00W-100W          PWEK89.TIF
+Tropical Cyclone Danger Area* VT09, 05N-60N, 00W-100W          PWEK90.TIF
+Tropical Cyclone Danger Area* VT15, 05N-60N, 00W-100W          PWEK91.TIF
+Tropical Cyclone Danger Area* VT21, 05N-60N, 00W-100W          PWEK88.TIF
+Tropical Cyclone Danger Area*  (Most Current)                  PWEK11.TIF
+
+HIGH SEAS FORECASTS
+
+04Z High Seas Forecast 7N-31N, 35W-98W, In English             PLEA86.TIF
+10Z High Seas Forecast 7N-31N, 35W-98W, In English             PLEA87.TIF
+16Z High Seas Forecast 7N-31N, 35W-98W, In English             PLEA89.TIF
+22Z High Seas Forecast 7N-31N, 35W-98W, In English             PLEA88.TIF
+    High Seas Forecast (Most Current)                          PLEA10.TIF
+
+SATELLITE IMAGERY
+
+0645Z GOES IR Satellite Image, 12S-44N, 28W-112W               evst06.jpg
+1145Z GOES IR Satellite Image, 12S-44N, 28W-112W               evst12.jpg
+1745Z GOES IR Satellite Image, 12S-44N, 28W-112W               evst18.jpg
+2345Z GOES IR Satellite Image, 12S-44N, 28W-112W               evst00.jpg
+      GOES IR Satellite Image (Most Current)                   evst99.jpg
+
+SCHEDULE INFORMATION
+
+Radiofax Schedule (New Orleans, LA)                            PLEZ01.TIF
+Radiofax Schedule (DOS Text Format)                            hfgulf.txt
+Request for Comments                                           PLEZ02.TIF
+Product Notice Bulletin                                        PLEZ03.TIF
+Test Chart                                                     PZZZ95.TIF
+Internet File Names, (This file)                              rfaxmex.txt
+
+* Tropical Cyclone Danger Area chart replaced by 48HR High Wind/Wave Warning 
+chart Dec 01 - May 14 Valid times 00z,06z,12z and 18z, Map area 05N-40N, 35W-100W
+
+Tropical cyclone charts also broadcast from Boston, MA
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                   	NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm	NWS Marine Page
+cell.weather.gov                                Cellphone page
+mobile.weather.gov                              Mobile Page
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26 
+        National Weather Service
+        Feedback or questions: marine.weather@noaa.gov
+        Last Modified Dec 12, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/rfaxmex.txt
+                      ftp://tgftp.nws.noaa.gov/pub/fax/rfaxmex.txt
+
+

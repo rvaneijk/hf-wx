@@ -1,0 +1,117 @@
+        NATIONAL WEATHER SERVICE MARINE TEXT PRODUCTS
+                        TSUNAMI
+            
+**** IMPORTANT NOTICES ****
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly. 
+
+The "help" file contains a more detailed description of the
+FTPMAIL system and available products. To obtain a copy of the 
+FTPMAIL "help" file.
+
+-In plain text format-
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+
+These instructions are subject to revision....download frequently.
+ 
+**********
+
+This file is intended to assist mariners using the FTPMAIL system
+which is used to obtain National Weather Service products via 
+e-mail.  The following is an example in the use of the FTPMAIL
+system. NOTE CAPITALIZATION!
+
+
+-In plain text format-
+Send an e-mail to:	NWS.FTPMail.OPS@noaa.gov
+Subject Line:		Put anything you like
+Body:                open 
+                     cd data
+                     cd raw
+                     cd we
+                     get wepa41.paaq.tsu.wca.txt
+                     get wepa43.paaq.tib.wca.txt
+                     cd ..
+                     cd se
+                     get seak71.paaq.eqi.akx.txt
+                     quit 
+
+ 
+TSUNAMI INFORMATION and WARNINGS
+
+These files may be found in directory:
+ftp://tgftp.nws.noaa.gov/data/raw
+
+PRODUCT DESCRIPTION                            FILE NAME
+
+Pacific Tsunami Warning Center 
+Pacific
+Tsunami Message (Advisory/Watch/Warning)    wepa40.pheb.tsu.pac.txt
+Tsunami Information Bulletin                wepa42.pheb.tib.pac.txt
+
+Pacific Tsunami Warning Center 
+Hawaii                                 
+Tsunami Message (Advisory/Watch/Warning)    wehw40.pheb.tsu.hwx.txt
+Tsunami Information Statement               wehw42.pheb.tib.hwx.txt
+Public Tsunami Message                      wehw50.pheb.tsu.hw1.txt
+Seismic Information Statement               sehw70.pheb.eqi.hwx.txt
+
+Pacific Tsunami Warning Center 
+Caribbean (See also Puerto Rico, Virgin Is. below)
+Tsunami Message (Advisory/Watch)            weca41.pheb.tsu.cax.txt
+Tsunami Information Statement               weca43.pheb.tib.cax.txt
+
+Pacific Tsunami Warning Center
+Guam, Rota, Tinian, and Saipan
+Tsunami Message (Advisory/Watch/Warning)    wegm40.pheb.tsu.gum.txt
+Tsunami Information Statement               wegm42.pheb.tib.gum.txt
+Seismic Information Statement               segm70.pheb.eqi.gum.txt
+
+Pacific Tsunami Warning Center
+Samoa
+Tsunami Message (Advisory/Watch/Warning)    wezs40.pheb.tsu.ppg.txt
+Tsunami Information Statement               wezs42.pheb.tib.ppg.txt
+Seismic Information Statement               sesz70.pheb.eqi.ppg.txt
+
+National Tsunami Warning Center
+Alaska, BC and Western States               
+Tsunami Message (Advisory/Watch/Warning)    wepa41.paaq.tsu.wca.txt                    
+Tsunami Information Statement               wepa43.paaq.tib.wca.txt
+WA,OR,CA Seismic Information Statement      seus71.paaq.eqi.woc.txt
+AK Seismic Information Statement            seak71.paaq.eqi.akx.txt
+Public Tsunami Message                      weak51.paaq.tsu.ak1.txt
+Public Tsunami Information Statement        weak53.paaq.tib.ak1.txt
+
+National Tsunami Warning Center
+Canada, Eastern and Gulf States, Puerto Rico, U.S. Virgin Islands
+Tsunami Message (Watch/Warning)             wexx20.paaq.tsu.at1.txt
+Tsunami Information Statement               wexx22.paaq.tib.at1.txt
+Seismic Information Statement               sexx60.paaq.eqi.at1.txt
+Public Tsunami Message                      wexx30.paaq.tsu.ate.txt
+Public Tsunami Information Statement        wexx32.paaq.tib.ate.txt	
+
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                      NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm   NWS Marine Page
+cell.weather.gov                             Cellphone page
+mobile.weather.gov                           Mobile Page
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26 
+        National Weather Service
+        Feedback or questions: marine.weather@noaa.gov
+        Last Modified Sep 12, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/tsunami.txt
+                      ftp://tgftp.nws.noaa.gov/fax/tsunami.txt

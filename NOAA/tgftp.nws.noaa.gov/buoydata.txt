@@ -1,0 +1,961 @@
+   NATIONAL WEATHER SERVICE MARINE BUOY and C-MAN OBSERVAIONS
+
+**** IMPORTANT NOTICES ****
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly.  
+ 
+The "help" file contains a more detailed description of the
+FTPMAIL system and available products. To obtain a copy of the 
+FTPMAIL "help" file.
+
+-In plain text format-
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+ 
+These instructions are subject to revision....download frequently.
+ 
+**********
+
+This file is intended to assist mariners using the FTPMAIL system
+which is used to obtain National Weather Service products via 
+e-mail.  The following is an example in the use of the FTPMAIL
+system. NOTE CAPITALIZATION!
+
+
+Example:
+-In plain text format-
+Send an e-mail to:         NWS.FTPMail.OPS@noaa.gov
+Subject Line:              Put anything you like
+Body:                      open 
+                           cd data
+                           cd observations
+                           cd marine
+                           cd latest_obs 
+                           get latest_obs.txt
+                           quit
+
+"latest_obs.txt" is a listing of lastest buoy and C-MAN observations 
+received over the past hour (~75 kBytes). Note: 1 m/s = 1.94 kt
+
+
+Example:
+-In plain text format-
+Send an e-mail to:         NWS.FTPMail.OPS@noaa.gov
+Subject Line:              Put anything you like
+Body:                      open 
+                           cd data
+                           cd observations
+                           cd marine
+                           cd latest_obs 
+                           get 42007.txt
+                           get iosn3.txt
+                           quit
+
+(Note lower case for C-Man/land observations)
+
+For the latest operational status of NDBC buoy and C-MAN stations 
+see: http://www.ndbc.noaa.gov/wstat.shtml
+
+For questions on buoy or C-MAN observations contact:
+webmaster.ndbc@noaa.gov
+
+
+These files may be found in directory:
+ftp://tgftp.nws.noaa.gov/data/observations/marine/latest_obs
+and
+http://tgftp.nws.noaa.gov/data/observations/marine/latest_obs
+e.g.
+ftp://tgftp.nws.noaa.gov/data/observations/marine/latest_obs/42007.txt
+http://tgftp.nws.noaa.gov/data/observations/marine/latest_obs/42007.txt
+
+ 
+
+BUOY and C-MAN OBSERVATION ID's
+
+PLATFORM    HULL/       LOCATION          LATITUDE  LONGITUDE
+ID          PAYLOAD
+ 
+ 
+ 41001*    6N60    A    E HATTERAS        34.70N    72.73W
+41002*     6N14    A    S HATTERAS        32.38N    75.41W
+41004*     3D37    A    EDISTO            32.50N    79.10W
+41008*     3D36    A    GRAYS REEF        31.40N    80.87W
+41009      6N23    A    W CANAVERAL       28.52N    80.17W
+41010      6N26    A    E CANAVERAL       28.91N    78.47W
+41012      3D72    A    ST AUGUSTINE,     30.04N    80.53W
+41013*     3D55    A    FRYING PAN SHLS   33.44N    77.74W
+41025*     3D66    A    DIAMOND SHLS      35.01N    75.40W
+41035      3D49    A    ONSLOW BAY        34.48N    77.28W
+41036      3D80    A    UNWC              34.21N    76.95W
+41040      6N57    A    W ATLANTIC        14.48N    53.01W
+41041      6N58    A    M ATLANTIC        14.36N    46.01W
+41043      6N53    A    S ATLANTIC        20.99N    65.01W
+41044      6N50    A    S ATLANTIC        21.65N    58.70W
+41046      6N59    A    E BAHAMAS         23.87N    70.87W
+41047      12D14   A    NE BAHAMAS        27.47N    71.49W
+41048      12D03   A    W BERMUDA         31.98N    69.65W
+41049      6N51    A    S ATLANTIC        27.50N    63.00W
+42001*     12D11   A    M GULF MEXICO     25.90N    89.67W
+42002*     10D10   A    W GULF MEXICO     25.79N    93.67W
+42003*     3D51    A    E GULF MEXICO     25.97N    85.59W
+42007*     3D08    A    BILOXI            30.09N    88.77W
+42012*     3D33    A    ORANGE BCH        30.07N    87.55W
+42019*     3D35    D    LANEILLE          27.90N    95.39W
+42020*     3D44    D    EILEEN            26.97N    96.70W
+42035*     3D54    A    GALVESTON         29.23N    94.41W
+42036*     3D73    A    W TAMPA           28.50N    84.52W
+42039      3D23    A    S PENSACOLA       28.79N    86.01W
+42040      3D38    A    S MOBILE          29.21N    88.21W
+42055      12D12   A    BAY CAMPECHE      22.02N    94.05W
+42056      12D13   A    YUCATAN CHNL      19.87N    85.06W
+42057      10D09   A    W CARIBBEAN       16.83N    81.50W
+42058      10D07   A    C CARIBBEAN       15.09N    75.06W
+42059      6N43    A    E CARIBBEAN       15.01N    67.50W
+42060      6N56    A    E CARIBBEAN       16.50N    63.50W
+42080*     18DV1   W    SAND KEY          24.40N    81.93W
+44005*     6N16    D    GULF OF MAINE     43.19N    69.14W
+44007*     3D25    A    PORTLAND          43.53N    70.14W
+44008*     3D56    A    NANTUCKET         40.50N    69.25W
+44009*     3D47    A    DELAWARE BAY      38.46N    74.70W
+44011*     6N55    A    GEORGES BNK       41.11N    66.58W
+44013*     3D43    A    BOSTON            42.35N    70.65W
+44014      3D42    A    VIRGINIA BCH      36.61N    74.84W
+44017*     3D61    A    MONTAUK PT        40.69N    72.05W
+44018*     3D29    A    SE CAPE COD       41.26N    69.31W
+44020*     3D84    A    NANTUCKET SND     41.44N    70.19W
+44025*     3D70    A    LONG ISLAND       40.25N    73.17W
+44027*     3D65    A    JONESPORT         44.27N    67.31W
+44065*     3D46    A    NYC ENTR          40.37N    73.70W
+44066*     3D06    A    TEXAS TOWER #4    39.58N    72.60W
+45001*     3D05    D    M LK SUPERIOR     48.06N    87.79W
+45002*     24DV0   A    N LK MICHIGAN     45.34N    86.41W
+45003*     24DV0   A    N LK HURON        45.35N    82.84W
+45004*     2.4V0   A    E LK SUPERIOR     47.58N    86.59W
+45005*     3D63    D    W LK ERIE         41.68N    82.40W
+45006*     3DV05   V    W LK SUPERIOR     47.33N    89.79W
+45007*     3D28    D    S LK MICHIGAN     42.67N    87.03W
+45008*     3D41    A    S LK HURON        44.28N    82.42W
+45012*     3DV02   V    LK ONTARIO        43.62N    77.41W
+46001*     6N25    A    GULF OF ALASKA    56.30N    148.02W
+46002*     6N35    A    W OREGON          42.57N    130.46W
+46005*     6N19    A    W ASTORIA         46.01N    130.97W
+46006*     3D24    A    SW ASTORIA        40.89N    137.45W
+46011*     3D68    A    STA MARIA         34.87N    120.86W
+46012*     3D48    D    HALF MOON BAY     37.36N    122.88W
+46013*     3D17    A    BODEGA BAY        38.24N    123.30W
+46014*     3D76    A    PT ARENA          39.20N    123.97W
+46015*     3D62    A    PT ORFORD         42.75N    124.82W
+46022*     3D16    A    EEL RIVER         40.75N    124.58W
+46023      10D04   D    PT ARGUELLO       34.70N    120.96W
+46025*     3D57    A    STA MONICA        33.74N    119.06W
+46026*     3D27    A    SAN FRANCISCO     37.76N    122.83W
+46027*     3D78    A    ST GEORGES        41.85N    124.38W
+46028*     3D53    A    SAN MARTIN        35.74N    121.88W
+46029*     3D15    A    COL RIVER BAR     46.14N    124.51W
+46035*     12D02   A    BERING SEA        57.07N    177.75W
+46041*     3D64    A    CP ELIZABETH      47.35N    124.73W
+46042*     3D69    A    MONTEREY BAY      36.79N    122.40W
+46047*     3D12    A    TANNER BNK        32.43N    119.53W
+46050*     3D40    A    STONEWALL BNK     44.64N    124.50W
+46053*     3D10    A    E STA BARBARA     34.25N    119.84W
+46054      3D26    A    W STA BARBARA     34.27N    120.46W
+46059*     3D09    P    CALIFORNIA        38.03N    130.00W
+46060      3D52    A    W ORCA BAY        60.60N    146.84W
+46061*     6N18    A    SEAL ROCKS        60.23N    146.83W
+46066*     6N42    A    KODIAK            52.74N    154.96W
+46069*     3D89    A    S STA ROSA        33.67N    120.20W
+46070*     6N49    A    SW BERING SEA     55.00N    175.28E
+46071*     6N44    A    AMCHITKA          51.15N    179.00E
+46072*     6N32    A    S ALEUTIANS       51.63N    172.17W
+46073*     12D01   M    SE BERING         55.01N    171.98W
+46075*     6N37    D    SHUMAGIN ISLAN    53.93N    160.81W
+46076*     6N61    A    CAPE CLEARE       59.50N    147.98W
+46077*     6N52    A    SHELIKOF STR      57.92N    154.25W
+46078*     6N54    A    ALBATROSS BNK     56.07N    152.57W
+46080*     6N29    D    KENNEDY ENTR      58.04N    149.99W
+46081*     3D18    A    W PWS             60.79N    148.28W
+46082*     6N47    A    CP SUCKLING       59.69N    143.40W
+46083*     6N31    A    FAIRWEATHER       58.25N    137.99W
+46084*     6N14    A    SITKA SND         56.63N    136.15W
+46085*     6N21    D    C GULF ALASKA     55.85N    142.56W
+46086*     3D20    A    SAN CLEMENTE      32.49N    118.03W
+46087      3D74    A    NEAH BAY          48.49N    124.73W
+46088      3D71    A    NEW DUNGENESS     48.33N    123.17W
+46089      3D32    A    TILLAMOOK         45.89N    125.83W
+46105*     1.8D1   A    S COOK INL        59.05N    152.22W
+46106*     1.8D0   W    C COOK INL        59.76N    152.09W
+46107*     1.8D0   W    MONTAGUE STR      59.93N    147.99W
+51000*     3D82    A    N HAWAII          23.55N    154.06W
+51001*     3D81    A    NW HAWAII         23.45N    162.28W
+51002*     3D31    A    SW HAWAII         17.09N    157.81W
+51003*     6N38    A    W HAWAII          19.09N    160.66W
+51004*     3D88    A    SE HAWAII         17.53N    152.38W
+51100*     3D83    A    N HAWAII          23.56N    153.90W
+51101*     3D02    A    NW HAWAII         24.32N    162.06W
+
+Total Base Funded Buoys :105
+Total Other Buoys :11
+Total Moored Buoys :116
+*Base funded station of National Weather Service (NWS); 
+however, all stations report data to NWS.
+
+REMARKS
+
+    *  41001 – Buoy adrift 6/8/08. Intermittent data transmission problems.
+    * 41002 – Dew point temperature data failed 1/25/09. Buoy adrift 12/4/08, recovered to SSC. Station awaiting new hull assignment.
+    * 41008 – Dew point temperature data failed 8/9/09.
+    * 41035 - Dew point temperature data failed 8/16/09.
+    * 41041 - Dew point temperature data failed 2/6/09.
+    * 42001 – Dew point temperature data failed 10/24/08.
+    * 42002 – Dew point temperature data failed 5/6/09.
+    * 42003 - Dew point temperature data failed 8/17/09.
+    * 42012 – Intermittent data transmission problems.
+    * 42019 – Air and dew point temperature data failed 10/23/07. Water temperature data failed 9/14/08.
+    * 42040 – Dew point temperature data failed 11/10/08.
+    * 42055 - Dew point temperature data failed 7/20/09.
+    * 42058 - Dew point temperature data failed 9/4/09.
+    * 42059 – Water temperature data failed 4/26/09. Buoy adrift 8/31/09.
+    * 42080 – MET data not released, under evaluation.
+    * 44005 – Sea level pressure and dew point temperature data failed 9/26/08.
+    * 44007 – Wind data failed 7/1/09.
+    * 44013 - Dew point temperature data processing problem.
+    * 44014 – Dew point temperature data failed 4/23/07.
+    * 44017 – Water temperature data failed 8/16/08. Pressure data failed 12/11/08. Air temperature failed 5/8/09. Dew point temperature data intermittent. Wind direction data failed 5/12/08.
+    * 44018 – Intermittent data transmission problems affecting wave data.
+    * 44027 – Dew point temperature data failed 4/3/09. Water temperature data failed 5/14/09.
+    * 45007 - Dew point temperature data failed 9/11/09.
+    * 46002 – Sea level pressure data failed 6/19/09. Buoy data failed 7/28/09. Buoy adrift 9/7/09.
+    * 46005 – Buoy adrift 12/18/08, recovered to port 3/14/09.
+    * 46006 – Wind data failed 11/21/08.
+    * 46012 – Water temperature and sea level pressure data failed after service 9/17/08.
+    * 46023 – Dew point temperature data failed 8/6/09.
+    * 46028 – Dew point temperature data failed 5/29/08. Intermittent data transmission affecting wave data.
+    * 46029 – Dew point temperature data failed 8/3/09.
+    * 46035 - Water temperature data failed 7/15/09.
+    * 46042 - Air temperature data failed 7/5/09.
+    * 46047 – Water temperature data failed 8/9/09.
+    * 46053 - Intermittent data transmission problems affecting wave data.
+    * 46059 - Buoy adrift 1/9/09, recovered to port.
+    * 46060 - Air temperature data failed 9/12/09.
+    * 46070 – Intermittent data transmission problems.
+    * 46072 – Wind data failed 10/9/08. Dew point temperature data failed 6/17/09. Buoy data failed 8/11/09.
+    * 46075 – Structural damage affecting MET data.
+    * 46077 – Wind data failed 8/19/08. Dew point temperature data failed 2/13/09.
+    * 46080 – Wind data failed 10/25/08. Dew point temperature data failed 11/10/08. Water temperature data failed 3/19/09.
+    * 46081 – Dew point temperature data failed 1/5/09.
+    * 46084 – Buoy adrift 12/26/08, ran aground 1/15/09. New hull 6N14 awaiting deployment.
+    * 46087 – Dew point temperature data failed 6/2/09.
+    * 46089 - Dew point temperature data failed 8/3/09.
+    * 46105 – Wave data failed 12/26/08, resumed, but very sporadic, failed 3/18/09.
+    * 46105, 46106, 46107 – Wave data only. No MET sensors installed.
+
+NDBC MOORED BUOY STATION LEGEND:
+HULL NO./CONFIGURATION
+Hull Type Anemometer Ht. Payload Types
+12D - 12 meter discus 10 m M - MARS
+10D - 10 meter discus 10 m D - DACT
+6N - 6 meter NOMAD 5 m V - VEEP
+3D/3DV 3 meter discus 5 m A - ARES
+LNS - 12 meter discus 8.5 m
+Example: 6N27/V means 6-meter NOMAD buoy, hull number 27, with VEEP payload.
+
+
+
+PLATFORM   PAYLOAD     LOCATION          LATITUDE  LONGITUDE
+ID         
+                                                      
+ABAN6		V	ALEXANDRIA BAY, NY	44.33N	 75.93W	   
+ALSN6*	A	AMBROSE LIGHT, NY		40.45N	 73.80W	   
+AMAA2*	A	EAST AMATULI ISLAND L	58.92N	151.95W	   
+AUGA2*	M	AUGUSTINE ISLAND, AK	59.38N	153.35W	   
+BLIA2*	V	BLIGH REEF LIGHT, AK	60.84N	146.88W	   
+BURL1*	M	SOUTHWEST PASS , LA	28.91N	 89.43W	   
+BUZM3*	M	BUZZARDS BAY,MA		41.40N	 71.03W	   
+CARO3*	M	CAPE ARAGO ,OR		43.34N	124.38W	   
+CDRF1*	V	CEDAR KEY, FL		29.14N	 83.03W	   
+CHLV2*	D	CHESAPEAKE LIGHT, VA	36.91N	 75.71W	   
+CLKN7*	M	CAPE LOOKOUT, NC		34.62N	 76.53W	   
+DBLN6*	M	DUNKIRK, NY			42.49N	 79.35W	   
+DESW1*	D	DESTRUCTION ISLAND,WA	47.68N	124.49W	   
+DISW3*	D	DEVILS ISLAND, WI		47.08N	 90.73W	   
+DPIA1*	V	DAUPHIN ISLAND, AL	30.25N	 88.07W	   
+DRFA2*	M	DRIFT RIVER TERMINAL,	60.55N	152.14W	   
+DUCN7*	A	DUCK PIER, NC		36.18N	 75.75W	   
+FBIS1*	M	FOLLY ISLAND, SC		32.69N	 79.89W	   
+FFIA2*	D	FIVE FINGERS ,AK		57.27N	133.63W	   
+FILA2*	A	FLAT ISLAND LIGHT		59.33N	152.00W	   
+FPSN7*	D	FRYING PAN SHOAL ,NC	33.49N	 77.59W	   
+FWYF1*	M	FOWEY ROCK, FL		25.59N	 80.10W	   
+IOSN3*	D	ISLE OF SHOALS, NH	42.97N	 70.62W	   
+KTNF1*	M	KEATON BEACH, FL		29.82N	 83.59W	   
+LKWF1*	M	LAKEWORTH, FL		26.61N	 80.03W	   
+LONF1*	M	LONG KEY, FL		24.84N	 80.86W	   
+LSCM4		V	LAKE ST. CLAIR		42.47N	 82.76W	   
+MDRM1*	D	MT DESERT ROCK, ME	43.97N	 68.13W	   
+MISM1*	D	MATINICUS ROCK, ME	43.78N	 68.86W	   
+MLRF1*	V	MOLASSES REEF, FL		25.01N	 80.38W	   
+MRKA2*	V	MIDDLE ROCK LIGHT, AK	61.08N	146.66W	   
+NWPO3*	M	NEWPORT, OR			44.61N	124.07W	   
+PILA2*	M	PILOT ROCK, AK		59.74N	149.47W	   
+PILM4*	M	PASSAGE ISLAND, MI	48.22N	 88.37W	   
+PLSF1*	A	POLASKI SHOALS, FL	24.69N	 82.77W	   
+POTA2*	V	POTATO POINT, AK		61.06N	146.70W	   
+PTAC1*	M	POINT ARENA, CA		38.96N	123.74W	   
+PTAT2*	M	PORT ARANSAS, TX		27.83N	 97.05W	   
+PTGC1*	M	POINT ARGUELLO, CA	34.58N	120.65W	   
+ROAM4*	M	ROCK OF AGES, MI		47.87N	 89.31W	   
+SANF1*	M	SAND KEY, FL		24.45N	 81.88W	   
+SAUF1*	A	ST. AUGUSTINE, FL		29.86N	 81.27W	   
+SBIO1*	M	SOUTH BASS ISLAND, OH	41.63N	 82.84W	   
+SGNW3*	D	SHEBOYGAN, WI		43.75N	 87.69W	   
+SGOF1*	M	ST. GEORGE OFFSHORE	29.41N	 84.86W	   
+SISW1*	M	SMITH ISLAND, WA		48.32N	122.84W	   
+SMKF1*	M	SOMBRERO KEY, FL		24.63N	 81.11W	   
+SPGF1*	M	SETTLEMENT PT, GBI	26.70N	 78.99W	   
+SRST2*	M	SABINE, TX			29.67N	 94.05W	   
+STDM4*	D	STANNARD ROCK, MI		47.18N	 87.23W	   
+SUPN6		V	SUPERIOR SHOALS, NY	44.47N	 75.80W	   
+THIN6		V	THOUSAND ISL.,NY		44.30N	 75.98W	   
+TPLM2*	M	THOMAS POINT, MD		38.90N	 76.44W	   
+TTIW1*	D	TATOOSH ISLAND, WA	48.39N	124.74W	   
+VENF1*	A	VENICE, FL			27.07N	 82.45W	   
+WPOW1*	V	WEST POINT, WA		47.66N	122.44W	 
+
+
+
+ABAN6      M    ALEXANDRIA BAY, NY        44.33N    75.93W
+AMAA2*     A    EAST AMATULI ISLAND L     58.92N    151.95W
+AUGA2*     M    AUGUSTINE ISLAND, AK      59.38N    153.35W
+BLIA2*     V    BLIGH REEF LIGHT, AK      60.84N    146.88W
+BURL1*     A    SOUTHWEST PASS , LA       28.91N    89.43W
+BUZM3*     M    BUZZARDS BAY,MA           41.40N    71.03W
+CARO3*     M    CAPE ARAGO ,OR            43.34N    124.38W
+CDRF1*     M    CEDAR KEY, FL             29.14N    83.03W
+CHLV2*     D    CHESAPEAKE LIGHT, VA      36.91N    75.71W
+CLKN7*     M    CAPE LOOKOUT, NC          34.62N    76.53W
+DBLN6*     M    DUNKIRK, NY               42.49N    79.35W
+DESW1*     D    DESTRUCTION ISLAND,WA     47.68N    124.49W
+DISW3*     S    DEVILS ISLAND, WI         47.08N    90.73W
+DPIA1*     V    DAUPHIN ISLAND, AL        30.25N    88.07W
+DRFA2*     M    DRIFT RIVER TERMINAL,     60.55N    152.14W
+FBIS1*     A    FOLLY ISLAND, SC          32.69N    79.89W
+FFIA2*     D    FIVE FINGERS ,AK          57.27N    133.63W
+FILA2*     A    FLAT ISLAND LIGHT         59.33N    152.00W
+FWYF1*     M    FOWEY ROCK, FL            25.59N    80.10W
+IOSN3*     D    ISLE OF SHOALS, NH        42.97N    70.62W
+KTNF1*     M    KEATON BEACH, FL          29.82N    83.59W
+LKWF1*     M    LAKEWORTH, FL             26.61N    80.03W
+LONF1*     M    LONG KEY, FL              24.84N    80.86W
+LSCM4      V    LAKE ST. CLAIR            42.47N    82.76W
+MDRM1*     D    MT DESERT ROCK, ME        43.97N    68.13W
+MISM1*     D    MATINICUS ROCK, ME        43.78N    68.86W
+MLRF1*     M    MOLASSES REEF, FL         25.01N    80.38W
+MRKA2*     V    MIDDLE ROCK LIGHT, AK     61.08N    146.66W
+NWPO3*     M    NEWPORT, OR               44.61N    124.07W
+PILA2*     M    PILOT ROCK, AK            59.74N    149.47W
+PILM4*     M    PASSAGE ISLAND, MI        48.22N    88.37W
+PLSF1*     A    POLASKI SHOALS, FL        24.69N    82.77W
+POTA2*     V    POTATO POINT, AK          61.06N    146.70W
+PTAC1*     M    POINT ARENA, CA           38.96N    123.74W
+PTAT2*     M    PORT ARANSAS, TX          27.83N    97.05W
+PTGC1*     M    POINT ARGUELLO, CA        34.58N    120.65W
+ROAM4*     M    ROCK OF AGES, MI          47.87N    89.31W
+SANF1*     M    SAND KEY, FL              24.45N    81.88W
+SAUF1*     A    ST. AUGUSTINE, FL         29.86N    81.27W
+SBIO1*     M    SOUTH BASS ISLAND, OH     41.63N    82.84W
+SGNW3*     S    SHEBOYGAN, WI             43.75N    87.69W
+SGOF1*     M    ST. GEORGE OFFSHORE       29.41N    84.86W
+SISW1*     M    SMITH ISLAND, WA          48.32N    122.84W
+SMKF1*     M    SOMBRERO KEY, FL          24.63N    81.11W
+SPGF1*     M    SETTLEMENT PT, GBI        26.70N    78.99W
+SRST2*     M    SABINE, TX                29.68N    94.03W
+STDM4*     D    STANNARD ROCK, MI         47.18N    87.23W
+SUPN6      V    SUPERIOR SHOALS, NY       44.47N    75.80W
+THIN6      M    THOUSAND ISL.,NY          44.30N    75.98W
+TPLM2*     M    THOMAS POINT, MD          38.90N    76.44W
+TTIW1*     D    TATOOSH ISLAND, WA        48.39N    124.74W
+VENF1*     A    VENICE, FL                27.07N    82.45W
+WPOW1*     V    WEST POINT, WA            47.66N    122.44W
+
+   
+Total Base Funded Stations: 49
+Total Other Stations : 04
+Total Stations : 53
+*Base funded station of National Weather Service (NWS); 
+however, all stations report data to NWS.
+
+REMARKS
+
+    * ABAN6 – Air and dew point temperature failed 11/1/08. Pressure data failed 6/6/09.
+    * BUZM3 – Wave data failed 8/17/06. Dew point temperature data failed 10/7/08. Air temperature data failed 5/29/09.
+    * CARO3 - Dew point temperature data failed 7/15/09.
+    * CHLV2 – Water temperature data failed 3/13/06.
+    * CLKN7 - Dew point temperature data failed 6/8/09.
+    * DPIA1 – Dew point temperature data failed 8/18/09.
+    * FILA2 – Station serviced, data restored 9/14/09.
+    * LKWF1 – Station powered down until further notice (pier maintenance).
+    * LONF1 – Tide data failed 1/20/08. Dew point temperature data failed 3/6/08.
+    * LSCM4 – Dew point temperature data failed 6/27/06. Water temperature data failed 1/22/07.
+    * MISM1 – Station data failed 7/1/09.
+    * MDRM1 – Wind data failed 6/25/09.
+    * PILA2 – Station serviced, data restored 9/16/09.
+    * PLSF1 - Water temperature data failed 12/12/08.
+    * PTAT2 - Dew point temperature data failed 2/19/09.
+    * ROAM4 – Water temperature data failed 9/3/05.
+    * SANF1 – Water temperature data failed 5/24/06.
+    * SGNW3 – Water temperature data failed 6/2/07.
+    * SMKF1 – Water temperature data failed 2/28/08.
+    * THIN6 – Dew point data failed 5/2/09. Station data failed 9/16/09.
+    * VENF1 – Tide data failed 10/15/08.
+
+NDBC C-MAN STATION LEGEND:
+
+Payload Types
+A - ARES
+D - DACT
+M - MARS
+V - VEEP
+C-MAN anemometer heights are listed in the C-MAN User's Guide and on the NDBC Home Page at www.ndbc.noaa.gov.
+MISCELLANEOUS STATION ID's
+
+
+In addition, data are available from the following buoys and stations
+For information on location, status, etc, see:
+http://www.ndbc.noaa.gov/to_station.shtml
+
+
+Amerada Hess Stations
+
+42892   
+
+Anadarko Stations
+
+42379   42874   42875   42882   42904   42905   42911   
+
+AOML Stations
+
+41554   41670   41852   41904   41933   52834   52837   52838   
+52839   52840   52841   52842   52843   52849   52858   52862   
+52901   
+
+ATP Stations
+
+42381   42863   42873   
+
+Australian Bureau of Meteorology Stations
+
+55012   55013   55015   55023   55401   56001   56003   
+
+BHP Stations
+
+42383   42871   
+
+BP Inc Stations
+
+42369   42370   42374   42375   42376   42868   42872   42881   
+42885   42886   42887   42896   
+
+California Polytechnic State University Stations
+
+CPXC1   
+
+California State University, East Bay Stations
+
+DMBC1   NLEC1   
+
+Callon Stations
+
+none
+
+Caribbean Integrated Coastal Ocean Observing System (CarICoos) Stations
+
+42085   
+
+CaroCOOPS Stations
+
+41024   41027   41029   41030   41033   SNSN7   
+
+Chesapeake Bay Interpretive Buoy System (CBIBS) Stations
+
+44041   44042   44043   44057   44058   44059   
+
+Chesapeake Biological Lab Stations
+
+44044   CBIM2   
+
+Chevron Stations
+
+15319   42371   42372   42385   42386   42867   42879   42912   
+
+Cobalt Energy Stations
+
+42897   
+
+COMPS Stations
+
+42013   42014   42021   42022   42023   42024   ANCF1   ANMF1   
+ARPF1   BGCF1   CAMF1   EGKF1   FHPF1   HSSF1   MTBF1   NFBF1   
+PTRF1   SHPF1   TARF1   
+
+ConocoPhillips Stations
+
+42368   
+
+CORIE Stations
+
+DMNO3   MLTO3   
+
+CORMP Stations
+
+41037   41038   41110   OCPN7   
+
+Dauphin Island Sea Lab Stations
+
+DPHA1   MBLA1   MHPA1   
+
+Deep Gulf Energy Stations
+
+none
+
+Delaware Coastal Management Program Stations
+
+44054   44055   
+
+Devon Energy Stations
+
+42908   
+
+DIMAR Colombia Stations
+
+32487   32488   41193   41194   
+
+Dominion Exploration & Production Inc Stations
+
+none
+
+El Paso E&P Company, L.P. Stations
+
+42384   
+
+Energy Resources Technologies/Remington Stations
+
+42866   
+
+ENI Petroleum Stations
+
+42865   42909   
+
+Environment Canada Stations
+
+44137   44138   44139   44140   44141   44142   44150   44251   
+44255   44258   45132   45135   45136   45137   45138   45139   
+45140   45141   45142   45143   45144   45145   45147   45148   
+45149   45150   45151   45152   45154   45159   45160   46004   
+46036   46131   46132   46134   46145   46146   46147   46181   
+46183   46184   46185   46204   46205   46206   46207   46208   
+46531   46532   46534   46537   46538   46559   46560   46561   
+46562   46563   46564   46565   46632   46633   46634   46635   
+46636   46637   46638   46639   46640   46641   46642   46643   
+46651   46652   46657   46660   46661   46692   46695   46698   
+46700   46701   46702   46705   46707   46710   
+
+Everglades National Park Stations
+
+BDVF1   BNKF1   BOBF1   BWSF1   CANF1   CNBF1   DKKF1   GBIF1   
+GBTF1   HCEF1   JKYF1   LBRF1   LBSF1   LMDF1   LMRF1   LRKF1   
+LSNF1   MUKF1   PKYF1   TCVF1   TPEF1   TRRF1   WIWF1   WPLF1   
+WRBF1   
+
+ExxonMobil Stations
+
+42901   
+
+GLERL Stations
+
+APNM4   CHII2   MCYI3   MKGM4   MLWW3   SVNM4   THLO1   
+
+GoMOOS Stations
+
+44021   44024   44029   44030   44031   44032   44033   44034   
+44035   44036   44037   44038   
+
+Humboldt State University Stations
+
+ERKC1   TDPC1   
+
+Hydrographic and Oceanographic Service of the Chilean Navy (SHOA) Stations
+
+32401   
+
+Indonesian Agency for Assessment and Application of Technology (BPPT) Stations
+
+53401   
+
+INPE Brazil Stations
+
+31260   31261   31478   
+
+Integrated Coral Observing Network (ICON) Stations
+
+LCIY2   LPRP4   PVGF1   SRBV3   
+
+Japanese Meteorological Agency Stations
+
+21178   21595   21597   21598   21600   21636   21637   21640   
+
+Kerr-McGee Stations
+
+42366   42373   42377   42382   42893   
+
+King Abdullah University for Science and Tech (KAUST) Stations
+
+23020   
+
+LLOG Stations
+
+42894   42900   
+
+Long Island Ferry Stations
+
+BHRC3   FWIC3   MISC3   MISN6   NCSC3   NOSC3   OFPN6   PTJN6   
+SCSN6   SOSN6   
+
+LSU CSI Stations
+
+ILDL1   MRSL1   SIPM6   SLPL1   SPLL1   
+
+LUMCON Stations
+
+LKPL1   LUML1   TAML1   TRBL1   
+
+Marathon Oil Stations
+
+42878   42903   
+
+Marine Exchange of Alaska Stations
+
+TKEA2   
+
+Mariner Energy Inc. Stations
+
+FGBL1   
+
+Mariner Energy Inc. for MMS Stations
+
+42870   
+
+MBARI Stations
+
+46091   46092   46093   
+
+Met Eireann Stations
+
+62090   62091   62092   62093   62094   62095   
+
+Meteo France Stations
+
+41096   41097   41098   41099   41100   41101   61001   61002   
+62052   
+
+Moss Landing Marine Lab Stations
+
+MLSC1   
+
+Murphy Stations
+
+42387   42869   42889   42890   
+
+MYSOUND Stations
+
+44022   44039   44040   44060   LDLC3   
+
+National Estuarine Research Reserve System Stations
+
+ACQS1   ACXS1   ANMN6   ANRN6   APQF1   APXF1   BGXN3   BRIM2   
+BSLM2   CHNO3   CVQV2   CWQO3   DEQD1   DRSD1   ELQC1   ELXC1   
+GBQN3   GDQM6   GDWV2   GDXM6   GTQF1   GTXF1   HMRA2   HUQN6   
+JCQN4   JCRN4   JCTN4   JOQP4   JOXP4   KCHA2   LTQM2   MAQT2   
+MAXT2   NAQR1   NAXR1   NIQS1   NIWS1   NOQN7   NOXN7   OWQO1   
+OWXO1   PBFW1   PBLW1   RKQF1   RKXF1   SAQG1   SAXG1   SCLD1   
+SCQC1   SEQA2   SFXC1   SOQO3   TIQC1   TIXC1   WAQM3   WAXM3   
+WEQM1   WEXM1   WKQA1   WKXA1   YRSV2   
+
+National Institute for Ocean Technology Stations
+
+23097   23101   23102   23494   
+
+NC-COOS Stations
+
+SECG1   
+
+Newfield Exploration Company Stations
+
+42864   42876   42880   42899   
+
+Nexen Petroleum USA Stations
+
+42888   
+
+NOAA/PMEL Stations
+
+28401   48400   
+
+Noble Energy Stations
+
+none
+
+NOS Stations
+
+AAMC1   ACYN4   ADKA2   ALIA2   ALXN6   AMRL1   ANTA2   ANVC1   
+APCF1   APRP7   ASTO3   ATGM1   ATKA2   AUDP4   BATN6   BDRN4   
+BEPB6   BFTN7   BGNN4   BHBM3   BISM2   BLTM2   BLTM3   BRHC3   
+BRND1   BUFN6   BYGL1   BZBM3   CAMM2   CAPL1   CASM1   CBBV2   
+CCUF1   CECC1   CHAO3   CHAV3   CHCM2   CHSV3   CHYV2   CHYW1   
+CLBP4   CMAN4   CMTI2   CNDO1   COVM2   CPTR1   CRYV2   CTGM1   
+CWBF1   DELD1   DKCM6   DOMV2   DTLM4   DUKN7   DULM5   EBSW1   
+ELFA2   EPTT2   ERTF1   ESPP4   FAIO1   FCGT2   FMOA1   FMRF1   
+FOXR1   FPKG1   FPTT2   FRDF1   FRDW1   FRPS1   FRVM3   FRWL1   
+FSKM2   FTGM4   FTPC1   GDMM5   GISL1   GNJT2   GPOM6   GPST2   
+GTOT2   GWPM6   HBYC1   HRBM4   ILOH1   JMPN7   JNEA2   KECA2   
+KGCA2   KLIH1   KPTN6   KPTV2   KWJP8   KWNW3   KYWF1   LABL1   
+LAPW1   LCLL1   LDTM4   LJAC1   LOPW1   LPNM4   LTBV3   LTRM4   
+LWSD1   LWTV2   MACM4   MCGA1   MCGM4   MCYF1   MGIP4   MGPT2   
+MISP4   MNMM4   MNPV2   MOKH1   MQTT2   MRCP1   MRHO1   MROS1   
+MTKN6   MTYC1   MYPF1   NBLP1   NEAW1   NIAN6   NKTA2   NLNC3   
+NMTA2   NPSF1   NSTP6   NTKM3   NWCL1   NWHC3   NWPR1   NWWH1   
+OBLA1   OCIM2   OHBC1   OMHC1   OOUH1   OPTF1   ORIN7   OSGN6   
+OVIA2   PACF1   PCBF1   PCLF1   PCOC1   PGBP7   PHBP1   PLXA2   
+PMAF1   PNLM4   PNLM6   PORO3   PPTM2   PRDA2   PRYC1   PSBM1   
+PSLC1   PSTL1   PSTN6   PTAW1   PTBM6   PTCR1   PTIM4   PTIT2   
+PTWW1   QPTR1   RARM6   RCKM4   RCMC1   RCPT2   RCRN6   RDDA2   
+RDYD1   ROBN4   RPLV2   RTYC1   SAPF1   SBEO3   SBLF1   SBPT2   
+SCIS1   SDBC1   SDHN4   SHBL1   SJNP4   SJSN4   SKTA2   SLIM2   
+SMOC1   SNDA2   SNDP5   SWPM4   SWPV2   TCBM2   TCMW1   TCNW1   
+THRO1   TLBO3   TOKW1   TPAF1   TRDF1   TSHF1   ULAM6   VAKF1   
+VCAF1   VDZA2   WAHV2   WAKP8   WASD2   WAVM6   WDSV2   WELM1   
+WNDV2   WNEM4   WPTW1   WYCM6   YKRV2   YKTV2   
+
+NWS Alaska Region Stations
+
+BLTA2   CDEA2   CSPA2   EROA2   LCNA2   PBPA2   PRTA2   SDIA2   
+SISA2   
+
+NWS Central Region Stations
+
+AGMW3   BHRI3   BIGM4   BSBM4   CBRW3   CLSM4   FPTM4   GBLW3   
+GRMM4   GSLM4   GTLM4   GTRM4   KNSW3   NABM4   NPDW3   OTNM4   
+PCLM4   PNGW3   PSCM4   PWAW3   SBLM4   SJOM4   SLVM5   SXHW3   
+SYWW3   WHRI2   
+
+NWS Eastern Region Stations
+
+CBLO1   CHDS1   GELO1   HHLO1   LMFS1   LMSS1   OLCN6   RPRN6   
+WATS1   YGNN6   
+
+NWS Pacific Region Stations
+
+none
+
+NWS Southern Region Stations
+
+none
+
+NWS Western Region Stations
+
+none
+
+Oregon Coastal Ocean Observing System Stations
+
+46094   
+
+Petrobras Stations
+
+42884   
+
+Petrolia Stations
+
+42906   
+
+Pioneer Stations
+
+none
+
+Plains Exploration Stations
+
+none
+
+Prediction and Research Moored Array in the Atlantic Stations
+
+13001   13002   13008   13009   13010   15001   15002   15006   
+15007   31001   31002   31003   31004   31005   31006   31007   
+41026   41139   
+
+Private Industry Oil Platform Stations
+
+62114   62125   62142   62144   62145   62147   62164   62166   
+63104   63105   63110   63112   63113   63117   
+
+Puerto Rico Seismic Network Stations
+
+AROP4   FRDP4   MGZP4   PLSP4   VQSP4   YABP4   
+
+Remington Oil and Gas Corp Stations
+
+none
+
+Repsol Stations
+
+42877   42895   
+
+San Francisco State Stations
+
+TIBC1   
+
+SCCOOS Stations
+
+46233   
+
+SCRIPPS Stations
+
+31201   41112   41113   41114   41140   42099   44097   44099   
+44100   46211   46212   46213   46214   46215   46216   46217   
+46218   46219   46220   46221   46222   46223   46224   46225   
+46226   46227   46228   46229   46230   46231   46232   46234   
+46235   46236   46237   46238   46239   46240   46241   46242   
+51201   51202   51203   52200   LJPC1   
+
+Shell Oil Stations
+
+42361   42362   42363   42364   42365   42861   42862   42902   
+42910   WDEL1   
+
+Skidaway Stations
+
+SKMG1   SPAG1   TYBG1   
+
+South Carolina Nearshore Monitoring System Stations
+
+FBPS1   SMBS1   
+
+Spinnaker Stations
+
+none
+
+Statoil Hydro Stations
+
+42914   
+
+Stevens Stations
+
+ACMN4   AVAN4   BRBN4   SGRN4   
+
+TABS Stations
+
+42043   42044   42045   42046   42047   42048   42049   42050   
+42051   
+
+Tana Exploration Company Stations
+
+42883   
+
+TCOON Stations
+
+BABT2   CLLT2   GLPT2   IRDT2   NGLT2   NWST2   PACT2   PCNT2   
+PORT2   RLOT2   RSJT2   RTAT2   RTOT2   SDRT2   
+
+Terra Ceia Aquatic Preserve Stations
+
+BPHF1   FRKF1   
+
+Thailand Meteorological Department Stations
+
+23401   
+
+The Scottish Association for Marine Science (SAMS) Stations
+
+48708   
+
+Total USA Stations
+
+42367   
+
+U.S. Army Corps of Engineers Stations
+
+44056   
+
+UK Met Office Stations
+
+62001   62029   62081   62103   62105   62107   62108   62163   
+62301   62303   62304   62305   64045   64046   
+
+University of Hawaii Stations
+
+KNOH1   
+
+University of Maryland Horn Point Laboratory Stations
+
+HPLM2   
+
+University of Michigan Stations
+
+45020   45021   45022   GTBM4   
+
+University of New Hampshire Stations
+
+44098   
+
+Unocal Stations
+
+none
+
+USM Stations
+
+42067   
+
+Virginia Institute of Marine Science (VIMS) Stations
+
+44052   44053   GDIV2   VMSV2   
+
+W&T Offshore Stations
+
+none
+
+Walter Oil and Gas Stations
+
+42891   42898   42907   
+
+Williams Stations
+
+42380   
+
+Woods Hole Oceanographic Institution Stations
+
+32012   32ST0   41NT0   51WH0   
+
+Woodside Energy Stations
+
+none
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                      NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm   NWS Marine Page
+cell.weather.gov                             Cellphone page
+mobile.weather.gov                           Mobile Page
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26 
+        National Weather Service
+        Feedback or questions: marine.weather@noaa.gov
+        Last Modified Sep 12, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/buoydata.txt
+                      ftp://tgftp.nws.noaa.gov/fax/buoydata.txt

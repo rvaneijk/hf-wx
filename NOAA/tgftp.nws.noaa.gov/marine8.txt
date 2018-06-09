@@ -1,0 +1,190 @@
+        NATIONAL WEATHER SERVICE MARINE TEXT PRODUCTS
+       NEARSHORE FORECASTS by ZONE for the GREAT LAKES 
+            
+
+
+**** IMPORTANT NOTICES ****
+
+Effective September 07, 2016, the address of the FTPMAIL service changed 
+from ftpmail@ftpmail.nws.noaa.gov to NWS.FTPMail.OPS@noaa.gov.  
+If you restrict incoming e-mail as a means of preventing spam, you must
+configure your e-mail system to allow mail from NWS.FTPMail.OPS@noaa.gov 
+
+Please note, as a further option, these zone forecasts are available as part 
+of the complete Neashore Forecast for those zones.  See the FTPMAIL "help" 
+file for information on downloading directory file marine3.txt 
+
+Read the help file carefully - 99% of errors using FTPMAIL are simple 
+typo's, incorrect capitalization, failure to send in plain text format, 
+leading or trailing spaces, or failure to set up any spam filters properly. 
+
+The "help" file contains a more detailed description of the
+FTPMAIL system and available products. To obtain a copy of the 
+FTPMAIL "help" file.
+
+-In plain text format-
+Send an e-mail to:       NWS.FTPMail.OPS@noaa.gov
+Subject Line:            Put anything you like
+Body:                    help
+
+ 
+These instructions are subject to revision....download frequently.
+ 
+**********
+
+This file is intended to assist mariners using the FTPMAIL system
+which is used to obtain National Weather Service products via 
+e-mail.  The following is an example in the use of the FTPMAIL
+system. NOTE CAPITALIZATION!
+
+-In plain text format-
+Send an e-mail to: ftpmail@ftpmail.nws.noaa.gov
+Subject Line:      Put anything you like
+Body:              open
+                   cd data
+                   cd forecasts
+                   cd marine
+                   cd near_shore
+                   cd ls
+                   get lsz140.txt
+                   get lsz141.txt
+                   quit
+
+
+NEARSHORE FORECASTS by ZONE for the GREAT LAKES
+
+Please note that many zones will contain identical forecast information at times. 
+
+Nearshore zones for the Great Lakes extend 5 NM from shore
+
+These files may be found in directories:
+ftp://tgftp.nws.noaa.gov/data/forecasts/marine/great_lakes/ls   (lh,lo,le etc)
+http://tgftp.nws.noaa.gov/data/forecasts/marine/great_lakes/ls
+
+DULUTH Forecast Office
+LSZ140 Grand Portage to Grand Marais MN
+LSZ141 Grand Marais to Taconite Harbor MN
+LSZ142 Taconite Harbor to Silver Bay Harbor MN
+LSZ143 Silver Bay Harbor to Two Harbors MN
+LSZ144 Two Harbors to Duluth MN
+LSZ145 Duluth MN to Port Wing WI
+LSZ146 Port Wing to Sand Island WI
+LSZ147 Sand Island to Bayfield WI
+LSZ121 Chequamegon Bay-Bayfield to Oak Point WI
+LSZ148 Oak Point to Saxon Harbor WI
+
+MARQUETTE Forecast Office
+LSZ240 Saxon Harbor WI to Black River MI
+LSZ241 Black River to Ontonagon MI
+LSZ242 Ontonagon to Upper Entrance of Portage Canal MI
+LSZ243 Upper Entrance of Portage Canal to Eagle River MI
+LSZ244 Eagle River to Manitou Island MI
+LSZ245 Manitou Island to Point Isabelle MI
+LSZ246 Point Isabelle to Lower Entrance of Portage Canal MI
+LSZ247 Lower Entrance of Portage Canal to Huron Islands MI including Keweenaw and Huron
+Bays
+LSZ248 Huron Islands to Marquette MI
+LSZ249 Marquette to Munising MI
+LSZ250 Munising to Grand Marais MI
+LSZ251 Grand Marais to Whitefish Point MI
+LMZ221 Green Bay north of a line from Cedar River MI to Rock Island Passage
+LMZ248 Seul Choix Point to Point Detour MI
+LMZ250 5 NM east of a line from Fairport MI to Rock Island Passage
+
+GAYLORD Forecast Office
+LSZ321 Whitefish Bay (U.S. Portion) Whitefish Point to Point Iroquois MI
+LSZ322 St. Marys River Point Iroquois to E. Potagannissing Bay
+LMZ341 Seul Choix Point to 5 NM west of Mackinac Bridge
+LMZ342 Norwood MI to 5 NM west of Mackinac Bridge including Little Traverse Bay
+LMZ323 Grand Traverse Bay south of a line Grand Traverse Light to Norwood MI
+LMZ344 Sleeping Bear Point to Grand Traverse Light MI
+LMZ345 Point Betsie to Sleeping Bear Point MI
+LMZ346 Manistee to Point Betsie MI
+LHZ345 Straits of Mackinac within 5 NM of Mackinac Bridge including Mackinac Island
+LHZ346 St. Ignace to False Detour Channel
+LHZ347 5 NM east of Mackinac Bridge to Presque Isle Light MI including Bois Blanc Island
+LHZ348 Presque Isle Light to Sturgeon Point MI including Thunder Bay National Marine
+Sanctuary
+LHZ349 Sturgeon Point to Alabaster MI
+
+DETROIT Forecast Office
+LHZ421 Outer Saginaw Bay SW of Alabaster to Port Austin MI to Inner Saginaw Bay
+LHZ422 Inner Saginaw Bay SW of Point Au Gres to Bay Port MI
+LHZ441 Port Austin to Harbor Beach MI
+LHZ442 Harbor Beach to Port Sanilac MI
+LHZ443 Port Sanilac to Port Huron MI
+LCZ422 St. Clair River
+LCZ423 Detroit River
+LCZ460 Lake St. Clair Open Lake (U.S. Portion)
+LEZ444 Michigan waters of Lake Erie from Detroit River to North Cape MI
+
+GREEN BAY Forecast Office
+LMZ521 Green Bay south of line from Cedar River MI to Rock Island Passage and north of a line
+from Oconto WI to Little Sturgeon Bay WI
+LMZ522 Green Bay south of a line from Oconto WI to Little Sturgeon Bay WI
+LMZ541 Rock Island Passage to Sturgeon Bay WI
+LMZ542 Sturgeon Bay to Two Rivers WI
+LMZ543 Two Rivers to Sheboygan WI
+
+MILWAUKEE - SULLIVAN Forecast Office
+LMZ643 Sheboygan to Port Washington WI
+LMZ644 Port Washington to North Point Light WI
+LMZ645 North Point Light to Wind Point WI
+LMZ646 Wind Point WI to Winthrop Harbor IL
+
+CHICAGO Forecast Office
+LMZ740 Winthrop Harbor to Wilmette Harbor IL
+LMZ741 Wilmette Harbor to Northerly Island IL
+LMZ742 Northerly Island to Calumet Harbor IL
+LMZ743 Calumet Harbor IL to Gary IN
+LMZ744 Gary to Burns Harbor IN
+LMZ745 Burns Harbor to Michigan City IN
+
+NORTHERN INDIANA  Forecast Office
+LMZ046 Michigan City IN to New Buffalo MI
+LMZ043 New Buffalo MI to St. Joseph MI
+
+GRAND RAPIDS Forecast Office
+LMZ844 St Joseph to South Haven MI
+LMZ845 South Haven to Holland MI
+LMZ846 Holland to Grand Haven MI
+LMZ847 Grand Haven to Whitehall MI
+LMZ848 Whitehall to Pentwater MI
+LMZ849 Pentwater to Manistee MI
+
+CLEVELAND Forecast Office
+LEZ142 Maumee Bay to Reno Beach OH
+LEZ143 Reno Beach to The Islands OH
+LEZ144 The Islands to Vermilion OH
+LEZ145 Vermilion to Avon Point OH
+LEZ146 Avon Point to Willowick OH
+LEZ147 Willowick to Geneva-on-the Lake OH
+LEZ148 Geneva-on-the-Lake to Conneaut OH
+LEZ149 Conneaut OH to Ripley NY
+
+BUFFALO Forecast Office
+LEZ040 Ripley to Dunkirk NY
+LEZ041 Dunkirk to Buffalo NY
+LEZ020 Buffalo Harbor and the Upper Niagara River
+LOZ042 Niagara River to Hamlin Beach NY
+LOZ043 Hamlin Beach to Sodus Bay NY
+LOZ044 Sodus Bay to Mexico Bay NY
+LOZ045 Mexico Bay NY to the St. Lawrence River
+SLZ022 St. Lawrence River above Ogdensburg NY
+SLZ024 St. Lawrence River from Ogdensburg to St. Regis NY
+
+If you have access to the World Wide Web be certain to check out
+the following webpages.  See these pages for further links.
+
+http://www.nws.noaa.gov                      NWS Homepage
+http://www.nws.noaa.gov/om/marine/home.htm   NWS Marine Page
+cell.weather.gov                             Cellphone page
+mobile.weather.gov                           Mobile Page
+
+
+Author: Marine, Tropical, and Tsunami Services Branch, W/AFS26 
+        National Weather Service
+        Feedback or questions: marine.weather@noaa.gov
+        Last Modified Dec 12, 2014
+        Document URL: http://tgftp.nws.noaa.gov/fax/marine8.txt
+                      ftp://tgftp.nws.noaa.gov/fax/marine8.txt
