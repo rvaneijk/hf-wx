@@ -1,0 +1,19 @@
+License
+-------
+
+1. This plugin is freeware. This means that you are free to use this plugin in
+any context. Also you are free to share it on a personal base (ie. give it to
+friends). However, only the entire unaltered archive, including this document, 
+may be shared. Public redistribution is only allowed on request.
+
+2. Copyright of the code and the precompiled plug-in remain the property of
+the "Delphi ASIO & VST Project" and the author namely Christian W. Budde.
+
+3. This plug-in is provided at no cost; therefore the author and the "Delphi
+ASIO & VST Project" assume no responsibility for any negative effects
+that may occur to the end user or the equipment used to run the plugin.
+
+4. Magazine editors are welcome to include the plug-in on cover mount
+discs or similar media; However, it is mandatory to inform the author Christian 
+W. Budde about this. A copy of the publication is always appreciated, but not 
+expected.
