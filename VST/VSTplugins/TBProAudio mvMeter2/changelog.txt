@@ -1,0 +1,36 @@
+Release notes:
+
+1.0.7:
+- GUI: fixed some minor issues
+- Ableton Live: crash fixed
+- AAX: fix rounding int values
+
+1.0.6:
+- AAX: crash fixed
+
+1.0.5:
+- AAX: crash fixed
+
+1.0.4:
+- GUI: Resizing optimized
+
+1.0.3:
+- VST3: WaveLab offline render fixed
+- AAX: init presets crash fixed 
+
+1.0.2:
+- Presets: EBUR128 ML/SL and Peak added
+- Preset management: menu entries "set to default" and "save as default state" added 
+- Preset management: internal storage changed, old presets become invalid!
+- Gain match: changed function, please consult the manual
+- NEW: FPS control (1-100 FPS)
+- NEW: Gain link control
+- NEW: Gain match button
+
+1.0.1:
+- Preset management: fix for user presets
+- GUI: refresh rate increased to 60FPS
+- GUI: Small fixes
+
+1.0
+- Public Release

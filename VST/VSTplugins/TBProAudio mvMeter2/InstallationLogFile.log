@@ -1,0 +1,179 @@
+2018-06-23 23:34:01.432   Log opened. (Time zone: UTC+02:00)
+2018-06-23 23:34:01.432   Setup version: Inno Setup version 5.5.9 (a)
+2018-06-23 23:34:01.432   Original Setup EXE: C:\Users\pollux_local\Downloads\mvMeter2_Installer_WIN_107\mvMeter2_Installer.exe
+2018-06-23 23:34:01.432   Setup command line: /SL5="$E0982,8331448,111104,C:\Users\pollux_local\Downloads\mvMeter2_Installer_WIN_107\mvMeter2_Installer.exe" /SPAWNWND=$200984 /NOTIFYWND=$32034E 
+2018-06-23 23:34:01.432   Windows version: 10.0.17134  (NT platform: Yes)
+2018-06-23 23:34:01.432   64-bit Windows: Yes
+2018-06-23 23:34:01.439   Processor architecture: x64
+2018-06-23 23:34:01.439   User privileges: Administrative
+2018-06-23 23:34:01.446   64-bit install mode: Yes
+2018-06-23 23:34:01.454   Created temporary directory: C:\Users\ROOT_L~1\AppData\Local\Temp\is-8G05T.tmp
+2018-06-23 23:38:34.326   VST2Dir_32: C:\portable_apps\ham\VSTplugins\VST2 x32\mvMeter2
+2018-06-23 23:38:34.327   VST2Dir_64: C:\portable_apps\ham\VSTplugins\VST2 x64\mvMeter2
+2018-06-23 23:38:34.327   VST3Dir_32: C:\portable_apps\ham\VSTplugins\VST3 x32\mvMeter2
+2018-06-23 23:38:34.327   VST3Dir_64: C:\portable_apps\ham\VSTplugins\VST3 x64\mvMeter2
+2018-06-23 23:38:34.327   RTASDir_32: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:34.327   RTASDir_32: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:34.327   AAXDir_32: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:34.327   AAXDir_32: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:34.327   AAXDir_32: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:34.327   AAXDir_32: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:34.327   AAXDir_64: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2
+2018-06-23 23:38:34.327   AAXDir_64: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2
+2018-06-23 23:38:34.327   AAXDir_64: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2
+2018-06-23 23:38:34.327   AAXDir_64: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2
+2018-06-23 23:38:34.338   VST2Dir_32: C:\portable_apps\ham\VSTplugins\VST2 x32\mvMeter2
+2018-06-23 23:38:34.339   VST2Dir_64: C:\portable_apps\ham\VSTplugins\VST2 x64\mvMeter2
+2018-06-23 23:38:34.339   VST3Dir_32: C:\portable_apps\ham\VSTplugins\VST3 x32\mvMeter2
+2018-06-23 23:38:34.339   VST3Dir_64: C:\portable_apps\ham\VSTplugins\VST3 x64\mvMeter2
+2018-06-23 23:38:34.340   RTASDir_32: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:34.340   RTASDir_32: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:34.340   AAXDir_32: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:34.340   AAXDir_32: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:34.340   AAXDir_32: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:34.340   AAXDir_32: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:34.341   AAXDir_64: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2
+2018-06-23 23:38:34.341   AAXDir_64: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2
+2018-06-23 23:38:34.342   AAXDir_64: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2
+2018-06-23 23:38:34.342   AAXDir_64: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2
+2018-06-23 23:38:34.376   Starting the installation process.
+2018-06-23 23:38:34.380   Creating directory: C:\Incoming\TBProAudio mvMeter2
+2018-06-23 23:38:34.382   Directory for uninstall files: C:\Incoming\TBProAudio mvMeter2
+2018-06-23 23:38:34.383   Creating new uninstall log: C:\Incoming\TBProAudio mvMeter2\unins000.dat
+2018-06-23 23:38:34.390   -- File entry --
+2018-06-23 23:38:34.391   Dest filename: C:\Incoming\TBProAudio mvMeter2\unins000.exe
+2018-06-23 23:38:34.391   Non-default bitness: 32-bit
+2018-06-23 23:38:34.396   Time stamp of our file: 2018-06-23 23:34:01.132
+2018-06-23 23:38:34.396   Installing the file.
+2018-06-23 23:38:34.402   Uninstaller requires administrator: Yes
+2018-06-23 23:38:34.406   Successfully installed the file.
+2018-06-23 23:38:34.406   -- File entry --
+2018-06-23 23:38:34.407   Dest filename: C:\Incoming\TBProAudio mvMeter2\manual.pdf
+2018-06-23 23:38:34.408   Time stamp of our file: 2018-01-27 08:31:28.000
+2018-06-23 23:38:34.408   Installing the file.
+2018-06-23 23:38:34.469   Successfully installed the file.
+2018-06-23 23:38:34.469   -- File entry --
+2018-06-23 23:38:34.470   Dest filename: C:\Incoming\TBProAudio mvMeter2\changelog.txt
+2018-06-23 23:38:34.470   Time stamp of our file: 2018-05-14 06:48:00.000
+2018-06-23 23:38:34.470   Installing the file.
+2018-06-23 23:38:34.480   Successfully installed the file.
+2018-06-23 23:38:34.480   -- File entry --
+2018-06-23 23:38:34.481   Dest filename: C:\Incoming\TBProAudio mvMeter2\readme.txt
+2018-06-23 23:38:34.481   Time stamp of our file: 2018-01-14 10:05:36.000
+2018-06-23 23:38:34.481   Installing the file.
+2018-06-23 23:38:34.487   Successfully installed the file.
+2018-06-23 23:38:34.487   -- File entry --
+2018-06-23 23:38:34.487   VST2Dir_32: C:\portable_apps\ham\VSTplugins\VST2 x32\mvMeter2
+2018-06-23 23:38:34.488   Dest filename: C:\portable_apps\ham\VSTplugins\VST2 x32\mvMeter2\mvMeter2.dll
+2018-06-23 23:38:34.488   Time stamp of our file: 2018-05-14 06:51:52.000
+2018-06-23 23:38:34.488   Installing the file.
+2018-06-23 23:38:34.488   Creating directory: C:\portable_apps\ham\VSTplugins\VST2 x32\mvMeter2
+2018-06-23 23:38:35.603   Successfully installed the file.
+2018-06-23 23:38:35.607   -- File entry --
+2018-06-23 23:38:35.607   VST2Dir_64: C:\portable_apps\ham\VSTplugins\VST2 x64\mvMeter2
+2018-06-23 23:38:35.609   Dest filename: C:\portable_apps\ham\VSTplugins\VST2 x64\mvMeter2\mvMeter2 x64.dll
+2018-06-23 23:38:35.610   Time stamp of our file: 2018-05-14 06:51:54.000
+2018-06-23 23:38:35.610   Installing the file.
+2018-06-23 23:38:35.610   Creating directory: C:\portable_apps\ham\VSTplugins\VST2 x64\mvMeter2
+2018-06-23 23:38:35.865   Successfully installed the file.
+2018-06-23 23:38:35.866   -- File entry --
+2018-06-23 23:38:35.866   VST3Dir_32: C:\portable_apps\ham\VSTplugins\VST3 x32\mvMeter2
+2018-06-23 23:38:35.879   Dest filename: C:\portable_apps\ham\VSTplugins\VST3 x32\mvMeter2\mvMeter2.vst3
+2018-06-23 23:38:35.880   Time stamp of our file: 2018-05-14 06:51:58.000
+2018-06-23 23:38:35.880   Installing the file.
+2018-06-23 23:38:35.880   Creating directory: C:\portable_apps\ham\VSTplugins\VST3 x32\mvMeter2
+2018-06-23 23:38:36.155   Successfully installed the file.
+2018-06-23 23:38:36.157   -- File entry --
+2018-06-23 23:38:36.157   VST3Dir_64: C:\portable_apps\ham\VSTplugins\VST3 x64\mvMeter2
+2018-06-23 23:38:36.159   Dest filename: C:\portable_apps\ham\VSTplugins\VST3 x64\mvMeter2\mvMeter2 x64.vst3
+2018-06-23 23:38:36.159   Time stamp of our file: 2018-05-14 06:52:00.000
+2018-06-23 23:38:36.159   Installing the file.
+2018-06-23 23:38:36.160   Creating directory: C:\portable_apps\ham\VSTplugins\VST3 x64\mvMeter2
+2018-06-23 23:38:36.440   Successfully installed the file.
+2018-06-23 23:38:36.440   -- File entry --
+2018-06-23 23:38:36.441   RTASDir_32: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:36.442   Dest filename: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2\mvMeter2.dpm
+2018-06-23 23:38:36.443   Time stamp of our file: 2018-05-14 06:50:30.000
+2018-06-23 23:38:36.443   Installing the file.
+2018-06-23 23:38:36.443   Creating directory: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:36.758   Successfully installed the file.
+2018-06-23 23:38:36.758   -- File entry --
+2018-06-23 23:38:36.758   RTASDir_32: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:36.764   Dest filename: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2\mvMeter2.dpm.rsr
+2018-06-23 23:38:36.764   Time stamp of our file: 2014-08-28 01:09:06.000
+2018-06-23 23:38:36.764   Installing the file.
+2018-06-23 23:38:36.776   Successfully installed the file.
+2018-06-23 23:38:36.778   -- File entry --
+2018-06-23 23:38:36.778   AAXDir_32: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:36.780   Dest filename: C:\portable_apps\ham\VSTplugins\AAX x32\mvMeter2\mvMeter2.aaxplugin\PlugIn.ico
+2018-06-23 23:38:36.781   Time stamp of our file: 2013-12-12 14:30:10.000
+2018-06-23 23:38:36.781   Installing the file.
+2018-06-23 23:38:36.781   Creating directory: C:\portable_apps\ham\VSTplugins\AAX x32\mvMeter2
+2018-06-23 23:38:36.782   Creating directory: C:\portable_apps\ham\VSTplugins\AAX x32\mvMeter2\mvMeter2.aaxplugin
+2018-06-23 23:38:36.805   Successfully installed the file.
+2018-06-23 23:38:36.806   -- File entry --
+2018-06-23 23:38:36.807   AAXDir_32: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:36.809   Dest filename: C:\portable_apps\ham\VSTplugins\AAX x32\mvMeter2\mvMeter2.aaxplugin\desktop.ini
+2018-06-23 23:38:36.810   Time stamp of our file: 2015-02-02 08:00:44.000
+2018-06-23 23:38:36.810   Installing the file.
+2018-06-23 23:38:36.822   Successfully installed the file.
+2018-06-23 23:38:36.822   -- File entry --
+2018-06-23 23:38:36.822   AAXDir_32: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:36.824   Dest filename: C:\portable_apps\ham\VSTplugins\AAX x32\mvMeter2\mvMeter2.aaxplugin\Contents\Win32\mvMeter2.aaxplugin
+2018-06-23 23:38:36.824   Time stamp of our file: 2018-05-14 06:51:12.000
+2018-06-23 23:38:36.824   Installing the file.
+2018-06-23 23:38:36.824   Creating directory: C:\portable_apps\ham\VSTplugins\AAX x32\mvMeter2\mvMeter2.aaxplugin\Contents
+2018-06-23 23:38:36.825   Creating directory: C:\portable_apps\ham\VSTplugins\AAX x32\mvMeter2\mvMeter2.aaxplugin\Contents\Win32
+2018-06-23 23:38:37.100   Successfully installed the file.
+2018-06-23 23:38:37.101   -- File entry --
+2018-06-23 23:38:37.101   AAXDir_32: C:\portable_apps\ham\VSTplugins\RTAS\mvMeter2
+2018-06-23 23:38:37.105   Dest filename: C:\portable_apps\ham\VSTplugins\AAX x32\mvMeter2\mvMeter2.aaxplugin\Contents\x64\mvMeter2.aaxplugin
+2018-06-23 23:38:37.106   Time stamp of our file: 2018-05-14 06:51:12.000
+2018-06-23 23:38:37.106   Installing the file.
+2018-06-23 23:38:37.107   Creating directory: C:\portable_apps\ham\VSTplugins\AAX x32\mvMeter2\mvMeter2.aaxplugin\Contents\x64
+2018-06-23 23:38:37.413   Successfully installed the file.
+2018-06-23 23:38:37.416   -- File entry --
+2018-06-23 23:38:37.416   AAXDir_64: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2
+2018-06-23 23:38:37.420   Dest filename: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2\mvMeter2.aaxplugin\PlugIn.ico
+2018-06-23 23:38:37.420   Time stamp of our file: 2013-12-12 14:30:10.000
+2018-06-23 23:38:37.420   Installing the file.
+2018-06-23 23:38:37.421   Creating directory: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2
+2018-06-23 23:38:37.422   Creating directory: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2\mvMeter2.aaxplugin
+2018-06-23 23:38:37.465   Successfully installed the file.
+2018-06-23 23:38:37.466   -- File entry --
+2018-06-23 23:38:37.466   AAXDir_64: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2
+2018-06-23 23:38:37.470   Dest filename: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2\mvMeter2.aaxplugin\desktop.ini
+2018-06-23 23:38:37.472   Time stamp of our file: 2015-02-02 08:00:44.000
+2018-06-23 23:38:37.472   Installing the file.
+2018-06-23 23:38:37.496   Successfully installed the file.
+2018-06-23 23:38:37.498   -- File entry --
+2018-06-23 23:38:37.499   AAXDir_64: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2
+2018-06-23 23:38:37.500   Dest filename: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2\mvMeter2.aaxplugin\Contents\Win32\mvMeter2.aaxplugin
+2018-06-23 23:38:37.501   Time stamp of our file: 2018-05-14 06:51:12.000
+2018-06-23 23:38:37.501   Installing the file.
+2018-06-23 23:38:37.501   Creating directory: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2\mvMeter2.aaxplugin\Contents
+2018-06-23 23:38:37.502   Creating directory: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2\mvMeter2.aaxplugin\Contents\Win32
+2018-06-23 23:38:37.670   Successfully installed the file.
+2018-06-23 23:38:37.671   -- File entry --
+2018-06-23 23:38:37.671   AAXDir_64: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2
+2018-06-23 23:38:37.672   Dest filename: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2\mvMeter2.aaxplugin\Contents\x64\mvMeter2.aaxplugin
+2018-06-23 23:38:37.672   Time stamp of our file: 2018-05-14 06:51:12.000
+2018-06-23 23:38:37.672   Installing the file.
+2018-06-23 23:38:37.673   Creating directory: C:\portable_apps\ham\VSTplugins\AAX x64\mvMeter2\mvMeter2.aaxplugin\Contents\x64
+2018-06-23 23:38:37.763   Successfully installed the file.
+2018-06-23 23:38:37.768   -- Icon entry --
+2018-06-23 23:38:37.768   Dest filename: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TBProAudio mvMeter2\User guide.lnk
+2018-06-23 23:38:37.769   Creating directory: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TBProAudio mvMeter2
+2018-06-23 23:38:37.779   Creating the icon.
+2018-06-23 23:38:37.793   Successfully created the icon.
+2018-06-23 23:38:37.795   -- Icon entry --
+2018-06-23 23:38:37.796   Dest filename: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TBProAudio mvMeter2\Changelog.lnk
+2018-06-23 23:38:37.797   Creating the icon.
+2018-06-23 23:38:37.807   Successfully created the icon.
+2018-06-23 23:38:37.809   -- Icon entry --
+2018-06-23 23:38:37.809   Dest filename: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TBProAudio mvMeter2\Un-install mvMeter2.lnk
+2018-06-23 23:38:37.811   Creating the icon.
+2018-06-23 23:38:38.042   Successfully created the icon.
+2018-06-23 23:38:38.089   Installation process succeeded.
+2018-06-23 23:38:38.093   Need to restart Windows? No
+2018-06-23 23:38:40.158   Deinitializing Setup.
